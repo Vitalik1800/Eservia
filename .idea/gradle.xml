@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Picker" />
+            <option value="$PROJECT_DIR$/ahbottomnavigation" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/biv" />
+            <option value="$PROJECT_DIR$/butterknife" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/expantablelayout" />
+            <option value="$PROJECT_DIR$/expantabletextview" />
+            <option value="$PROJECT_DIR$/glide" />
+            <option value="$PROJECT_DIR$/model" />
+            <option value="$PROJECT_DIR$/numberpicker" />
+            <option value="$PROJECT_DIR$/overscroll" />
+            <option value="$PROJECT_DIR$/paylibliqpay" />
+            <option value="$PROJECT_DIR$/simplecalendar" />
+            <option value="$PROJECT_DIR$/simpleratingbar" />
+            <option value="$PROJECT_DIR$/subscaleview" />
+            <option value="$PROJECT_DIR$/utils" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

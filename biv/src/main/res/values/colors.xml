@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBottomNavigationPrimary">#3F51B5</color>
+    <color name="colorBottomNavigationPrimaryDark">#303F9F</color>
+    <color name="colorBottomNavigationAccent">#FF4081</color>
+    <color name="colorBottomNavigationInactive">#747474</color>
+    <color name="colorBottomNavigationDisable">#3A000000</color>
+    <color name="colorBottomNavigationActiveColored">#FFFFFF</color>
+    <color name="colorBottomNavigationInactiveColored">#50FFFFFF</color>
+    <color name="colorBottomNavigationSelectedBackground">#17000000</color>
+    <color name="colorBottomNavigationNotification">#F63D2B</color>
+    <color name="srb_golden_stars">#FFC619</color>
+    <color name="colorPrimary">#66CC99</color>
+    <color name="colorPrimaryDark">#5BB789</color>
+    <color name="colorAccent">#66CC99</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_light">#4a4a4a</color>
+    <color name="black_light_secondary">#363938</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_bright">#34df89</color>
+    <color name="green_light">#f4fbf8</color>
+    <color name="green_light_2">#e8fff4</color>
+    <color name="milk">#fafafa</color>
+    <color name="gold">#f8d248</color>
+    <color name="gold_brick">#fa921b</color>
+    <color name="red">#ff4444</color>
+    <color name="red_light">#50ff4444</color>
+    <color name="resto">#fb897e</color>
+    <color name="payment">#52aaf5</color>
+    <color name="blue">#507CBF</color>
+    <color name="blue_secondary">#86b6df</color>
+    <color name="blue_light">#68d5ff</color>
+    <color name="blue_dark">#326696</color>
+    <color name="pink">#b979ee</color>
+    <color name="gray">#cccccc</color>
+    <color name="gray_light">#e1e1e1</color>
+    <color name="gray_dark">#aaaaaa</color>
+
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_900">#212121</color>
+
+    <color name="colorInactive">#bdbdbd</color>
+
+    <color name="textColorPrimary">@color/white</color>
+    <color name="textColorSecondary">#D0EEDF</color>
+
+    <color name="textColorPrimaryInverse">#D9000000</color>
+    <color name="textColorSecondaryInverse">#8C000000</color>
+
+    <color name="windowBackgroundDefault">#fcfcfc</color>
+
+    <color name="statusBarColorGray">#B0BEC5</color>
+
+    <color name="colorSeparator">#f4f4f4</color>
+
+    <!--shadow_top -->
+    <color name="start_shadow">#00000000</color>
+    <color name="center_shadow">#28000000</color>
+    <color name="end_shadow">#55000000</color>
+    <color name="separatorColor">#1e000000</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">@color/gray_400</color>
+    <color name="dot_dark_screen2">@color/gray_400</color>
+    <color name="dot_dark_screen3">@color/gray_400</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">@color/colorPrimary</color>
+    <color name="dot_light_screen2">@color/colorPrimary</color>
+    <color name="dot_light_screen3">@color/colorPrimary</color>
+    <color name="orange">#ffc059</color>
+
+    <color name="orange_transparent">#80ffc059</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+
+    <array name="tab_colors">
+        <item name="tab_1">@color/white</item>
+        <item name="tab_2">@color/white</item>
+        <item name="tab_3">@color/white</item>
+        <item name="tab_4">@color/white</item>
+        <item name="tab_5">@color/white</item>
+    </array>
+
+    <array name="prepared_booking_services_colors">
+        <item>@color/colorPrimary</item>
+        <item>#e78ffa</item>
+        <item>@color/blue_secondary</item>
+        <item>@color/gold</item>
+        <item>#f52828</item>
+        <item>@color/green</item>
+        <item>@color/green_bright</item>
+        <item>@color/blue</item>
+        <item>@color/blue_light</item>
+        <item>@color/gold_brick</item>
+        <item>@color/red</item>
+        <item>@color/pink</item>
+        <item>#c14665</item>
+        <item>#f05e92</item>
+        <item>#a5c333</item>
+        <item>#ff2f2f</item>
+        <item>#ff653e</item>
+        <item>#c8b4f9</item>
+        <item>#5289c2</item>
+        <item>#fccf54</item>
+        <item>#ff95ce</item>
+        <item>#3bb9f6</item>
+    </array>
+
+    <array name="prepared_booking_switch_track_colors">
+        <item>#f2f2f2</item>
+        <item>#f2f2f2</item>
+    </array>
+
+</resources>

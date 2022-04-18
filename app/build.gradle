@@ -1,0 +1,133 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'io.objectbox'
+//    id 'com.google.gms.google-services'
+}
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'io.objectbox'
+apply plugin: 'com.android.application'
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.eservia.booking"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+
+    buildTypes {
+        release {
+
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    kapt {
+        correctErrorTypes true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    /*buildFeatures {
+        viewBinding true
+    }*/
+}
+
+
+
+dependencies {
+    //implementation 'com.hbb20:ccp:1.7.1'
+    implementation project(path: ':biv')
+    implementation project(path: ':Picker')
+    implementation project(path: ':glide')
+    implementation project(path: ':butterknife')
+    implementation project(path: ':overscroll')
+//    implementation project(path: ':moxy')
+ //   implementation project(path: ':moxy')
+    implementation("com.github.moxy-community:moxy-androidx:2.2.2")
+    implementation("com.github.moxy-community:moxy-ktx:2.2.2")
+    kapt("com.github.moxy-community:moxy-compiler:2.2.2")
+
+
+    //implementation project(path: ':moxy')
+    //noinspection GradleCompatible
+    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.8.1'
+    implementation 'androidx.exifinterface:exifinterface:1.3.3'
+    def daggerVer = 2.41
+    implementation "com.google.dagger:dagger:$daggerVer"
+    implementation "com.google.dagger:dagger-android-support:$daggerVer"
+    kapt "com.google.dagger:dagger-android-processor:$daggerVer"
+    kapt "com.google.dagger:dagger-compiler:$daggerVer"
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    implementation project(path: ':mvp')
+    implementation group: 'org.jvnet.sorcerer', name: 'sorcerer-javac', version: '0.8'
+    implementation group: 'com.squareup', name: 'javapoet', version: '1.13.0'
+    implementation 'com.facebook.android:facebook-android-sdk:13.1.0'
+    implementation project(path: ':ahbottomnavigation')
+    implementation project(path: ':numberpicker')
+    implementation project(path: ':simpleratingbar')
+    implementation project(path: ':expantablelayout')
+    annotationProcessor 'androidx.annotation:annotation:1.3.0'
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+    // If you want to use the GPU Filters
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.dagger:dagger:2.41'
+    implementation 'com.google.dagger:dagger-android:2.41'
+    implementation 'com.google.dagger:dagger-android-support:2.41'
+
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.41'
+
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.41'
+    implementation group: 'com.google.dagger', name: 'dagger', version: '2.41'
+    compileOnly 'javax.annotation:jsr250-api:1.0'
+    implementation 'javax.inject:javax.inject:1'
+
+//    kapt 'com.google.dagger:dagger-compiler:2.34'
+    //   implementation 'com.google.dagger:dagger:2.28.3'
+    implementation 'com.google.dagger:dagger:2.41'
+    implementation 'com.google.dagger:dagger-android-support:2.41'
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.41'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.41'
+    implementation group: 'org.greenrobot', name: 'eventbus', version: '3.3.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.6'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation group: 'joda-time', name: 'joda-time', version: '2.10.14'
+    implementation 'com.google.dagger:dagger:2.41'
+    implementation 'com.growingio.android:okhttp3:3.3.5'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.41'
+    implementation group: 'javax.inject', name: 'javax.inject', version: '1'
+    //implementation project(':glide')
+    //    implementation project(':biv')
+    implementation project(':common')
+    implementation project(':expantabletextview')
+    implementation project(':model')
+    implementation project(path: ':paylibliqpay')
+    //implementation 'com.google.android.gms:play-services-auth:20.1.0'
+
+    implementation project(':simplecalendar')
+    implementation project(':utils')
+    //implementation project(':views')
+    implementation group: 'io.reactivex.rxjava2', name: 'rxandroid', version: '2.1.1'
+    //noinspection UseOfBundledGooglePlayServices
+    implementation 'com.google.android.gms:play-services:12.0.1'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    //noinspection GradleDependency
+    implementation 'androidx.core:core-ktx:1.9.0-alpha01'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation group: 'org.jvnet.sorcerer', name: 'sorcerer-javac', version: '0.8'
+}

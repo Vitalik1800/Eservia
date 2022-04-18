@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlCardHolderSocial"
+    style="@style/CommonCardHolderStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/window_left_right_margins"
+    android:layout_marginTop="9dp"
+    android:layout_marginRight="@dimen/window_left_right_margins"
+    android:layout_marginBottom="12dp"
+    android:visibility="gone"
+    tools:visibility="visible">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContainerSocial"
+        style="@style/CommonCardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clSocial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tvSocialTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:letterSpacing="-0.05"
+                android:maxLines="1"
+                android:text="@string/business_beauty_social_links_item_title"
+                android:textAllCaps="true"
+                android:textColor="#363938"
+                android:textSize="@dimen/text_size_small"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Ми в соцмережах" />
+
+            <LinearLayout
+                android:id="@+id/llSocialLinks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="12dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/tvSocialTitle">
+
+                <ImageView
+                    android:id="@+id/ivLinkFacebook"
+                    android:layout_width="@dimen/base_40"
+                    android:layout_height="@dimen/base_40"
+                    android:layout_marginEnd="8dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/facebook"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/ivLinkTwitter"
+                    android:layout_width="@dimen/base_40"
+                    android:layout_height="@dimen/base_40"
+                    android:layout_marginEnd="8dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/twiter"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <ImageView
+                    android:id="@+id/ivLinkInstagram"
+                    android:layout_width="@dimen/base_40"
+                    android:layout_height="@dimen/base_40"
+                    android:layout_marginEnd="8dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/instagram"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/ivLinkGooglePlus"
+                    android:layout_width="@dimen/base_40"
+                    android:layout_height="@dimen/base_40"
+                    android:layout_marginEnd="8dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/google_plus"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/ivLinkWebsite"
+                    android:layout_width="@dimen/base_40"
+                    android:layout_height="@dimen/base_40"
+                    android:layout_marginEnd="8dp"
+                    android:background="@color/white"
+                    android:padding="1dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/website"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

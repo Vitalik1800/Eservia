@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title=""
+        android:icon="@drawable/icon_nav_home" />
+
+    <item
+        android:title=""
+        android:icon="@drawable/icon_nav_liked" />
+
+    <item
+        android:title=""
+        android:icon="@drawable/icon_nav_calendar" />
+
+    <item
+        android:title=""
+        android:icon="@drawable/icon_nav_alarm" />
+
+    <item
+        android:title=""
+        android:icon="@drawable/icon_nav_menu" />
+</menu>

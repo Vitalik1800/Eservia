@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/tvBusinessName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_toStartOf="@+id/tvDate"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_medium"
+        android:letterSpacing="-0.03"
+        android:maxLines="3"
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#363938"
+        android:textSize="@dimen/text_size_medium"
+        tools:text="Beauty Park Studio" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_medium"
+        android:letterSpacing="-0.01"
+        android:maxLines="1"
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#363938"
+        android:textSize="@dimen/text_size_medium"
+        tools:text="13:45" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBusinessName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="1dp"
+        android:layout_toStartOf="@+id/tvDate"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_medium"
+        android:letterSpacing="-0.03"
+        android:maxLines="3"
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#757575"
+        android:textSize="@dimen/text_size_small"
+        tools:text="Київ, Антоновича, 19/21" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTime"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="12dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_medium"
+        android:letterSpacing="-0.03"
+        android:maxLines="1"
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#757575"
+        android:textSize="@dimen/text_size_small"
+        tools:text="08.02.2018" />
+
+</RelativeLayout>

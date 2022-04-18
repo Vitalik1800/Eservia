@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nsvContentHolder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:paddingBottom="50dp">
+
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/common_page_padding_bottom_for_button"
+        android:paddingTop="9dp"
+        >
+
+        <include layout="@layout/item_business_page_beauty_news_container" />
+
+        <include layout="@layout/item_business_page_beauty_gallery" />
+
+        <include layout="@layout/item_business_page_beauty_description" />
+
+        <include layout="@layout/item_business_page_beauty_staff" />
+
+        <include layout="@layout/item_business_page_beauty_social" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

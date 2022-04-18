@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+
+    <TextView
+        android:id="@+id/tvLeaveFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_medium"
+        android:letterSpacing="-0.05"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/window_left_right_margins"
+        android:paddingRight="@dimen/window_left_right_margins"
+        android:text="@string/to_leave_feedback"
+        android:textAllCaps="true"
+        android:textColor="#363938"
+        android:textSize="@dimen/text_size_small"
+        tools:ignore="RelativeOverlap" />
+
+    <RelativeLayout
+        android:id="@+id/rlLeaveFeedback"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/window_left_right_margins"
+        android:background="@drawable/background_round_green">
+
+        <ImageView
+            android:id="@+id/ivLeaveFeedback"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_leave_feedback_white"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

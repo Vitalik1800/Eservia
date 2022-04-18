@@ -1,0 +1,680 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "2:1939557377805539175",
+      "lastPropertyId": "10:2102230707786584589",
+      "name": "BusinessSector",
+      "properties": [
+        {
+          "id": "1:7299585260650948304",
+          "name": "dbId"
+        },
+        {
+          "id": "2:5887450887251259234",
+          "indexId": "1:2802759684327899014",
+          "name": "id"
+        },
+        {
+          "id": "3:4767989333805045853",
+          "name": "sector"
+        },
+        {
+          "id": "4:8353560526660713575",
+          "name": "nameEn"
+        },
+        {
+          "id": "5:4603516230414501263",
+          "name": "nameRu"
+        },
+        {
+          "id": "6:9186644417578758445",
+          "name": "nameUk"
+        },
+        {
+          "id": "7:2790374974531795348",
+          "name": "status"
+        },
+        {
+          "id": "8:2994346907290536204",
+          "name": "createdAt"
+        },
+        {
+          "id": "9:8165512898034701725",
+          "name": "updatedAt"
+        },
+        {
+          "id": "10:2102230707786584589",
+          "name": "deletedAt"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:9191466173034154035",
+      "lastPropertyId": "8:6305906024726491460",
+      "name": "OrderRestoCategory",
+      "properties": [
+        {
+          "id": "1:9175293293898854307",
+          "name": "dbId"
+        },
+        {
+          "id": "2:4706632593950739124",
+          "indexId": "14:6543310614114012415",
+          "name": "businessId"
+        },
+        {
+          "id": "3:1654609172833757005",
+          "indexId": "9:2087685986087393498",
+          "name": "id"
+        },
+        {
+          "id": "4:6761972347457168774",
+          "indexId": "10:8190571558199840031",
+          "name": "name"
+        },
+        {
+          "id": "5:3233850936659697147",
+          "name": "iconPath"
+        },
+        {
+          "id": "6:7774249722237203460",
+          "indexId": "2:1403311333513821818",
+          "name": "parentId"
+        },
+        {
+          "id": "7:6660590342686408836",
+          "indexId": "18:3393237183206525322",
+          "name": "categoryTypeId"
+        },
+        {
+          "id": "8:6305906024726491460",
+          "indexId": "30:7652568310608981155",
+          "name": "addressId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:8892572756469548450",
+      "lastPropertyId": "6:5350290122037621720",
+      "name": "OrderRestoDimension",
+      "properties": [
+        {
+          "id": "1:5342008751473087583",
+          "name": "dbId"
+        },
+        {
+          "id": "2:6626319809514619397",
+          "indexId": "19:8494489804177934634",
+          "name": "businessId"
+        },
+        {
+          "id": "3:1235811433938109137",
+          "indexId": "20:7740701349773129754",
+          "name": "id"
+        },
+        {
+          "id": "4:5718803228155156449",
+          "name": "name"
+        },
+        {
+          "id": "5:5026061768458290024",
+          "name": "fullName"
+        },
+        {
+          "id": "6:5350290122037621720",
+          "indexId": "31:5689442714698038327",
+          "name": "addressId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:5418957106060643603",
+      "lastPropertyId": "20:7750685702743939955",
+      "name": "OrderRestoNomenclature",
+      "properties": [
+        {
+          "id": "1:647453698172452135",
+          "name": "dbId"
+        },
+        {
+          "id": "2:5859646797430825416",
+          "indexId": "11:4188907232760218584",
+          "name": "businessId"
+        },
+        {
+          "id": "3:5410608585978576172",
+          "name": "name"
+        },
+        {
+          "id": "4:6601369065860528095",
+          "name": "photoPath"
+        },
+        {
+          "id": "5:3421012636806238436",
+          "name": "description"
+        },
+        {
+          "id": "6:7342486438926071705",
+          "indexId": "12:2534684372996012574",
+          "name": "id"
+        },
+        {
+          "id": "7:3898154120589156979",
+          "name": "maxExtensionsQuantity"
+        },
+        {
+          "id": "8:2142409447063561065",
+          "name": "cookingTime"
+        },
+        {
+          "id": "9:5503020832384482635",
+          "name": "cookingPriorityId"
+        },
+        {
+          "id": "10:5084109563039961585",
+          "name": "supportedOrderTypeId"
+        },
+        {
+          "id": "11:8001300048375313269",
+          "name": "saleMethodId"
+        },
+        {
+          "id": "12:8257652922018546043",
+          "name": "tasteGroupId"
+        },
+        {
+          "id": "13:3557332694347978603",
+          "name": "specialGroupId"
+        },
+        {
+          "id": "14:2673265397774863051",
+          "indexId": "3:3847688277140966811",
+          "name": "portionGradationId"
+        },
+        {
+          "id": "15:4967936592585273469",
+          "indexId": "13:5133607147263875299",
+          "name": "parentId"
+        },
+        {
+          "id": "16:3978209630795021323",
+          "indexId": "4:2034486844803989784",
+          "name": "dimensionId"
+        },
+        {
+          "id": "17:6448466518703394907",
+          "indexId": "5:4571297884773923520",
+          "name": "categoryId"
+        },
+        {
+          "id": "18:5910923565856656656",
+          "name": "aDimensionId"
+        },
+        {
+          "id": "19:8783791710588436998",
+          "indexId": "32:8537892905647319396",
+          "name": "addressId"
+        },
+        {
+          "id": "20:7750685702743939955",
+          "name": "dishTypeId"
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:7962878795668215838",
+          "name": "sizePrices"
+        }
+      ]
+    },
+    {
+      "id": "6:698703741870857462",
+      "lastPropertyId": "9:6657998343527461564",
+      "name": "OrderRestoNomenclatureOption",
+      "properties": [
+        {
+          "id": "1:5560687028663052498",
+          "name": "dbId"
+        },
+        {
+          "id": "2:3410129286055081682",
+          "indexId": "21:9167106607636938786",
+          "name": "businessId"
+        },
+        {
+          "id": "3:1878600810996256737",
+          "indexId": "22:7692053844435992778",
+          "name": "nomenclatureId"
+        },
+        {
+          "id": "4:3449876623315113904",
+          "indexId": "23:651026533324098485",
+          "name": "optionId"
+        },
+        {
+          "id": "5:8111340905831381664",
+          "name": "minQuantity"
+        },
+        {
+          "id": "6:1306746976073642747",
+          "name": "maxQuantity"
+        },
+        {
+          "id": "7:6086799298866000081",
+          "name": "defaultQuantity"
+        },
+        {
+          "id": "8:2136727470609421115",
+          "name": "belongsToOption"
+        },
+        {
+          "id": "9:6657998343527461564",
+          "indexId": "33:1707007474639211223",
+          "name": "addressId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "7:4087023537686167932",
+      "lastPropertyId": "8:2652182199061035445",
+      "name": "OrderRestoOption",
+      "properties": [
+        {
+          "id": "1:8592419317989720634",
+          "name": "dbId"
+        },
+        {
+          "id": "2:275348241355466288",
+          "indexId": "24:4230473873323913386",
+          "name": "businessId"
+        },
+        {
+          "id": "3:8436989586893899103",
+          "name": "id"
+        },
+        {
+          "id": "4:2747554849852523975",
+          "name": "isFree"
+        },
+        {
+          "id": "5:194022564506430301",
+          "name": "minQuantity"
+        },
+        {
+          "id": "6:1960929958012256135",
+          "name": "maxQuantity"
+        },
+        {
+          "id": "7:2602694066527354590",
+          "name": "name"
+        },
+        {
+          "id": "8:2652182199061035445",
+          "indexId": "34:3521411767420755548",
+          "name": "addressId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "8:2571984360290330736",
+      "lastPropertyId": "10:8389028237092391354",
+      "name": "OrderRestoPortionGradation",
+      "properties": [
+        {
+          "id": "1:8484639880787054174",
+          "name": "dbId"
+        },
+        {
+          "id": "2:4235734936317425042",
+          "indexId": "25:7528369744858700760",
+          "name": "businessId"
+        },
+        {
+          "id": "3:3533626259135074381",
+          "name": "id"
+        },
+        {
+          "id": "4:6893316599559217965",
+          "name": "nomenclatureId"
+        },
+        {
+          "id": "5:7797733719553120402",
+          "name": "minimum"
+        },
+        {
+          "id": "6:2222725829550245831",
+          "name": "maximum"
+        },
+        {
+          "id": "7:4362871396681038417",
+          "name": "minimumPrice"
+        },
+        {
+          "id": "8:4697304671314278434",
+          "name": "step"
+        },
+        {
+          "id": "9:5437781305640067247",
+          "name": "stepPrice"
+        },
+        {
+          "id": "10:8389028237092391354",
+          "indexId": "35:8976872317090421175",
+          "name": "addressId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "9:8655199368809908482",
+      "lastPropertyId": "12:2033996334935545841",
+      "name": "OrderRestoSizePrice",
+      "properties": [
+        {
+          "id": "1:8406625640535121812",
+          "name": "dbId"
+        },
+        {
+          "id": "2:1404441922024308144",
+          "indexId": "26:2617890215168457080",
+          "name": "businessId"
+        },
+        {
+          "id": "3:8897913588752181107",
+          "name": "id"
+        },
+        {
+          "id": "5:5645060646785520515",
+          "name": "presentationName"
+        },
+        {
+          "id": "6:5092367630206011134",
+          "name": "sizeTypeId"
+        },
+        {
+          "id": "7:6442801293196162478",
+          "name": "size"
+        },
+        {
+          "id": "8:8020634378742662663",
+          "name": "price"
+        },
+        {
+          "id": "11:2621711091872541466",
+          "name": "nomenclatureId"
+        },
+        {
+          "id": "12:2033996334935545841",
+          "indexId": "36:6201989917277617474",
+          "name": "addressId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "10:1502273255912452125",
+      "lastPropertyId": "14:7858478432353780733",
+      "name": "OrderResto",
+      "properties": [
+        {
+          "id": "1:8026862737877894415",
+          "name": "dbId"
+        },
+        {
+          "id": "2:4382610906083390351",
+          "name": "waiterId"
+        },
+        {
+          "id": "3:3007106009941529577",
+          "name": "tableId"
+        },
+        {
+          "id": "4:8436222874122486579",
+          "name": "addressId"
+        },
+        {
+          "id": "5:4845498601203465273",
+          "name": "departmentId"
+        },
+        {
+          "id": "6:3715475521960676620",
+          "name": "menuVersion"
+        },
+        {
+          "id": "7:4518192650270880998",
+          "name": "initializationId"
+        },
+        {
+          "id": "8:4433339211537623623",
+          "name": "description"
+        },
+        {
+          "id": "9:188043902115347550",
+          "name": "orderTypeId"
+        },
+        {
+          "id": "10:5202300463138876869",
+          "name": "totalPrice"
+        },
+        {
+          "id": "11:1327528900289057455",
+          "name": "toBePreparedAtTime"
+        },
+        {
+          "id": "12:8460581765000446859",
+          "name": "clientName"
+        },
+        {
+          "id": "13:7844006790021971202",
+          "name": "clientPhoneNumber"
+        },
+        {
+          "id": "14:7858478432353780733",
+          "indexId": "27:8879516779782365271",
+          "name": "businessId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "11:1509416564400873732",
+      "lastPropertyId": "13:4979367421979312302",
+      "name": "OrderRestoItem",
+      "properties": [
+        {
+          "id": "1:8745931994761848829",
+          "name": "dbId"
+        },
+        {
+          "id": "2:2588709062129037561",
+          "name": "nomenclatureId"
+        },
+        {
+          "id": "3:8388482745170459579",
+          "name": "amount"
+        },
+        {
+          "id": "4:5041903750979783800",
+          "name": "size"
+        },
+        {
+          "id": "5:7629843360652307551",
+          "name": "initializationId"
+        },
+        {
+          "id": "6:4590025941826049604",
+          "name": "description"
+        },
+        {
+          "id": "7:5073563951367514908",
+          "indexId": "28:6109052111539097819",
+          "name": "businessId"
+        },
+        {
+          "id": "8:5220530608037357866",
+          "name": "priceByPortion"
+        },
+        {
+          "id": "9:8662326481907617507",
+          "indexId": "37:4990588492367474715",
+          "name": "orderRestoId"
+        },
+        {
+          "id": "10:934719451109133008",
+          "name": "price"
+        },
+        {
+          "id": "11:4444428000792345657",
+          "name": "dimension"
+        },
+        {
+          "id": "12:5900166110218812267",
+          "name": "name"
+        },
+        {
+          "id": "13:4979367421979312302",
+          "name": "orderTime"
+        }
+      ],
+      "relations": [
+        {
+          "id": "11:2857507272989920683",
+          "name": "dbExtensions"
+        }
+      ]
+    },
+    {
+      "id": "12:6558307882152696702",
+      "lastPropertyId": "5:8777120457416402506",
+      "name": "OrderRestoItemExtension",
+      "properties": [
+        {
+          "id": "1:7098445639840443996",
+          "name": "dbId"
+        },
+        {
+          "id": "2:7331731400442734415",
+          "name": "extensionId"
+        },
+        {
+          "id": "3:2918928480077189424",
+          "name": "optionId"
+        },
+        {
+          "id": "4:8926244992731207959",
+          "name": "amount"
+        },
+        {
+          "id": "5:8777120457416402506",
+          "indexId": "29:7764510802653712463",
+          "name": "businessId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "13:7073566575954646969",
+      "lastPropertyId": "7:2672383807409452451",
+      "name": "OrderRestoMenuData",
+      "properties": [
+        {
+          "id": "1:2914373022103642965",
+          "name": "dbId"
+        },
+        {
+          "id": "2:780966794694366958",
+          "indexId": "38:217425547194491227",
+          "name": "businessId"
+        },
+        {
+          "id": "3:5301760543620265532",
+          "name": "currency"
+        },
+        {
+          "id": "4:8227327387820659614",
+          "name": "version"
+        },
+        {
+          "id": "5:5532819823598391085",
+          "name": "addressId"
+        },
+        {
+          "id": "6:6554086193616311106",
+          "name": "promoterId"
+        },
+        {
+          "id": "7:2672383807409452451",
+          "name": "departmentId"
+        }
+      ],
+      "relations": [
+        {
+          "id": "4:9215155461796019620",
+          "name": "categories"
+        },
+        {
+          "id": "5:6313678899363230438",
+          "name": "dimensions"
+        },
+        {
+          "id": "6:923067603247719488",
+          "name": "options"
+        },
+        {
+          "id": "7:3487371167301836427",
+          "name": "nomenclatureOptions"
+        },
+        {
+          "id": "8:4647584304978532752",
+          "name": "nomenclatures"
+        },
+        {
+          "id": "9:4303285620771001196",
+          "name": "sizePrices"
+        },
+        {
+          "id": "10:6118127957479692492",
+          "name": "portionGradations"
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "13:7073566575954646969",
+  "lastIndexId": "38:217425547194491227",
+  "lastRelationId": "11:2857507272989920683",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [
+    6527038378007436242
+  ],
+  "retiredIndexUids": [
+    2505590818872236800,
+    7432010620868320216,
+    8152788955225852222,
+    8326983149553141373,
+    3378550537817222213,
+    6545258376573736784
+  ],
+  "retiredPropertyUids": [
+    3511108495938131880,
+    8903417012489302680,
+    2334790263322267567,
+    5903105952323556456,
+    7987348648741816044,
+    3871858082146644954
+  ],
+  "retiredRelationUids": [
+    3898211436556725178,
+    9156409463420094333
+  ],
+  "version": 1
+}

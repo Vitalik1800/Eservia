@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp">
+
+    <RelativeLayout
+        android:id="@+id/rlPlaceHolderSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/ivPlaceHolderLogoSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:src="@drawable/search_failed"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/tvPlaceHolderLabelSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ivPlaceHolderLogoSearch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="18dp"
+            android:fontFamily="@font/roboto_medium"
+            android:letterSpacing="-0.03"
+            android:paddingStart="48dp"
+            android:paddingEnd="48dp"
+            android:text="@string/placeholder_message_not_found_business"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#3b3b3b"
+            android:textSize="@dimen/text_size_medium"
+             />
+
+        <Button
+            android:id="@+id/btnPlaceHolderButton"
+            style="@style/CommonActionButtonStyle"
+            android:layout_width="@dimen/common_button_width"
+            android:layout_height="48dp"
+            android:layout_below="@+id/tvPlaceHolderLabelSearch"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/background_common_button_blue"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/add"
+            android:textColor="#424242"
+            android:visibility="visible"
+            tools:ignore="TextContrastCheck" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="33dp"
+    android:layout_height="33dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.eservia.simpleratingbar.SimpleRatingBar
+        android:id="@+id/rbRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        app:srb_borderColor="@color/gold"
+        app:srb_fillColor="@color/gold"
+        app:srb_isIndicator="true"
+        app:srb_numberOfStars="1"
+        app:srb_rating="0"
+        app:srb_starSize="27dp"
+        app:srb_stepSize="1" />
+
+</RelativeLayout>

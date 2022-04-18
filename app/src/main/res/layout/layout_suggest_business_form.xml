@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlCardHolderSuggestBusiness"
+    style="@style/CommonCardHolderStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/window_left_right_margins"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="@dimen/window_left_right_margins"
+    android:layout_marginBottom="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContainerSuggestBusiness"
+        style="@style/CommonCardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rlName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tvNameLabel"
+                    style="@style/CommonInputLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/all_name" />
+
+                <EditText
+                    android:id="@+id/etName"
+                    style="@style/CommonEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvNameLabel"
+                    android:autofillHints=""
+                    android:hint="@string/institution_name"
+                    android:maxLength="100"
+                    android:text=""
+                    android:textColorHint="#757575"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+            <View
+                style="@style/CommonSeparatorStyle"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rlName" />
+
+            <RelativeLayout
+                android:id="@+id/rlCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rlName"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tvCityLabel"
+                    style="@style/CommonInputLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/city" />
+
+                <EditText
+                    android:id="@+id/etCity"
+                    style="@style/CommonEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvCityLabel"
+                    android:autofillHints=""
+                    android:hint="@string/specify_the_city"
+                    android:maxLength="100"
+                    android:text=""
+                    android:textColorHint="#757575"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+            <View
+                style="@style/CommonSeparatorStyle"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rlCity" />
+
+            <RelativeLayout
+                android:id="@+id/rlAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rlCity"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tvAddressLabel"
+                    style="@style/CommonInputLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/address" />
+
+                <EditText
+                    android:id="@+id/etAddress"
+                    style="@style/CommonEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvAddressLabel"
+                    android:autofillHints=""
+                    android:hint="@string/address_of_the_institution"
+                    android:imeOptions="actionDone"
+                    android:maxLength="100"
+                    android:text=""
+                    android:textColorHint="#757575"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

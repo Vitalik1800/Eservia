@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivPoints"
+        android:layout_width="0dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="6dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon_points"
+        app:layout_constraintEnd_toStartOf="@+id/ivDiscounts"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/ivDiscounts"
+        android:layout_width="0dp"
+        android:layout_height="99dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon_discounts"
+        app:layout_constraintEnd_toStartOf="@+id/ivWallet"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivPoints"
+        app:layout_constraintTop_toTopOf="@+id/ivPoints"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/ivWallet"
+        android:layout_width="0dp"
+        android:layout_height="99dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon_wallet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ivDiscounts"
+        app:layout_constraintTop_toTopOf="@+id/ivDiscounts"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvPoints"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_medium"
+        android:maxLines="1"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="12dp"
+        android:text="@string/points"
+        android:textAlignment="center"
+        android:textColor="@color/black_light_secondary"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvDiscounts"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        tools:text="3456" />
+
+    <TextView
+        android:id="@+id/tvDiscounts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_medium"
+        android:maxLines="1"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="12dp"
+        android:text="@string/discounts"
+        android:textAlignment="center"
+        android:textColor="@color/black_light_secondary"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvWallet"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvPoints"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <TextView
+        android:id="@+id/tvWallet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_medium"
+        android:maxLines="1"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="12dp"
+        android:text="@string/wallet"
+        android:textAlignment="center"
+        android:textColor="@color/black_light_secondary"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvDiscounts"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="90dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

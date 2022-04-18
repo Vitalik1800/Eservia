@@ -1,0 +1,227 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackgroundDefault"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:fitsSystemWindows="true"
+        app:elevation="0dp">
+
+        <RelativeLayout
+            android:id="@+id/rlToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                android:paddingEnd="8dp"
+                app:navigationIcon="@drawable/icon_nav_back_dark"
+                app:title=""
+                tools:ignore="RtlSymmetry">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical"
+                        tools:ignore="UselessParent">
+
+                        <TextView
+                            android:id="@+id/tvToolbarTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_medium"
+                            android:letterSpacing="-0.02"
+                            android:maxLines="1"
+                            android:text="@string/adding_salon"
+                            android:textAllCaps="true"
+                            android:textColor="@color/black_light_secondary"
+                            android:textSize="@dimen/text_size_medium"
+                             />
+
+                        <TextView
+                            android:id="@+id/tvToolbarSubTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_medium"
+                            android:letterSpacing="-0.01"
+                            android:maxLines="1"
+                            android:text=""
+                            android:textAllCaps="false"
+                            android:textColor="#8D6E63"
+                            android:textSize="@dimen/text_size_small_10"
+                            android:visibility="gone"
+                            tools:text="ул. Пушкинская 9б, 10:00-21:00"
+                            tools:visibility="visible" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/bottom_accept_layout_height">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/balls_bg"
+                tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlAccept"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_accept_layout_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/blue_secondary">
+
+            <TextView
+                android:id="@+id/tvAccept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_bold"
+                android:letterSpacing="-0.02"
+                android:maxWidth="300dp"
+                android:maxLines="1"
+                android:text="@string/add"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#424242"
+                android:textSize="@dimen/text_size_small" />
+
+            <ImageView
+                android:id="@+id/ivAccept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="6dp"
+                android:layout_toEndOf="@+id/tvAccept"
+                android:scaleType="center"
+                android:src="@drawable/ic_right_action_button_arrow"
+                android:visibility="invisible"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rlAccept"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <RelativeLayout
+                android:id="@+id/suggest_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+
+                <include layout="@layout/layout_suggest_business_form" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/suggest_form"
+                android:layout_marginLeft="@dimen/window_left_right_margins"
+                android:layout_marginRight="@dimen/window_left_right_margins">
+
+                <TextView
+                    android:id="@+id/tvSuggestBusinessStandardDescriptionTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="6dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:letterSpacing="-0.01"
+                    android:maxLines="3"
+                    android:text="@string/suggest_business_standard_description_title"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black_light_secondary"
+                    android:textSize="@dimen/text_size_medium"
+                     />
+
+                <TextView
+                    android:id="@+id/tvSuggestBusinessStandardDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvSuggestBusinessStandardDescriptionTitle"
+                    android:layout_gravity="center_horizontal"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:gravity="center"
+                    android:letterSpacing="-0.01"
+                    android:maxLines="4"
+                    android:text="@string/suggest_business_standard_description"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#8D6E63"
+                    android:textSize="@dimen/text_size_small" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/pbProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:indeterminate="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlCardHolder"
+    style="@style/CommonCardHolderStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/window_left_right_margins"
+    android:layout_marginTop="18dp"
+    android:layout_marginRight="@dimen/window_left_right_margins">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContainer"
+        style="@style/CommonCardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tvGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_toStartOf="@+id/ivIconNext"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:letterSpacing="-0.02"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="0dp"
+                android:textAllCaps="true"
+                android:textColor="@color/black_light_secondary"
+                android:textSize="@dimen/text_size_small"
+                tools:text="Страви з гриля" />
+
+            <ImageView
+                android:id="@+id/ivIconNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/icon_arrow_grey"
+                tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

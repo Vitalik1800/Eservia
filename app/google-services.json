@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "31636828392",
+    "project_id": "eservia-cea01",
+    "storage_bucket": "eservia-cea01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31636828392:android:bad05372e4d78edbde595d",
+        "android_client_info": {
+          "package_name": "com.eservia.booking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31636828392-u8musqbnhvks7f1b07nkeu8ltq6p02tt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eservia.booking",
+            "certificate_hash": "50ee70a8629cb17416d75d290d1efc31005426a8"
+          }
+        },
+        {
+          "client_id": "31636828392-vebpggnc364ro0um731ug8495gv3ue1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFFepznBDHfRBjKoRMMx9BdlIAduUFuy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "31636828392-vebpggnc364ro0um731ug8495gv3ue1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

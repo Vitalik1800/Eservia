@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="window_left_right_margins">58dp</dimen>
+
+    <dimen name="auth_side_padding">130dp</dimen>
+
+</resources>

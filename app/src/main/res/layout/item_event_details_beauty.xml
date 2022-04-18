@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlCardHolderEventDetails"
+    style="@style/CommonCardHolderStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/window_left_right_margins"
+    android:layout_marginTop="12dp"
+    android:layout_marginRight="@dimen/window_left_right_margins"
+    android:layout_marginBottom="12dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContainerEventDetails"
+        style="@style/CommonCardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/rlHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivEventImage"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_background_default"
+                    app:layout_constraintDimensionRatio="H,13:8"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <include
+                    layout="@layout/item_event_mark_beauty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/ivEventImage"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivEventImage" />
+
+                <TableLayout
+                    android:id="@+id/tlTimes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="6dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ivEventImage">
+
+                    <TableRow android:id="@+id/trPeriod">
+
+                        <ImageView
+                            android:id="@+id/ivPeriod"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_vertical"
+                            android:scaleType="center"
+                            android:src="@drawable/icon_date_input"
+                            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                        <TextView
+                            android:id="@+id/tvPeriod"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginTop="3dp"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_medium"
+                            android:letterSpacing="-0.02"
+                            android:paddingStart="4dp"
+                            android:paddingEnd="4dp"
+                            android:textColor="#757575"
+                            android:textSize="@dimen/text_size_small"
+                            tools:text="17.10.2018 – 25.10.2018" />
+
+                    </TableRow>
+
+                    <TableRow android:id="@+id/trTime">
+
+                        <ImageView
+                            android:id="@+id/ivTime"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="top"
+                            android:scaleType="center"
+                            android:src="@drawable/icon_time_notification"
+                            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                        <RelativeLayout
+                            android:id="@+id/rlTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/tvTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginTop="3dp"
+                                android:ellipsize="end"
+                                android:fontFamily="@font/roboto_medium"
+                                android:letterSpacing="-0.02"
+                                android:paddingStart="5dp"
+                                android:paddingEnd="1dp"
+                                android:textColor="#757575"
+                                android:textSize="@dimen/text_size_small"
+                                tools:text="Змінний графік дії" />
+
+                            <ImageView
+                                android:id="@+id/ivSchedulesExpand"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:layout_toEndOf="@+id/tvTime"
+                                android:rotation="270"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/icon_nav_back_dark"
+                                tools:ignore="ContentDescription" />
+
+                            <com.expandablelayout.ExpandableRelativeLayout
+                                android:id="@+id/erlSchedules"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tvTime"
+                                android:layout_marginTop="3dp"
+                                app:ael_duration="100"
+                                app:ael_expanded="false"
+                                app:ael_interpolator="decelerate"
+                                app:ael_orientation="vertical"
+                                tools:visibility="visible">
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/rvSchedules"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:clipToPadding="false"
+                                    android:overScrollMode="never"
+                                    android:paddingTop="0dp"
+                                    android:paddingBottom="0dp"
+                                    android:scrollbars="vertical"
+                                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                                    tools:listitem="@layout/item_event_beauty_schedule_time" />
+
+                            </com.expandablelayout.ExpandableRelativeLayout>
+
+                        </RelativeLayout>
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rlHeader"
+                android:layout_marginTop="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:letterSpacing="-0.02"
+                        android:textColor="#363938"
+                        android:textSize="@dimen/text_size_medium"
+                        tools:text="Frisor’ові знижки на чоловіче гоління Frisor’ові знижки на чоловіче гоління" />
+
+                    <TextView
+                        android:id="@+id/tvDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/open_sans_regular"
+                        android:letterSpacing="-0.02"
+                        android:textColor="#757575"
+                        android:textSize="@dimen/text_size_medium"
+                        tools:text="Frisor barbershop соединил в себе старинные традиции с технологиями, кинемато графическое освещение для качеств Frisor barbershop соединил в себе старинные традиции с технологиями, кинемато графическое освещение для качествFrisor barbershop соединил в себе старинные традиции с технологиями, кинемато графическое освещение для качеств" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

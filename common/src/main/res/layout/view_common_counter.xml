@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/common_counter"
+    android:layout_width="87dp"
+    android:layout_height="32dp">
+
+    <TextView
+        android:id="@+id/cv_decrement"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text=" − "
+        android:textAlignment="center"
+        android:textColor="#fb877b"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/cv_increment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text=" + "
+        android:textAlignment="center"
+        android:textColor="#fb877b"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/cv_count"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/cv_increment"
+        android:layout_toRightOf="@+id/cv_decrement"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textColor="#363938"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        tools:text="555" />
+
+</RelativeLayout>

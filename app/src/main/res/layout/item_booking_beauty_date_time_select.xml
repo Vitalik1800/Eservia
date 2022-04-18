@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlCardHolderChooseDateTime"
+    style="@style/CommonCardHolderStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/window_left_right_margins"
+    android:layout_marginTop="11dp"
+    android:layout_marginRight="@dimen/window_left_right_margins"
+    android:layout_marginBottom="11dp"
+    android:minHeight="200dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvChooseDateTimeContainer"
+        style="@style/CommonCardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rlDayAndTimeSelectorContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+            <RelativeLayout
+                android:id="@+id/clDaySelectorContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="10dp"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tvChooseDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="12dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:letterSpacing="-0.05"
+                    android:maxLines="1"
+                    android:text="@string/choose_date_beauty_reservation"
+                    android:textAllCaps="true"
+                    android:textColor="#363938"
+                    android:textSize="@dimen/text_size_small"
+                    tools:text="Оберіть дату" />
+
+                <TextView
+                    android:id="@+id/tvExpandCalendar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="14dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:maxLines="1"
+                    android:text="@string/expand_calendar"
+                    android:textAllCaps="false"
+                    android:textColor="#757575"
+                    android:textSize="@dimen/text_size_small"
+                    tools:ignore="RelativeOverlap" />
+
+                <com.eservia.simplecalendar.SimpleCalendar
+                    android:id="@+id/scCalendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvChooseDate"
+                    tools:background="@color/colorInactive"
+                    tools:layout_height="100dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlTimeSelectorContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/clDaySelectorContainer"
+                android:layout_marginBottom="8dp"
+                android:minHeight="54dp"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tvChooseTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="0dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:letterSpacing="-0.05"
+                    android:maxLines="1"
+                    android:text="@string/choose_time_beauty_reservation"
+                    android:textAllCaps="true"
+                    android:textColor="#363938"
+                    android:textSize="@dimen/text_size_small"
+                    tools:text="Оберіть час" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvTimeSlot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvChooseTime"
+                    android:layout_marginTop="8dp"
+                    android:clipToPadding="false"
+                    android:nestedScrollingEnabled="false"
+                    android:orientation="horizontal"
+                    android:overScrollMode="never"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:scrollbars="horizontal"
+                    android:visibility="visible"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/item_booking_beauty_time_slot"
+                    tools:visibility="visible" />
+
+                <RelativeLayout
+                    android:id="@+id/rlHasNotAnyTimeSlotPlaceHolder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tvChooseTime"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone"
+                    tools:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tvHasNotAnyTimeSlotPlaceHolderMessage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="34dp"
+                        android:layout_marginRight="34dp"
+                        android:fontFamily="@font/roboto_medium"
+                        android:letterSpacing="-0.05"
+                        android:maxLines="1"
+                        android:text="@string/no_available_time_slots_for_day"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#66ccc0"
+                        android:textSize="@dimen/text_size_small"
+                         />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlTimeSlotLoadingErrorPlaceHolder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tvChooseTime"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone"
+                    tools:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:orientation="horizontal"
+                        tools:ignore="UselessParent">
+
+                        <TextView
+                            android:id="@+id/tvTimeSlotLoadingErrorPlaceHolderMessage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_medium"
+                            android:letterSpacing="-0.05"
+                            android:maxWidth="200dp"
+                            android:singleLine="true"
+                            android:text="@string/unknown_error"
+                            android:textAlignment="center"
+                            android:textAllCaps="false"
+                            android:textColor="#66ccc0"
+                            android:textSize="@dimen/text_size_small"
+                            tools:ignore="RtlCompat" />
+
+                        <Button
+                            android:id="@+id/btnTimeSlotLoadingErrorPlaceHolderButton"
+                            android:layout_width="@dimen/common_button_width"
+                            android:layout_height="@dimen/common_button_height"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:background="@drawable/background_button_try_again"
+                            android:fontFamily="@font/roboto_bold"
+                            android:maxLines="1"
+                            android:text="@string/try_again"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_size_small"
+                             />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlTimeSlotLoadingPlaceHolder"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tvChooseTime"
+                    android:visibility="gone"
+                    tools:visibility="gone">
+
+                    <ProgressBar
+                        android:id="@+id/pbTimeSlotLoadingPlaceHolder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:indeterminate="true"
+                        android:visibility="visible" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlDateTimeLoadingErrorPlaceHolder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/tvDateTimeLoadingErrorPlaceHolderMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginRight="34dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:letterSpacing="-0.05"
+                    android:maxLines="3"
+                    android:text="@string/unknown_error"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#66ccc0"
+                    android:textSize="@dimen/text_size_small"
+                     />
+
+                <Button
+                    android:id="@+id/btnDateTimeLoadingErrorPlaceHolderButton"
+                    style="@style/CommonActionButtonStyle"
+                    android:layout_width="@dimen/common_button_width"
+                    android:layout_height="@dimen/common_button_height"
+                    android:layout_below="@+id/tvDateTimeLoadingErrorPlaceHolderMessage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/try_again" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlDateTimeLoadingPlaceHolder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <ProgressBar
+                android:id="@+id/pbDateTimeLoadingPlaceHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:indeterminate="true"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

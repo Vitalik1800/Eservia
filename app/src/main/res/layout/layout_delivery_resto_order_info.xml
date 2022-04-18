@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlCardHolderOrderInfo"
+    style="@style/CommonCardHolderStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/window_left_right_margins"
+    android:layout_marginTop="11dp"
+    android:layout_marginRight="@dimen/window_left_right_margins"
+    android:layout_marginBottom="11dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvOrderInfoContainer"
+        style="@style/CommonCardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp">
+
+            <TextView
+                android:id="@+id/tvOrderInfoTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:maxLines="1"
+                android:text="@string/information"
+                android:textAllCaps="true"
+                android:textColor="@color/black_light_secondary"
+                android:textSize="@dimen/text_size_small" />
+
+            <TextView
+                android:id="@+id/tvOrderInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvOrderInfoTitle"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="12dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="#757575"
+                android:textSize="@dimen/text_size_medium"
+                tools:text="Тернопіль, Максима Кривоноса, 10/20, Код під’їзду - 23" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

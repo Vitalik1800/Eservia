@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlCardHolderCommentEditor"
+    style="@style/CommonCardHolderStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/window_left_right_margins"
+    android:layout_marginTop="9dp"
+    android:layout_marginRight="@dimen/window_left_right_margins"
+    android:layout_marginBottom="18dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContainerCommentEditor"
+        style="@style/CommonCardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvCommentTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:letterSpacing="-0.02"
+                android:maxLines="1"
+                android:text="@string/leave_comment"
+                android:textAllCaps="true"
+                android:textColor="@color/black_light_secondary"
+                android:textSize="@dimen/text_size_small"
+                 />
+
+            <RelativeLayout
+                android:id="@+id/rlCommentEditSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvCommentTitle"
+                android:layout_marginTop="2dp"
+                android:minHeight="45dp"
+                android:visibility="visible"
+                tools:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/ivEditComment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:padding="4dp"
+                    android:rotation="25"
+                    android:src="@drawable/icon_edit"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <EditText
+                    android:id="@+id/etComment"
+                    style="@style/CommonEditTextMultilineStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_toStartOf="@+id/ivEditComment"
+                    android:autofillHints=""
+                    android:hint="@string/booking_comment_form_hint"
+                    android:textColorHint="#757575" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

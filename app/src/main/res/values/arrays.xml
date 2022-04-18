@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="languages" translatable="false">
+        <item>Українська</item>
+        <item>Русский</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="languages_keys" translatable="false">
+        <item>ua</item>
+        <item>ru</item>
+        <item>en</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlAccept"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_accept_layout_height"
+    android:layout_gravity="bottom"
+    android:background="@drawable/background_gradient_green_round"
+    tools:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/tvAccept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:fontFamily="@font/roboto_bold"
+        android:maxWidth="300dp"
+        android:maxLines="1"
+        android:text="@string/go_to_reservation"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#5D4037"
+        android:textSize="@dimen/text_size_small" />
+
+    <ImageView
+        android:id="@+id/ivAccept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="6dp"
+        android:layout_toEndOf="@+id/tvAccept"
+        android:scaleType="center"
+        android:src="@drawable/ic_right_action_button_arrow"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+</RelativeLayout>

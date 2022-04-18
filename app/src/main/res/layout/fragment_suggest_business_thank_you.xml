@@ -1,0 +1,105 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_suggest_thank_you_"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:id="@+id/rlDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/window_left_right_margins"
+            android:layout_marginRight="@dimen/window_left_right_margins"
+            android:paddingTop="40dp">
+
+            <TextView
+                android:id="@+id/tvSuggestBusinessThankYouDescriptionTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="74dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:letterSpacing="-0.01"
+                android:maxLines="3"
+                android:text="@string/suggest_business_thank_you_description_title"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black_light_secondary"
+                android:textSize="@dimen/text_size_medium"
+                 />
+
+            <TextView
+                android:id="@+id/tvSuggestBusinessThankYouDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvSuggestBusinessThankYouDescriptionTitle"
+                android:layout_gravity="center_horizontal"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:letterSpacing="-0.01"
+                android:maxLines="4"
+                android:text="@string/suggest_business_thank_you_description"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#757575"
+                android:textSize="@dimen/text_size_small" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnAccept"
+            style="@style/CommonActionButtonStyle"
+            android:layout_width="@dimen/common_button_width"
+            android:layout_height="48dp"
+            android:layout_below="@+id/rlDescription"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/connected_salons"
+            android:textColor="#5D4037" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/pbProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

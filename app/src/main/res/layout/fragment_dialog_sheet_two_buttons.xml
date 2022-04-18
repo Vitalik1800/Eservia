@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:paddingTop="12dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_arc_top"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="48dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center_horizontal"
+            android:maxLines="5"
+            android:textAllCaps="false"
+            android:textColor="@color/black_light_secondary"
+            android:textSize="14sp"
+            tools:text="@string/unfilled_services_booking_warning_message" />
+
+        <TextView
+            android:id="@+id/tvSubTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="48dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center_horizontal"
+            android:maxLines="5"
+            android:textAllCaps="false"
+            android:textColor="#757575"
+            android:textSize="14sp"
+            tools:text="@string/unfilled_services_booking_warning_message" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:id="@+id/rlCancel"
+                android:layout_width="130dp"
+                android:layout_height="@dimen/common_booking_button_height"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/background_rounded_grey_stroke">
+
+                <TextView
+                    android:id="@+id/tvCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_bold"
+                    android:maxWidth="120dp"
+                    android:maxLines="1"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="#757575"
+                    android:textSize="12sp"
+                    tools:text="Cancel" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnAccept"
+                style="@style/CommonActionButtonStyle"
+                android:layout_width="130dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_toEndOf="@+id/rlCancel"
+                android:background="@drawable/background_common_booking_button"
+                android:textColor="#5D4037"
+                tools:ignore="TextContrastCheck"
+                tools:text="OK" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

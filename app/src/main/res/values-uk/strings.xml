@@ -1,0 +1,796 @@
+<resources>
+    <!-- general-->
+    <string name="title_activity_login">Вхід</string>
+    <string name="title_activity_registration">Реєестрація</string>
+    <string name="title_activity_account_setup">Налаштування аккаунта</string>
+    <string name="title_activity_reset_password">Відновлення паролю</string>
+    <string name="title_activity_request_restore_code">Відновлення паролю</string>
+    <string name="title_activity_register_phone">Реєстрація</string>
+    <string name="title_activity_account_setup_business">Налаштування аккаунта</string>
+    <string name="title_activity_profile_settings">Профіль</string>
+    <string name="title_activity_change_user_info">Профіль</string>
+    <string name="title_activity_change_password">Пароль</string>
+    <string name="title_activity_phone_approve">Підтвердження</string>
+    <string name="title_activity_main">Категорії</string>
+    <string name="title_activity_search">Пошук</string>
+    <string name="title_activity_places">Заклади</string>
+    <string name="title_activity_reservation">Бронювання</string>
+    <string name="title_activity_add_service">Додати послугу</string>
+    <string name="title_activity_services">Послуги</string>
+    <string name="title_activity_address_choose_address">Виберіть відділення</string>
+    <string name="title_activity_masters">Майстер</string>
+    <string name="title_activity_addresses">Відділення</string>
+    <string name="title_activity_business_page">Сторінка закладу</string>
+    <string name="title_activity_my_bookings">Мої бронювання</string>
+    <string name="title_activity_booking_detail">Бронювання</string>
+    <string name="title_activity_business_comments">Відгуки</string>
+    <string name="title_activity_work_days">Розклад роботи</string>
+    <string name="title_activity_image_viewer">" "</string>
+    <string name="title_activity_contacts">Контакти</string>
+    <string name="title_activity_eservia_feedback">Написати нам</string>
+    <string name="title_activity_add_comment">Написати відгук</string>
+    <string name="title_activity_business_filter">Фільтр</string>
+    <string name="title_activity_map">Карта</string>
+
+    <!-- description-->
+    <string name="logo">Логотип</string>
+    <string name="account_picture">Аватар профілю</string>
+    <string name="close">Закрити</string>
+
+    <!-- auth-->
+    <string name="email_hint">Електронна пошта</string>
+    <string name="phone_hint">Номер телефону</string>
+    <string name="phone_or_email_hint">Email або номер телефону</string>
+    <string name="password_hint">Пароль</string>
+    <string name="confirm_pass">Підтвердити пароль</string>
+    <string name="create_password_hint">Створіть пароль</string>
+    <string name="signIn_btn">Увійти</string>
+    <string name="registration_btn">Зареєструватися</string>
+    <string name="or_label">або</string>
+    <string name="google_login_btn">Ввійти за допомогою Google</string>
+    <string name="facebook_login_btn">Ввійти за допомогою Facebook</string>
+    <string name="login_failed">Увійти не вдалося</string>
+    <string name="register_failed">Зареєструватися не вдалося</string>
+    <string name="check_out_name_password">Перевірте правильність Вашого імені користувача та паролю.</string>
+    <string name="check_out_email_password">Перевірте правильність Вашої пошти та паролю.</string>
+    <string name="wrong_login_password">Неправильний логін або пароль. Будь ласка, спробуйте ще раз.</string>
+    <string name="try_again">ПОВТОРИТИ</string>
+    <string name="do_another_attempt">Повторити спробу</string>
+    <string name="forgot_password">Забули пароль?</string>
+    <string name="recover_password">Відновити пароль</string>
+    <string name="accept">Гаразд</string>
+    <string name="reset_pass_message">Введіть свій email і ми надішлемо Вам новий тимчасовий пароль.</string>
+    <string name="recover_password_success">Пароль відновлено</string>
+    <string name="reset_pass">Відновити пароль</string>
+    <string name="reset_pass_failed">Надіслати лист не вдалося</string>
+    <string name="authenticating">Входимо&#8230;</string>
+    <string name="creating_account">Створюємо профіль&#8230;</string>
+    <string name="accept_license">Реєструючись, Ви погоджуєтеся з</string>
+    <string name="and">та</string>
+    <string name="termsOfUseLabel">Умовами використання</string>
+    <string name="policyLabel">Політикою конфіденційності</string>
+
+    <!-- acc_edit-->
+    <string name="account">Профіль</string>
+    <string name="all_next">Далі</string>
+    <string name="complete">Готово</string>
+    <string name="add_photo">ДОДАТИ ФОТО</string>
+    <string name="change_photo">Змінити фото</string>
+    <string name="image_not_picked">Файл не обрано</string>
+    <string name="email">Email</string>
+    <string name="name">Ім\'я</string>
+    <string name="middle_name">По батькові</string>
+    <string name="middle_name_not_required">По батькові (не обов\'язково)</string>
+    <string name="email_not_required">Email (не обов\'язково)</string>
+    <string name="surname">Прізвище</string>
+    <string name="phone">Номер телефону</string>
+    <string name="phone_">Номер телефону</string>
+    <string name="preferred_language">Мова</string>
+    <string name="verification">Підтвердження</string>
+    <string name="verification_code">Код підтвердження</string>
+    <string name="verification_message">Укажіть код підтвердження, надісланий на ваш номер.</string>
+    <string name="send_again">НАДІСЛАТИ КОД ЩЕ РАЗ</string>
+    <string name="confirm">Підтвердити</string>
+    <string name="sms_was_sent">"SMS код надіслано"</string>
+    <string name="edit_profile">Редагувати профіль</string>
+    <string name="change_password">Змінити пароль</string>
+    <string name="not_selected">Не вибрано</string>
+    <string name="add_photo_business">ДОДАТИ ЛОГО БІЗНЕСУ</string>
+    <string name="business_category">Категорія бізнесу</string>
+    <string name="name_business">Назва бізнесу</string>
+    <string name="description_business">Опис бізнесу</string>
+    <string name="city">Місто</string>
+    <string name="address">Адреса</string>
+    <string name="street">Вулиця</string>
+    <string name="house">Будинок</string>
+    <string name="err_big_image">Вибраний файл є надто великим</string>
+    <string name="err_small_image">Вибраний файл є надто малим</string>
+    <string name="change_account">Змінити профіль</string>
+    <string name="attach_google">Прив\'язати Google профіль</string>
+    <string name="detach_google">Відв\'язати Google профіль</string>
+    <string name="attach_facebook">Прив\'язати Facebook профіль</string>
+    <string name="detach_facebook">Відв\'язати Facebook профіль</string>
+    <string name="approve_email">Підтвердити пошту</string>
+    <string name="save_email">Зберегти нову пошту</string>
+    <string name="email_approved">Пошта підтверджена</string>
+    <string name="sent_email_confirm_message">На Вашу адресу вислане посилання для підтвердження</string>
+    <string name="profile_updated">Профіль оновлено</string>
+    <string name="profile_register_provider_success">Профіль успішно прив\'язано</string>
+    <string name="profile_remove_provider_success">Профіль успішно відв\'язано</string>
+    <string name="password_updated">Пароль оновлено</string>
+
+    <!-- password_edit-->
+    <string name="password">Пароль</string>
+    <string name="change">Змінити</string>
+    <string name="current">Поточний</string>
+    <string name="current_password">Поточний пароль</string>
+    <string name="new_">Новий</string>
+    <string name="new_password">Новий пароль</string>
+    <string name="approve">Підтвердити</string>
+    <string name="approve_phone">Підтвердити номер</string>
+    <string name="new_password_again">Новий пароль, ще раз</string>
+
+    <!-- navigation-->
+    <string name="name_surname">Ім\'я та Прізвище</string>
+    <string name="my_reservations">Мої бронювання</string>
+    <string name="profile_settings">Налаштування профілю</string>
+    <string name="profile">Профіль</string>
+    <string name="app_settings">Налаштування</string>
+    <string name="contacts">Контакти</string>
+    <string name="logout">Вийти</string>
+
+    <!-- main_activity-->
+    <string name="all">Усі</string>
+    <string name="all_establishments">Усі заклади</string>
+    <string name="favorite">Улюблені</string>
+    <string name="new_ones">Нові</string>
+    <string name="vip">VIP</string>
+    <string name="most_popular">Найпопулярніші</string>
+    <string name="popular_establishments">Найпопулярніші заклади</string>
+    <string name="beauty">Краса</string>
+    <string name="medicine">Медицина</string>
+    <string name="health">Здоров\'я</string>
+    <string name="sport">Спорт</string>
+    <string name="restaurants">Ресторани</string>
+    <string name="entertainment">Розваги</string>
+    <string name="shopping">Шопінг</string>
+    <string name="auto_business">Автобізнес</string>
+    <string name="real_estate">Нерухомість</string>
+    <string name="other">Інше</string>
+    <string name="success_send_eservia_feedback">Дякуємо за ваш відгук</string>
+    <string name="success_send_business_feedback">Дякуємо за ваш відгук</string>
+    <string name="success_delete_business_feedback">Відгук видалено</string>
+    <string name="reload">Перезавантажити</string>
+    <string name="updates_dialog_title">Пора оновлень!</string>
+    <string name="updates_dialog_message">Ви користуєтесь застарілою версією %1$s, яка більше не підтримується. Будь ласка, оновіть застосунок, щоб Ви могли здійснювати бронювання ще зручніше!</string>
+    <string name="updates_dialog_btn_update">Оновити %1$s</string>
+    <string name="rate_us_dialog_title">Оцініть %1$s</string>
+    <string name="rate_us_dialog_message">Якщо вам подобається користуватись %1$s, будь ласка, знайдіть хвилинку, щоб поставити оцінку. Дякуємо за вашу підтримку!</string>
+    <string name="rate_us_dialog_btn_positive">Оцінити</string>
+    <string name="rate_us_dialog_btn_negative">Ні, дякую</string>
+    <string name="rate_us_dialog_btn_neutral">Пізніше</string>
+
+    <!-- places_activity-->
+    <string name="sort_type">Сортування</string>
+    <string name="filter">Фільтр</string>
+    <string name="map">Карта</string>
+    <string name="has_several_departments">Декілька відділень</string>
+    <string name="has_not_any_departments">Відсутні відділення</string>
+    <string name="departments_">%1$d відділень(-ня)</string>
+    <string name="by_name_asc">За назвою (А-я)</string>
+    <string name="by_name_desc">За назвою (Я-а)</string>
+    <string name="by_rating_asc">За рейтингом (від нижчого)</string>
+    <string name="by_rating_desc">За рейтингом (від вищого)</string>
+
+    <!-- reservation_activity-->
+    <string name="reservation_date_time">Дата та час бронювання</string>
+    <string name="reservation_time">Час бронювання</string>
+    <string name="reservation_date">Дата бронювання</string>
+    <string name="reservation_day">День бронювання</string>
+    <string name="service">Послуга</string>
+    <string name="services">Послуги</string>
+    <string name="add_service">Додати послугу</string>
+    <string name="master">Майстер</string>
+    <string name="master_">Майстер:</string>
+    <string name="department">Відділення</string>
+    <string name="departments">Відділення</string>
+    <string name="reserve">Забронювати</string>
+    <string name="reserve_">Бронювати</string>
+    <string name="find_service">Пошук послуг</string>
+    <string name="find_master">Пошук майстра</string>
+    <string name="find_address">Пошук адреси</string>
+    <string name="choose_automatically">Обрати автоматично</string>
+    <string name="save">Зберегти</string>
+    <string name="send">Надіслати</string>
+    <string name="apply">Застосувати</string>
+    <string name="clear">Очистити</string>
+    <string name="cancel">Скасувати</string>
+    <string name="search">Пошук&#8230;</string>
+    <string name="search_">Пошук</string>
+    <string name="search_business_address_service">Назва закладу, адреса закладу, послуга</string>
+    <string name="search_business_name">Назва закладу</string>
+    <string name="ok">OK</string>
+    <string name="add">Додати</string>
+    <string name="thanks">Дякуємо!</string>
+    <string name="your_reservation_added">Ваше бронювання додане.</string>
+    <string name="already_booked">Хтось забронював місце швидше, ніж Ви</string>
+    <string name="do_another_selection">Виберіть, будь ласка, інший час бронювання або іншого майстра.</string>
+    <string name="time_expired_title">Ой! Час вичерпано</string>
+    <string name="time_expired_message">Будь ласка, вкажіть дату і час Вашого бронювання ще раз.</string>
+
+    <!-- about-->
+    <string name="beta">[BETA-версія]</string>
+    <string name="version">Версія</string>
+
+    <!-- business_page-->
+    <string name="about_business">Про заклад</string>
+    <string name="location">Місцезнаходження</string>
+    <string name="responses">Відгуки</string>
+    <string name="response">%1$d відгук</string>
+    <string name="responses_2">%1$d відгуки</string>
+    <string name="responses_3">%1$d відгуків</string>
+    <string name="look_over">Переглянути</string>
+    <string name="look_over_responses">Переглянути відгуки</string>
+    <string name="work_schedule">Розклад роботи</string>
+    <string name="site">Сайт</string>
+    <string name="staff">Персонал</string>
+    <string name="map_position">Місце на карті</string>
+    <string name="add_to_favourite">Додати до улюблених</string>
+    <string name="share">Поширити</string>
+    <string name="not_working">Не працює</string>
+    <string name="today_not_working">Сьогодні зачинено</string>
+    <string name="until_">до</string>
+    <string name="expand_about">Розгорнути опис</string>
+    <string name="collapse_about">Згорнути опис</string>
+    <string name="show_all">Показати повністю</string>
+    <string name="hide">Згорнути</string>
+    <string name="write_response">Написати відгук</string>
+    <string name="added_to_favorite">Додано в улюблені</string>
+    <string name="deleted_from_favorite">Видалено з улюблених</string>
+    <string name="excellent">Відмінно</string>
+    <string name="good">Добре</string>
+    <string name="average">Середньо</string>
+    <string name="badly">Погано</string>
+    <string name="service_quality">Якість обслуговування</string>
+    <string name="establishment_purity">Чистота закладу</string>
+    <string name="location_convenience">Зручність розташування</string>
+    <string name="business_page_links_label">Посилання:</string>
+
+    <string name="route_loading_failed">Не вдалося завантажити маршрут</string>
+    <string name="reject_permission">Ніколи не показувати</string>
+    <string name="route">Маршрут</string>
+
+    <!-- permission -->
+    <string name="location_permission">Місцезнаходження</string>
+    <string name="required_location_permission">Необіхдно надати дозвіл на пошук вашого місценаходження</string>
+    <string name="permission_denied">Відмовлено в доступі</string>
+    <string name="storage_permission">Файлове сховище</string>
+    <string name="required_storage_permission">Необіхдно надати дозвіл на доступ до вашого файлового сховища</string>
+
+    <!-- business_comments-->
+    <string name="delete_your_comment">Видалити ваш відгук?</string>
+    <string name="delete">Видалити</string>
+
+    <!-- add_comment-->
+    <string name="estimate_quality">Якість обслуговування:</string>
+    <string name="estimate_purity">Чистота закладу:</string>
+    <string name="estimate_convenience">Зручність розташування:</string>
+    <string name="write_short_comment">Напишіть короткий відгук</string>
+    <string name="your_estimation_for">Ваша оцінка:</string>
+    <string name="access_error">Помилка доступу</string>
+    <string name="you_should_visit">Слід відвідати заклад, щоб мати можливість написати відгук.</string>
+    <string name="clearly">Зрозуміло</string>
+
+    <!-- intro -->
+    <string name="got_it">Зрозуміло</string>
+    <string name="skip">Пропустити</string>
+
+    <string name="quick_easy">Швидко та просто</string>
+    <string name="quick_easy_message">Бронюй послуги та заклади лише у 3 дотики до смартфону</string>
+
+    <string name="incredibly_convenient">Неймовірно зручно</string>
+    <string name="incredibly_convenient_message">Обирай серед сотень найкращих та оформлюй запис без дзвінків</string>
+
+    <string name="always_available">Доступно завжди</string>
+    <string name="always_available_message">Миттєві бронювання доступні 24/7 у будь-який зручний момент</string>
+
+    <string name="all_previous">Назад</string>
+
+    <!-- bookings-->
+    <string name="currents">Поточні</string>
+    <string name="archive">Архів</string>
+    <string name="change_reservation_time">Перенести бронювання</string>
+    <string name="cancel_reservation">Скасувати бронювання</string>
+    <string name="cancel_reservation_question">Скасувати бронювання?</string>
+    <string name="keep_on">Залишити</string>
+    <string name="watch_on_map">Переглянути на карті</string>
+    <string name="approved">Підтверджено</string>
+    <string name="waiting_for_approve">Очікується підтвердження</string>
+    <string name="today_bookings">Сьогодні</string>
+    <string name="tomorrow_bookings">Завтра</string>
+    <string name="next_days_bookings">Майбутні</string>
+    <string name="minutes">хв</string>
+    <string name="your_comment">Ваш коментар</string>
+    <string name="cancel_success">Бронювання скасовано</string>
+
+    <!-- days-->
+    <string name="monday">Понеділок</string>
+    <string name="tuesday">Вівторок</string>
+    <string name="wednesday">Середа</string>
+    <string name="thursday">Четвер</string>
+    <string name="friday">П\'ятниця</string>
+    <string name="saturday">Субота</string>
+    <string name="sunday">Неділя</string>
+
+    <string name="monday_short">Пн</string>
+    <string name="tuesday_short">Вт</string>
+    <string name="wednesday_short">Ср</string>
+    <string name="thursday_short">Чт</string>
+    <string name="friday_short">Пт</string>
+    <string name="saturday_short">Сб</string>
+    <string name="sunday_short">Нд</string>
+
+    <!-- error-->
+    <string name="error">Помилка</string>
+    <string name="error_no_internet">Відсутнє з\'єднання</string>
+    <string name="error_no_internet_detailed">Відсутнє з\'єднання. Перевірте ваше підключення до мережі.</string>
+    <string name="timeout">Відсутнє з\'єднання</string>
+    <string name="error_unknown">Трапилась помилка</string>
+    <string name="error_already_booked">Хтось забронював швидше</string>
+    <string name="error_invalid_response">Invalid response</string>
+    <string name="error_account_exists">Аккаунт з такою адресою електронної пошти вже існує.</string>
+    <string name="error_invalid_data">Помилка введених даних.</string>
+    <string name="error_unauthorized">Потрібна авторизація</string>
+
+    <!-- users_server_errors -->
+    <string name="unknown_error">Трапилася халепа</string>
+    <string name="authorization_failed">Не вдалося авторизуватися</string>
+    <string name="invalid_credentials">Неправильний логін чи пароль</string>
+    <string name="invalid_model">Трапилась помилка при з\'єднанні з сервером</string>
+    <string name="registration_not_confirmed">Реєстрацію не було підтверджено</string>
+    <string name="field_is_required">Необхідне поле</string>
+
+    <string name="email_not_confirmed">Email не підтверджено</string>
+    <string name="invalid_authorization">Помилка авторизації</string>
+    <string name="email_already_taken">Email уже використовується </string>
+    <string name="invalid_email">Неправильний email</string>
+    <string name="invalid_birthday">Неправильна дата народження</string>
+    <string name="email_already_confirmed">Цей email вже підтверджено</string>
+
+    <string name="could_not_remove_establishment_from_favorite">Неможливо видалити заклад із улюблених</string>
+    <string name="could_not_add_establishment_to_favorite">Неможливо додати заклад до улюблених</string>
+    <string name="user_does_not_exist">Користувача не знайдено</string>
+    <string name="could_not_create_user">Неможливо створити користувача</string>
+    <string name="could_not_update_user">Неможливо оновити користувача</string>
+    <string name="could_not_create_feedback">Неможливо створити відгук</string>
+    <string name="could_not_update_feedback">Неможливо оновити відгук</string>
+    <string name="table_by_beacon_does_not_exist">Неможливо ідентифікувати столик</string>
+
+    <string name="guest">Гість</string>
+    <string name="invalid_old_password">Поточний пароль не дійсний</string>
+    <string name="user_blocked">Акаунт користувача заблокований</string>
+    <string name="phone_already_taken">Цей телефон зареєстрований</string>
+
+    <string name="confirm_code_not_found">Не вдалося знайти код підтвердження</string>
+    <string name="confirm_code_does_not_exist">Коду підтвердження не існує</string>
+    <string name="confirm_code_is_invalid">Неправильний код підтвердження</string>
+    <string name="confirm_code_is_expired">Термін дії коду підтвердження закінчився</string>
+    <string name="confirm_code_is_disabled">Код пітвердження вимкнено</string>
+    <string name="confirm_code_is_already_in_use">Цей код підтвердження вже використано</string>
+
+    <string name="could_not_save_photo_to_temp_folder">Не вдалося зберегти світлину в тимчасову папку</string>
+    <string name="could_not_resize_photo_to_temp_folder">Не вдалося змінити розмір світлини в тимчасовій папці</string>
+    <string name="could_not_upload_photo_to_s3_service">Не вдалося завантажити світлину</string>
+    <string name="could_not_save_photo">Не вдалося зберегти світлину</string>
+    <string name="base_photo_does_not_exist">Базової світлини не існує</string>
+    <string name="request_does_not_contains_files">Запит не містить файлів</string>
+    <string name="file_size_is_too_large">Розмір файла занадто великий</string>
+    <string name="invalid_file_format">Даний формат файлів не підтримується</string>
+    <string name="file_does_not_exist">Файла не існує</string>
+    <string name="file_not_found">Не вдалося знайти файл</string>
+    <string name="duplicate_photo_path">Світлина вже існує за вказаним шляхом</string>
+    <string name="could_not_save_file_to_temp_folder">Не вдалося зберегти файл в тимчасову папку</string>
+    <string name="could_not_delete_temp_files">Не вдалося видалити тимчасові файли</string>
+
+    <string name="confirm_code_is_incorrect">Коду підтвердження не існує</string>
+    <string name="email_is_not_confirmed">Email не підтверджено</string>
+    <string name="account_is_unactive">Ваш обліковий запис не є активним</string>
+    <string name="failed_changing_password">Не вдалося змінити пароль</string>
+    <string name="invalid_confirm_code">Неправильний код підтвердження</string>
+
+    <!-- form_validation_error-->
+    <string name="error_password_matcher"><![CDATA[Пароль може містити тільки цифри, букви і символи !@#$%^&*()_+=-]]></string>
+    <string name="error_phone_matcher">Неправильний формат номера</string>
+    <string name="error_contains_symbols">Поле не може містити деякі з введених символів</string>
+    <string name="error_contains_numbers">Поле не може містити цифри</string>
+    <string name="empty_field_error">Це поле не можна залишати пустим</string>
+    <string name="secure_code_is_not_valid">Код не валідний</string>
+    <string name="contains_spaces_error">Це поле не може містити пробілів</string>
+    <string name="error_password_short">Пароль повинен містити %1$d-%2$d символів</string>
+    <string name="error_password_long">Пароль повинен містити %1$d-%2$d символів</string>
+    <string name="error_email_long">Електронна пошта занадто довга</string>
+    <string name="error_email_short">Електронна пошта занадто коротка</string>
+    <string name="error_exceeding_symbols_amount">Перевищено допустиму кількість символів</string>
+    <string name="error_feedback_short">Відгук занадто короткий</string>
+    <string name="error_password_not_confirmed">Паролі не збігаються</string>
+    <string name="error_contains_enter">Поле не може містити перенесення рядка</string>
+    <string name="invalid_mail_error">Неправильний формат пошти</string>
+    <string name="error_name_long">Ім\'я занадто довге</string>
+    <string name="error_field_long">Поле занадто довге</string>
+    <string name="error_field_short">Поле занадто коротке</string>
+    <string name="error_theme_long">Тема занадто довга</string>
+    <string name="error_theme_short">Тема занадто коротка</string>
+    <string name="error_business_name_short">Назва занадто коротка</string>
+    <string name="error_business_name_long">Назва занадто довга</string>
+    <string name="error_business_address_short">Адреса занадто коротка</string>
+    <string name="error_business_address_long">Адреса занадто довга</string>
+    <string name="error_phone_max_length">Номер телефону не може містити більше %1$d символів</string>
+    <string name="error_phone_min_length">Номер телефону не може містити менше %1$d символів</string>
+    <string name="error_confirm_code_length">Код підтвердження повинен містити 6 символів</string>
+    <string name="error_confirm_code_matcher"><![CDATA[Код може містити тільки цифри, букви]]></string>
+
+    <!-- placeholder_messages-->
+    <string name="no_search_results">Немає результатів пошуку</string>
+
+    <!-- contacts-->
+    <string name="write_to_us">Написати нам</string>
+    <string name="eservia_address">вул. Мечникова, 2, Київ, Україна</string>
+    <string name="eservia_contact_phone">+38 (050) 123 45 67\n+38 (050) 123 45 67\n+38 (050) 123 45 67</string>
+    <string name="eservia_email">support@eservia.com.ua</string>
+    <string name="your_name">Ваше ім\'я</string>
+    <string name="your_email">Ваша електронна адреса</string>
+    <string name="your_email_not_required">Ваш email (не обов\'язково)</string>
+    <string name="your_phone">Ваш номер телефону</string>
+    <string name="your_message_theme">Тема Вашого повідомлення</string>
+    <string name="your_message">Ваше повідомлення</string>
+    <string name="btn_foorgot_password">Забули пароль?</string>
+    <string name="contacts_title">Є питання або зауваження?</string>
+    <string name="contacts_title_message">Напишіть нам і ми опрацюємо кожен залишений відгук</string>
+
+    <!-- Reservation  Activity-->
+    <string name="activity_reservation_title">Бронювання</string>
+
+    <!-- Beauty -->
+    <string name="activity_reservation_beauty_address_is_not_selected">Вибрати адресу</string>
+    <string name="activity_reservation_beauty_add_service">Додати послугу</string>
+    <string name="activity_reservation_beauty_choose_service">Обрати послугу</string>
+    <string name="activity_reservation_beauty_make_order">Забронювати</string>
+    <string name="activity_reservation_beauty_service_item_field_master">Майстер</string>
+    <string name="activity_reservation_beauty_service_item_field_date_and_time">Дата і час</string>
+    <string name="activity_reservation_beauty_service_item_field_service">Послуга</string>
+    <string name="activity_reservation_beauty_service_item_add_comment">Додати коментар</string>
+
+    <!-- Address -->
+    <string name="activity_reservation_beauty_choose_address_title">Вибір адреси</string>
+    <string name="activity_reservation_beauty_choose_address_loading_failed">Помилка завантаження адрес</string>
+    <string name="activity_reservation_beauty_choose_address_not_found">Адресу не знайдено.</string>
+
+    <!-- Services -->
+    <string name="activity_reservation_beauty_choose_service_title">Вибір послуги</string>
+    <string name="activity_reservation_beauty_choose_service_search">Пошук послуг</string>
+
+    <!-- Masters -->
+    <string name="activity_reservation_beauty_choose_master_title">Вибір майстра</string>
+    <string name="activity_reservation_beauty_choose_master_skip">Обрати автоматично</string>
+    <string name="activity_reservation_beauty_choose_master_show_more">Показати більше…</string>
+
+    <!-- Choose date and time -->
+    <string name="activity_reservation_beauty_choose_date_title">Вибір часу і дати</string>
+    <string-array name="activity_reservation_beauty_choose_date">
+        <item>ПН</item>
+        <item>ВТ</item>
+        <item>СР</item>
+        <item>ЧТ</item>
+        <item>ПТ</item>
+        <item>СБ</item>
+        <item>НД</item>
+    </string-array>
+    <string name="activity_reservation_beauty_choose_date_day_info_title_january">Доступні години %1$d січня:</string>
+    <string name="activity_reservation_beauty_choose_date_day_info_title_february">Доступні години %1$d лютого:</string>
+    <string name="activity_reservation_beauty_choose_date_day_info_title_march">Доступні години %1$d березня:</string>
+    <string name="activity_reservation_beauty_choose_date_day_info_title_april">Доступні години %1$d квітня:</string>
+    <string name="activity_reservation_beauty_choose_date_day_info_title_may">Доступні години %1$d травня:</string>
+    <string name="activity_reservation_beauty_choose_date_day_info_title_june">Доступні години %1$d червня:</string>
+    <string name="activity_reservation_beauty_choose_date_day_info_title_jule">Доступні години %1$d липня:</string>
+    <string name="activity_reservation_beauty_choose_date_day_info_title_august">Доступні години %1$d серпня:</string>
+    <string name="activity_reservation_beauty_choose_date_day_info_title_september">Доступні години %1$d вересня:</string>
+    <string name="activity_reservation_beauty_choose_date_day_info_title_october">Доступні години %1$d жовтня:</string>
+    <string name="activity_reservation_beauty_choose_date_day_info_title_november">Доступні години %1$d листопада:</string>
+    <string name="activity_reservation_beauty_choose_date_day_info_title_december">Доступні години %1$d грудня:</string>
+    <string name="activity_reservation_beauty_choose_date_master_is_not_available_in_date">У вибраного майстра на цей день немає жодного вільного місця. Оберіть інший день або змініть майстра.</string>
+    <string name="activity_reservation_beauty_choose_date_available_time_morning">Ранок:</string>
+    <string name="activity_reservation_beauty_choose_date_available_time_noon">Обід:</string>
+    <string name="activity_reservation_beauty_choose_date_available_time_evening">Вечір:</string>
+    <string name="activity_reservation_beauty_choose_date_next">Далі</string>
+    <string name="activity_reservation_beauty_choose_date_change_master_button">Змінити майстра</string>
+    <string name="activity_reservation_beauty_choose_date_day_loading_error">Помилка завантаження.</string>
+
+    <!-- Undefined booking strategy -->
+    <string name="activity_reservation_strategy_undefined_title">Нажаль доступне тільки бронювання салонів краси :( Очікуйте обновлення.</string>
+
+    <string name="activity_reservation_success_title">Бронювання</string>
+
+    <string name="all_skip">Пропустити</string>
+    <string name="all_loading">Завантажуємо…</string>
+    <string name="all_try_again">Спробувати ще раз</string>
+    <string name="activity_reservation_beauty_master_not_selected">Будь-який</string>
+    <string name="activity_reservation_comment_hint">Введіть коментар</string>
+    <string name="activity_reservation_beauty_comment_title">Додати коментар</string>
+    <string name="activity_reservation_beauty_cancel_all">Скасувати всі</string>
+    <string name="activity_reservation_beauty_book_available">Забронювати доступні</string>
+    <string name="terms_of_using">Умови використання</string>
+    <string name="terms_of_confidence">Політика кофіденційності</string>
+    <string name="about_app">Про додаток</string>
+    <string name="privacy_policy">Політика конфіденційності</string>
+    <string name="logo_text">Онлайн у 3 кліки</string>
+    <string name="booking">Бронювання</string>
+    <string name="registration_presets_title">Налаштування</string>
+    <string name="all_start_search_for_show_business">Виберіть ваші улюблені заклади</string>
+    <string name="number_is_not_accepted">Номер не підтверджений</string>
+    <string name="dialog_number_not_confirmed_title">Номер не підтверджено</string>
+    <string name="dialog_number_not_confirmed_content">Потрібно підтвердити номер телефону. Для підтверддження зайдіть в налаштування профілю.</string>
+    <string name="activity_reservation_reservation_error_title">Помилка бронювання</string>
+    <string name="activity_reservation_reservation_error_content">Сталася помилка в під час бронювання. Спробуйте ще раз.</string>
+    <string name="placeholder_my_bookings_archive_is_empty">Бронювань в архіві не знайдено.</string>
+    <string name="placeholder_my_bookings_current_is_empty">У вас немає жодного бронювання.</string>
+    <string name="placeholder_bookings_not_found">Жодного закладу не знайдено.</string>
+    <string name="placeholder_favorite_is_not_found">Список улюблених закладів поки пустий.</string>
+    <string name="placeholder_comments_not_found">У цього закладу ще немає відгуків.</string>
+    <string name="placeholder_masters_not_found">Жодного майстра не знайдено.</string>
+    <string name="placeholder_business_info_not_found">Інформація про бізнес не доступна. Спробуйте пізніше.</string>
+    <string name="name_hint">Ім\'я</string>
+    <string name="all_send">Надіслати</string>
+    <string name="all_approve_code">Код підтвердження</string>
+    <string name="activity_request_restore_code_message">Для відновлення доступу до профілю, напишіть Ваш номер телефону.</string>
+    <string name="activity_register_phone_message">Введіть номер телефону для завершення реєстрації</string>
+    <string name="go_back">Назад</string>
+    <string name="activity_reset_pass_message">Введіть код підтвердження, який ми надіслали на Ваш номер та введіть новий пароль.</string>
+    <string name="loading">Завантаження</string>
+    <string name="activity_approve_message">Повідомлення з кодом підтвердження було надіслано Вам на номер %s. Будь ласка, введіть його у текстове поле нижче.</string>
+    <string name="activity_approve_send_code_again">Відправити код ще раз</string>
+    <string name="activity_approve_change_info">Змінити номер</string>
+    <string name="activity_registration_profile_send">Відправити</string>
+    <string name="last_name_hint">Прізвище</string>
+    <string name="first_name_hint">Ім\'я</string>
+    <string name="activity_registration_profile_update_error">Сталася помилка</string>
+    <string name="your_all_favorite_institution">Ваш улюблений заклад</string>
+    <string name="all_input_name_of_favorite_institution">Введіть назву вашого улюбленого закладу</string>
+    <string name="all_search">Пошук</string>
+    <string name="all_your_favorite_institution">Ваш улюблений заклад</string>
+    <string name="activity_registration_presets_not_found_message">Вибачте, заклад %1$s не знайдено. Наша команда спробує зробити все можливе, щоб заклад %1$s став доступим для Вашого бронювання :)</string>
+    <string name="all_no_address">Адреса не вказана</string>
+    <string name="all_upcoming">Очікувані</string>
+    <string name="under_review">На розгляді</string>
+    <string name="all_add">Додати</string>
+    <string name="activity_business_suggestion_success_message">Наша команда зробить все можливе, щоб %1$s став доступним для Ваших бронювань :)</string>
+    <string name="menu_done">Готово</string>
+    <string name="title_business_suggestion">Додати салон</string>
+    <string name="title_business_suggestion_success">Додано</string>
+    <string name="activity_business_suggestion_label">Запропонуйте салон, який Ви хотіли би бронювати за допомогою Eservia.</string>
+    <string name="activity_business_suggestion_description_hint">Адреса</string>
+    <string name="activity_business_suggestion_name_hint">Назва бізнесу</string>
+    <string name="activity_business_suggestion_error_name_to_short">Введенна назва бізнесу надто коротка.</string>
+    <string name="activity_business_suggestion_error_name_to_large">Введена назва надто надто довга.</string>
+    <string name="activity_business_suggestion_error_description_too_short">Опис бізнесу надто короткий.</string>
+    <string name="activity_business_suggestion_error_description_too_large">Опис бізнесу надто довгий.</string>
+    <string name="activity_registration_password_confirmation">Підтвердіть пароль</string>
+    <string name="item_reservation_beauty_master_show_more">Більше</string>
+    <string name="item_reservation_beauty_master_show_less">Менше</string>
+    <string name="activity_reservation_beauty_choose_date_range_exceeded">Для бронювання доступно максимум 4 місяці.</string>
+    <string name="activity_reservation_success_message">Дякуємо! Бронювання було успішно створене!</string>
+    <string name="time_left">Залишилося часу:</string>
+
+
+    <string name="activity_reservation_beauty_choose_date_month_january">Січень</string>
+    <string name="activity_reservation_beauty_choose_date_month_february">Лютий</string>
+    <string name="activity_reservation_beauty_choose_date_month_march">Березень</string>
+    <string name="activity_reservation_beauty_choose_date_month_april">Квітень</string>
+    <string name="activity_reservation_beauty_choose_date_month_may">Травень</string>
+    <string name="activity_reservation_beauty_choose_date_month_june">Червень</string>
+    <string name="activity_reservation_beauty_choose_date_month_july">Липень</string>
+    <string name="activity_reservation_beauty_choose_date_month_august">Серпень</string>
+    <string name="activity_reservation_beauty_choose_date_month_september">Вересень</string>
+    <string name="activity_reservation_beauty_choose_date_month_october">Жовтень</string>
+    <string name="activity_reservation_beauty_choose_date_month_november">Листопад</string>
+    <string name="activity_reservation_beauty_choose_date_month_december">Грудень</string>
+    <string name="choose_category">Оберіть категорію</string>
+    <string name="go_to_reservation">Перейти до бронювання</string>
+    <string name="services_groups">Категорії послуг</string>
+    <string name="date_and_time">Дата і час</string>
+    <string name="in_priority">В пріоритеті</string>
+    <string name="choose_master_beauty_reservation">Оберіть майстра</string>
+    <string name="choose_date_beauty_reservation">Оберіть дату</string>
+    <string name="choose_time_beauty_reservation">Оберіть час</string>
+    <string name="available_masters_has_been_not_found">Доступних майстрів не знайдено</string>
+    <string name="service_duration_explanation">- тривалість послуги (хв)</string>
+    <string name="no_available_time_slots_for_day">В цей день немає вільного часу</string>
+    <string name="next_service">Наступна послуга</string>
+    <string name="basket">Кошик</string>
+    <string name="ready_to_book">Готові до бронювання</string>
+    <string name="total">Усього</string>
+    <string name="un_filled_bookings">Незаповнені бронювання</string>
+    <string name="min_of_waiting">%1$d хв очікування</string>
+    <string name="hour_of_waiting">%1$d год очікування</string>
+    <string name="hour_min_of_waiting">%1$d год %2$d хв очікування</string>
+    <string name="by_rating">За рейтингом</string>
+    <string name="by_feedback_count">За кількістю відгуків</string>
+    <string name="by_establishment_name">За назвою закладу</string>
+    <string name="information">Інформація</string>
+    <string name="reviews">Відгуки</string>
+    <string name="photos_of_institution">Фото закладу</string>
+    <string name="our_masters">Наші майстри</string>
+    <string name="business_beauty_social_links_item_title">Ми в соціальних мережах</string>
+    <string name="salon_addresses">Адреси закладу</string>
+    <string name="you_can_track_your_booking_here">Ви можете відслідковувати свої бронювання тут</string>
+    <string name="your_visit_booked">Ваш візит заброньовано!</string>
+    <string name="thank_you">Дякуємо!</string>
+    <string name="menu">Меню</string>
+    <string name="leave_feedback">Залишіть відгук</string>
+    <string name="to_leave_feedback">Залишити відгук</string>
+    <string name="rate_this_place">Оцініть заклад</string>
+    <string name="your_estimation">Ваша оцінка закладу</string>
+    <string name="leave_your_review_about_this_place">Залиште свій відгук про заклад</string>
+    <string name="your_feedback">Ваш відгук&#8230;</string>
+    <string name="selected_masters">Обрані майстри</string>
+    <string name="placeholder_message_not_found">За вашим запитом нічого не знайдено</string>
+    <string name="placeholder_massage_bookings_not_found">У вас немає активних бронювань</string>
+    <string name="placeholder_message_not_found_favorites">Тут будуть відображатися улюблені заклади \nНе знайшли салон, який відвідуєте? \nДодайте його!</string>
+    <string name="booking_decision_approved">Візит заброньовано</string>
+    <string name="booking_decision_pending">В очікуванні</string>
+    <string name="could_not_attach_account">Не вдалося прив\'язати профіль</string>
+    <string name="place_holder_empty_news">У вас немає звісток</string>
+    <string name="place_holder_basket_empty">Ваш кошик порожній</string>
+    <string name="place_holder_connection">Перевірте з\'єднання з інтернетом</string>
+    <string name="place_holder_comments">У даного закладу відсутні відгуки</string>
+    <string name="you_can_not_select_more_than_ten_services_at_a_time">Ви не можете вибрати більше 10 послуг одночасно</string>
+    <string name="unfilled_services_booking_warning_title">Ви заповнили %1$d із %2$d вибраних послуг</string>
+    <string name="unfilled_services_booking_warning_message">При завершенні процедури бронювання незаповнені послуги проігноруються</string>
+    <string name="fill_up">Заповнити</string>
+    <string name="finish">Завершити</string>
+    <string name="title_home_news_fragment">Звістки</string>
+    <string name="news_and_promotions">Новини та акції</string>
+    <string name="from">з</string>
+    <string name="from_price">від</string>
+    <string name="to">до</string>
+    <string name="every_monday">Кожного понеділка</string>
+    <string name="every_tuesday">Кожного вівторка</string>
+    <string name="every_wednesday">Кожної середи</string>
+    <string name="every_thursday">Кожного четверга</string>
+    <string name="every_friday">Кожної п\'ятниці</string>
+    <string name="every_saturday">Кожної суботи</string>
+    <string name="every_sunday">Кожної неділі</string>
+    <string name="schedule_of_holding">Графік проведення</string>
+    <string name="sale_mark">-%d%%</string>
+    <string name="mark_event_sign">!</string>
+    <string name="follow_us_on_social_networks">Слідкуй за нами в соцмережах</string>
+    <string name="go_to_">Перейти до %1$s</string>
+    <string name="more">Більше</string>
+    <string name="selected_services">Обрані послуги</string>
+    <string name="all_name">Назва</string>
+    <string name="institution_name">Назва закладу</string>
+    <string name="specify_the_city">Вкажіть місто</string>
+    <string name="specify_the_street">Вкажіть вулицю</string>
+    <string name="address_of_the_institution">Адреса закладу</string>
+    <string name="adding_salon">Додавання салону</string>
+    <string name="suggest_business_standard_description_title">Підключіть ваш улюблений салон до смартфону!</string>
+    <string name="suggest_business_standard_description">Хочете бронювати свій улюблений салон через додаток?\n Розкажіть нам про нього і ми додамо його на платформу!</string>
+    <string name="business_suggestion_request_theme">Запит на додавання салону ANDROID, %1$s, %2$s</string>
+    <string name="business_suggestion_request_message">Назва - %1$s, \nМісто - %2$s, \nАдреса - %3$s</string>
+    <string name="suggest_business_thank_you_description_title">Дякуємо!\n Ми зв\'яжемось з представниками салону!</string>
+    <string name="suggest_business_thank_you_description">Коли салон краси стане доступним для бронювання ми повідомимо вас</string>
+    <string name="connected_salons">Підключені салони</string>
+    <string name="placeholder_message_not_found_business">Не знайшли салон, який відвідуєте? \nДодайте його!</string>
+    <string name="remind_me_later">Нагадати пізніше</string>
+    <string name="suggest_business_modal_description">Розкажіть нам який салон краси Ви б хотіли бронювати через додаток</string>
+    <string name="nearest_to_me">Найближчі до мене</string>
+    <string name="location_access_explanation_message">Будь ласка, надайте доступ до розташування, щоб бачити салони краси поблизу</string>
+    <string name="all_continue">Продовжити</string>
+    <string name="km_from_you">%.1f км від вас</string>
+    <string name="m_from_you">%d м від вас</string>
+    <string name="km_distance">%.1f км</string>
+    <string name="m_distance">%d м</string>
+    <string name="from_you">від вас</string>
+    <string name="assessment_of_the_institution">Оцінка закладу</string>
+    <string name="intro_find_best_message">Знаходь найкращі салони краси і знижки поруч з тобою</string>
+    <string name="intro_find_all_about_message">Дізнайся все про майстрів, послуги, ціни і години для запису</string>
+    <string name="intro_book_visit_message">Бронюй візит онлайн на зручний для тебе час</string>
+    <string name="go_to_bookings">Перейти до бронювань</string>
+    <string name="sex">Стать</string>
+    <string name="male">Чоловік</string>
+    <string name="female">Жінка</string>
+    <string name="date_of_birth">Дата народження</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="connected">Підключено</string>
+    <string name="not_connected">Не підключено</string>
+    <string name="fromCamera">Зробити фото</string>
+    <string name="fromGallery">Обрати фото з галереї</string>
+    <string name="choosePhoto">Оберіть джерело завантаження</string>
+    <string name="error_crop_not_supported">Вибачте, на жаль, ваш пристрій не підтримує дану функцію</string>
+    <string name="photo_is_too_small">Зображення надто малого розміру</string>
+    <string name="photo_does_not_exist">Зображення не існує</string>
+    <string name="required_camera_permission">Додатку необхідно надати доступ до вашої камери</string>
+    <string name="required_write_to_storage_permission">Додатку необхідно надати доступ запису на диск</string>
+    <string name="leave_comment">Залиште коментар</string>
+    <string name="booking_comment_form_hint">Ваш коментар&#8230;</string>
+    <string name="feedback_theme_hint">Тема&#8230;</string>
+    <string name="feedback_message_hint">Повідомлення&#8230;</string>
+    <string name="current_password_hint">Поточний&#8230;</string>
+    <string name="new_password_hint">Новий&#8230;</string>
+    <string name="new_password_again_hint">Новий ще раз&#8230;</string>
+    <string name="not_yet_registered">Ще не зареєстровані?</string>
+    <string name="already_registered">Вже зареєстровані?</string>
+    <string name="confirmation">Підтвердження</string>
+    <string name="expand_calendar">Розгорнути календар</string>
+    <string name="collapse_calendar">Згорнути календар</string>
+    <string name="choose_city_for_booking">Оберіть місто бронювання</string>
+    <string name="placeholder_massage_bookings_archive_not_found">У вас немає архівних бронювань</string>
+    <string name="kyiv">Київ</string>
+    <string name="ternopil">Тернопіль</string>
+    <string name="vinnytsia">Вінниця</string>
+    <string name="lviv">Львів</string>
+    <string name="ivano_frankivsk">Івано-Франківськ</string>
+    <string name="uah">грн</string>
+    <string name="size">Розмір</string>
+    <string name="number_of_portions">Кількість порцій</string>
+    <string name="ingredients_or_description">Склад / Опис</string>
+    <string name="cooking_time">Час приготування</string>
+    <string name="total_weight">Загальна вага</string>
+    <string name="add_to_cart">Додати до кошика</string>
+    <string name="apartment">Квартира</string>
+    <string name="door_phone_code">Код домофону</string>
+    <string name="your_data">Ваші дані</string>
+    <string name="your_order">Ваше замовлення</string>
+    <string name="added_to_cart">Додано до кошика</string>
+    <string name="book_a_table">Забронювати столик</string>
+    <string name="delivery">Доставка</string>
+    <string name="table_reservation_time">Година резервування столика</string>
+    <string name="visit_duration">Тривалість візиту</string>
+    <string name="optional">Необов\'язково</string>
+    <string name="time_of_stay_in_the_institution">Час перебування у закладі</string>
+    <string name="number_of_persons">Кількість осіб</string>
+    <string name="hours_short">г</string>
+    <string name="error_exceeded_max_amount_of_portions">Ви не можете вибрати більше %1$d порцій страви</string>
+    <string name="error_invalid_booking_time_resto">Бронювання неможливо провести на вказаний час</string>
+    <string name="error_invalid_delivery_time_resto">Доставку неможливо провести на вказаний час</string>
+    <string name="place_for_the_table">Розміщення столика</string>
+    <string name="placement">Розміщення</string>
+    <string name="book_in_the_city">Забронювати в місті</string>
+    <string name="city_town">Місто, населений пункт</string>
+    <string name="delivery_time">Час доставки</string>
+    <string name="make_order">Замовити</string>
+    <string name="minimal">Мінімальний</string>
+    <string name="specify">Вказати</string>
+    <string name="min_delivery_time_min">Мінімальний час доставки: %1$d хв</string>
+    <string name="fill_in_the_fields_with_your_data">Заповніть поля з вашими даними</string>
+    <string name="order_created">Замовення створено!</string>
+    <string name="details">Деталі</string>
+    <string name="categories">Категорії</string>
+    <string name="choose_city">Виберіть місто</string>
+    <string name="tables_reservation">Бронювання столиків</string>
+    <string name="delivery_status_in_progress">Доставляється кур\'єром</string>
+    <string name="delivered">Доставлено</string>
+    <string name="canceled">Скасовано</string>
+    <string name="visited_places">Відвідані заклади:</string>
+    <string name="placeholder_message_not_found_favorites_recommended">Ваш список улюблених закладів порожній. Додайте заклади в улюблені з тих які ви відвідували раніше</string>
+    <string name="discounts">Знижки</string>
+    <string name="all_discounts">Усі знижки</string>
+    <string name="wallet">Гаманець</string>
+    <string name="not_now">Не зараз</string>
+    <string name="pay">Оплатити</string>
+    <string name="make_prepayment_title">Робіть передоплату бронювання з додатку Eservia</string>
+    <string name="make_prepayment_sub_title">Оплатіть бронювання з нашого додатку та заробіть знижку наступного візиту до закладу</string>
+    <string name="eservia_points">Eservia бали</string>
+    <string name="points">Бали</string>
+    <string name="salons_points">Бали салонів</string>
+    <string name="accruals_history">Історія нарахувань</string>
+    <string name="payment_phone_state_permission_message">Функція оплати потребує дозволу телефону</string>
+    <string name="enable_in_settings">Дозволити</string>
+    <string name="title_prepayment_pushnotification">Робіть передоплату бронювання з додатку Eservia</string>
+    <string name="subtitle_prepayment_pushnotification_without_card">Додайте картку, розраховуйтеся через додаток та отримуйте знижки до наступного візиту в заклад</string>
+    <string name="subtitle_prepayment_pushnotification_with_card">Оплатіть бронювання з нашого додатку та заробіть знижку наступного візиту до закладу</string>
+    <string name="show_promotions_in">Показати акції в:</string>
+    <string name="all_cities">Усі міста</string>
+    <string name="start">Почати</string>
+
+</resources>

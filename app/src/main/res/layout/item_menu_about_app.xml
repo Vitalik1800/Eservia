@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlCardHolderAboutApp"
+    style="@style/CommonCardHolderStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/window_left_right_margins"
+    android:layout_marginTop="9dp"
+    android:layout_marginRight="@dimen/window_left_right_margins"
+    android:layout_marginBottom="9dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContainerAboutApp"
+        style="@style/CommonCardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tvAboutApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_toStartOf="@+id/ivIconNextAboutApp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:letterSpacing="-0.05"
+                android:maxLines="2"
+                android:paddingStart="12dp"
+                android:paddingEnd="0dp"
+                android:text="@string/about_app"
+                android:textAllCaps="true"
+                android:textColor="#363938"
+                android:textSize="@dimen/text_size_small"
+                 />
+
+            <ImageView
+                android:id="@+id/ivIconNextAboutApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/icon_arrow_grey"
+                tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

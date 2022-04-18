@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="monday">Понеділок</string>
+    <string name="tuesday">Вівторок</string>
+    <string name="wednesday">Середа</string>
+    <string name="thursday">Четвер</string>
+    <string name="friday">П\'ятниця</string>
+    <string name="saturday">Субота</string>
+    <string name="sunday">Неділя</string>
+
+    <string name="monday_short">Пн</string>
+    <string name="tuesday_short">Вт</string>
+    <string name="wednesday_short">Ср</string>
+    <string name="thursday_short">Чт</string>
+    <string name="friday_short">Пт</string>
+    <string name="saturday_short">Сб</string>
+    <string name="sunday_short">Нд</string>
+
+    <string name="activity_reservation_beauty_choose_date_month_january">Січень</string>
+    <string name="activity_reservation_beauty_choose_date_month_february">Лютий</string>
+    <string name="activity_reservation_beauty_choose_date_month_march">Березень</string>
+    <string name="activity_reservation_beauty_choose_date_month_april">Квітень</string>
+    <string name="activity_reservation_beauty_choose_date_month_may">Травень</string>
+    <string name="activity_reservation_beauty_choose_date_month_june">Червень</string>
+    <string name="activity_reservation_beauty_choose_date_month_july">Липень</string>
+    <string name="activity_reservation_beauty_choose_date_month_august">Серпень</string>
+    <string name="activity_reservation_beauty_choose_date_month_september">Вересень</string>
+    <string name="activity_reservation_beauty_choose_date_month_october">Жовтень</string>
+    <string name="activity_reservation_beauty_choose_date_month_november">Листопад</string>
+    <string name="activity_reservation_beauty_choose_date_month_december">Грудень</string>
+
+
+</resources>

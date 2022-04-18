@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnCommonBookingNextButton"
+    style="@style/CommonBookingNextButtonStyle"
+    android:layout_width="@dimen/common_booking_button_width"
+    android:layout_height="@dimen/common_booking_button_height"
+    android:layout_marginLeft="@dimen/window_left_right_margins"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="@dimen/window_left_right_margins"
+    android:layout_marginBottom="4dp"
+    android:gravity="center"
+    android:text="@string/all_next"
+    android:visibility="gone"
+    tools:visibility="visible" />

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dialog_fragment"
+    android:orientation="vertical"
+    android:paddingLeft="26dp"
+    android:paddingTop="26dp"
+    android:paddingRight="26dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/tvDialogLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/roboto_bold"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black_light_secondary"
+        android:textSize="@dimen/text_size_large"
+        tools:text="@string/access_error" />
+
+    <TextView
+        android:id="@+id/tvDialogMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDialogLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/base_10"
+        android:layout_marginBottom="@dimen/base_24"
+        android:fontFamily="@font/roboto_medium"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/textColorSecondaryInverse"
+        android:textSize="@dimen/text_size_large"
+        tools:text="@string/you_should_visit" />
+
+    <com.example.numberpicker.NumberPicker
+        android:id="@+id/npPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDialogMessage"
+        android:layout_centerHorizontal="true"
+        app:np_dividerColor="@color/colorPrimary"
+        app:np_height="220dp"
+        app:np_selectedTextColor="@color/black_light_secondary"
+        app:np_selectedTextSize="10sp"
+        app:np_textColor="#bdbdbd"
+        app:np_textSize="10sp"
+        app:np_width="88dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/npPicker"
+        android:layout_marginEnd="@dimen/base_20"
+        android:layout_toStartOf="@+id/btnRight"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="@font/roboto_medium"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_medium"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/npPicker"
+        android:layout_alignParentEnd="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="@font/roboto_medium"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="#2E7D32"
+        android:textSize="@dimen/text_size_medium"
+        tools:text="@string/clearly" />
+
+</RelativeLayout>

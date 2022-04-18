@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- general-->
+
+    <string name="title_activity_login">Вход</string>
+        
+    <string name="title_activity_registration">Рееестрация</string>
+        
+    <string name="title_activity_account_setup">Настройка аккаунта</string>
+        
+    <string name="title_activity_reset_password">Восстановление пароля</string>
+
+    <string name="title_activity_request_restore_code">Восстановление пароля</string>
+
+    <string name="title_activity_register_phone">Регистрация</string>
+        
+    <string name="title_activity_account_setup_business">Настройка аккаунта</string>
+        
+    <string name="title_activity_profile_settings">Профиль</string>
+        
+    <string name="title_activity_change_user_info">Профиль</string>
+        
+    <string name="title_activity_change_password">Пароль</string>
+        
+    <string name="title_activity_phone_approve">Подтверждение</string>
+        
+    <string name="title_activity_main">Категории</string>
+        
+    <string name="title_activity_search">Поиск</string>
+        
+    <string name="title_activity_places">Учреждения</string>
+        
+    <string name="title_activity_reservation">Бронирование</string>
+        
+    <string name="title_activity_add_service">Добавить услугу</string>
+        
+    <string name="title_activity_services">Услуги</string>
+        
+    <string name="title_activity_masters">Мастер</string>
+        
+    <string name="title_activity_addresses">Отделение</string>
+
+    <string name="title_activity_address_choose_address">Выберите отделение</string>
+        
+    <string name="title_activity_business_page">Страница заведения</string>
+        
+    <string name="title_activity_my_bookings">Мои бронирования</string>
+        
+    <string name="title_activity_booking_detail">Бронирование</string>
+        
+    <string name="title_activity_business_comments">Отзывы</string>
+        
+    <string name="title_activity_work_days">Режим работы</string>
+        
+    <string name="title_activity_image_viewer">""</string>
+        
+    <string name="title_activity_contacts">Контакты</string>
+        
+    <string name="title_activity_eservia_feedback">Написать нам</string>
+        
+    <string name="title_activity_add_comment">Написать отзыв</string>
+        
+    <string name="title_activity_business_filter">Фильтр</string>
+        
+    <string name="title_activity_map">Карта</string>
+
+        <!-- description -->
+        
+    <string name="logo">Логотип</string>
+        
+    <string name="account_picture">Аватар профиля</string>
+        
+    <string name="close">Закрыть</string>
+
+        <!-- auth -->
+        
+    <string name="email_hint">Электронная почта</string>
+        
+    <string name="phone_hint">Номер телефона</string>
+
+    <string name="phone_or_email_hint">Email или номер телефона</string>
+        
+    <string name="password_hint">Пароль</string>
+        
+    <string name="confirm_pass">Подтвердить пароль</string>
+        
+    <string name="create_password_hint">Создайте пароль</string>
+        
+    <string name="signIn_btn">Войти</string>
+        
+    <string name="registration_btn">Зарегистрироваться</string>
+        
+    <string name="or_label">или</string>
+        
+    <string name="google_login_btn">Войти с помощью Google</string>
+        
+    <string name="facebook_login_btn">Войти с помощью Facebook</string>
+        
+    <string name="login_failed">Ошибка входа</string>
+        
+    <string name="register_failed">Зарегистрироваться не удалось</string>
+        
+    <string name="check_out_name_password">Проверьте правильность Вашего имени пользователя и
+        пароля.
+    </string>
+        
+    <string name="check_out_email_password">Проверьте правильность Вашего почты и пароля.</string>
+
+    <string name="wrong_login_password">Неверный логин или пароль. Пожалуйста, попробуйте еще раз.</string>
+        
+    <string name="try_again">ПОВТОРИТЬ</string>
+        
+    <string name="do_another_attempt">Повторить попытку</string>
+        
+    <string name="forgot_password">Забыли пароль?</string>
+
+    <string name="recover_password">Восстановить пароль</string>
+        
+    <string name="accept">Ладно</string>
+        
+    <string name="reset_pass_message">Введите свой email и мы отправим Вам новый временный пароль.</string>
+
+    <string name="recover_password_success">Пароль восстановлен</string>
+        
+    <string name="reset_pass">Восстановить пароль</string>
+        
+    <string name="reset_pass_failed">Отправить письмо не удалось</string>
+        
+    <string name="authenticating">Входим&#8230;</string>
+        
+    <string name="creating_account">Создаем профиль&#8230;</string>
+
+    <string name="accept_license">Регистрируясь, Вы соглашаетесь с</string>
+
+    <string name="and">и</string>
+
+    <string name="termsOfUseLabel">Условиями пользования</string>
+
+    <string name="policyLabel">Политикой конфиденциальности</string>
+
+    <!-- acc_edit -->
+        
+    <string name="account">Профиль</string>
+        
+    <string name="all_next">Далее</string>
+        
+    <string name="complete">Готово</string>
+        
+    <string name="add_photo">ДОБАВИТЬ ФОТО</string>
+        
+    <string name="change_photo">Изменить фото</string>
+        
+    <string name="image_not_picked">Файл не выбран</string>
+        
+    <string name="email">Email</string>
+        
+    <string name="name">Имя</string>
+        
+    <string name="middle_name">Отчество</string>
+        
+    <string name="middle_name_not_required">Отчество (не обязательно)</string>
+
+    <string name="email_not_required">Email (не обязательно)</string>
+        
+    <string name="surname">Фамилия</string>
+        
+    <string name="phone">Номер телефона</string>
+        
+    <string name="phone_">Номер телефона</string>
+        
+    <string name="preferred_language">Язык</string>
+        
+    <string name="verification">Подтверждение</string>
+        
+    <string name="verification_code">код</string>
+        
+    <string name="verification_message">Код подтверждения, присланный на ваш номер.</string>
+        
+    <string name="send_again">ОТПРАВИТЬ КОД ЕЩЕ РАЗ</string>
+
+    <string name="confirm">Подтвердить</string>
+        
+    <string name="sms_was_sent">"SMS код отправлен"</string>
+        
+    <string name="edit_profile">Изменить профиль</string>
+        
+    <string name="change_password">Изменить пароль</string>
+        
+    <string name="not_selected">Не выбрано</string>
+        
+    <string name="add_photo_business">ДОБАВИТЬ ЛОГО БИЗНЕСА</string>
+        
+    <string name="business_category">Категория бизнеса</string>
+        
+    <string name="name_business">Название бизнеса</string>
+        
+    <string name="description_business">Описание бизнеса</string>
+        
+    <string name="city">Город</string>
+        
+    <string name="address">Адрес</string>
+        
+    <string name="street">Улица</string>
+        
+    <string name="house">Дом</string>
+        
+    <string name="err_big_image">Выбранный файл слишком большой</string>
+    <string name="err_small_image">Выбранный файл слишком маленький</string>
+
+    <string name="change_account">Сменить профиль</string>
+
+    <string name="attach_google">Привязать Google профиль</string>
+
+    <string name="detach_google">Отвязать Google профиль</string>
+
+    <string name="attach_facebook">Привязать Facebook профиль</string>
+
+    <string name="detach_facebook">Отвязать Facebook профиль</string>
+
+    <string name="approve_email">Подтвердить почту</string>
+    <string name="save_email">Сохранить новую почту</string>
+    <string name="email_approved">Почта подтверждена</string>
+    <string name="sent_email_confirm_message">На Ваш адрес отправлена ссылка для подтверждения</string>
+    <string name="profile_updated">Профиль обновлен</string>
+    <string name="profile_register_provider_success">Профиль успешно привязан</string>
+    <string name="profile_remove_provider_success">Профиль успешно отвязан</string>
+    <string name="password_updated">Пароль обновлен</string>
+
+        <!-- password_edit -->
+        
+    <string name="password">Пароль</string>
+        
+    <string name="change">Изменить</string>
+        
+    <string name="current">Текущий</string>
+        
+    <string name="current_password">Текущий пароль</string>
+        
+    <string name="new_">Новый</string>
+        
+    <string name="new_password">Новый пароль</string>
+        
+    <string name="approve">Подтвердить</string>
+        
+    <string name="approve_phone">Подтвердить номер</string>
+        
+    <string name="new_password_again">Новый пароль еще раз</string>
+
+        <!-- navigation -->
+        
+    <string name="name_surname">Имя и Фамилия</string>
+        
+    <string name="my_reservations">Мои бронирования</string>
+        
+    <string name="profile_settings">Настройка профиля</string>
+        
+    <string name="profile">Профиль</string>
+        
+    <string name="app_settings">Настройка</string>
+        
+    <string name="contacts">Контакты</string>
+        
+    <string name="logout">Выйти</string>
+
+        <!-- main_activity -->
+        
+    <string name="all">Все</string>
+
+    <string name="all_establishments">Все заведения</string>
+        
+    <string name="favorite">Любимые</string>
+
+    <string name="new_ones">Новые</string>
+        
+    <string name="vip">VIP</string>
+        
+    <string name="most_popular">Самые популярные</string>
+
+    <string name="popular_establishments">Популярные заведения</string>
+        
+    <string name="beauty">Красота</string>
+        
+    <string name="medicine">Медицина</string>
+
+    <string name="health">Здоровье</string>
+        
+    <string name="sport">Спорт</string>
+        
+    <string name="restaurants">Рестораны</string>
+        
+    <string name="entertainment">Развлечения</string>
+        
+    <string name="shopping">Шопинг</string>
+        
+    <string name="auto_business">Автобизнес</string>
+        
+    <string name="real_estate">Недвижимость</string>
+        
+    <string name="other">Другое</string>
+
+    <string name="success_send_eservia_feedback">Благодарим за ваш отзыв</string>
+
+    <string name="success_send_business_feedback">Благодарим за ваш отзыв</string>
+
+    <string name="success_delete_business_feedback">Отзыв удален</string>
+
+    <string name="reload">Перезагрузить</string>
+
+    <string name="updates_dialog_title">Пора обновлений!</string>
+    <string name="updates_dialog_message">Вы пользуетесь устаревшей версией %1$s, которая больше не поддерживается. Пожалуйста, обновите приложение, чтобы Вы могли осуществлять бронирование еще удобнее!</string>
+    <string name="updates_dialog_btn_update">Обновить %1$s</string>
+
+    <string name="rate_us_dialog_title">Оцените %1$s</string>
+    <string name="rate_us_dialog_message">Если вам нравится использовать %1$s, пожалуйста, найдите минутку, чтобы поставить оценку. Спасибо за вашу поддержку!</string>
+    <string name="rate_us_dialog_btn_positive">Оценить</string>
+    <string name="rate_us_dialog_btn_negative">Нет, спасибо</string>
+    <string name="rate_us_dialog_btn_neutral">Позже</string>
+
+        <!-- places_activity -->
+        
+    <string name="sort_type">Сортировка</string>
+        
+    <string name="filter">Фильтр</string>
+
+    <string name="map">Карта</string>
+        
+    <string name="has_several_departments">Несколько отделений</string>
+        
+    <string name="has_not_any_departments">Отсутствуют отделения</string>
+        
+    <string name="departments_">%1$d отделений(-ия)</string>
+        
+    <string name="by_name_asc">По названию (А-я)</string>
+        
+    <string name="by_name_desc">По названию (Я-а)</string>
+        
+    <string name="by_rating_asc">По рейтингу (от низшего)</string>
+        
+    <string name="by_rating_desc">По рейтингу (от высшего)</string>
+
+    <!-- reservation_activity -->
+        
+    <string name="reservation_date_time">Дата и время бронирования</string>
+        
+    <string name="reservation_time">Время бронирования</string>
+        
+    <string name="reservation_date">Дата бронирования</string>
+        
+    <string name="reservation_day">День бронирования</string>
+        
+    <string name="service">Услуга</string>
+        
+    <string name="services">Услуги</string>
+        
+    <string name="add_service">Добавить услугу</string>
+        
+    <string name="master">Мастер</string>
+        
+    <string name="department">Отделение</string>
+
+    <string name="departments">Отделения</string>
+        
+    <string name="reserve">Забронировать</string>
+        
+    <string name="reserve_">Бронировать</string>
+        
+    <string name="find_service">Поиск услуг</string>
+        
+    <string name="find_master">Поиск мастера</string>
+        
+    <string name="find_address">Поиск адреса</string>
+        
+    <string name="choose_automatically">Выбрать автоматически</string>
+        
+    <string name="save">Сохранить</string>
+        
+    <string name="send">Отправить</string>
+        
+    <string name="apply">Применить</string>
+        
+    <string name="clear">Очистить</string>
+        
+    <string name="cancel">Отменить</string>
+        
+    <string name="search">Поиск&#8230;</string>
+    <string name="search_">Поиск</string>
+
+    <string name="search_business_address_service">Название заведения, адрес или услуга</string>
+
+    <string name="search_business_name">Название заведения</string>
+        
+    <string name="ok">OK</string>
+        
+    <string name="add">Добавить</string>
+        
+    <string name="thanks">Спасибо!</string>
+        
+    <string name="your_reservation_added">Ваше бронирование первыми.</string>
+        
+    <string name="already_booked">Кто забронировал место быстрее, чем Вы</string>
+        
+    <string name="do_another_selection">Выберите, пожалуйста, другое время бронирования или
+        мастера.
+    </string>
+
+    <string name="time_expired_title">Ой! Время истекло</string>
+
+    <string name="time_expired_message">Пожалуйста, укажите дату и время Вашего бронирования еще раз.</string>
+
+
+        <!-- about -->
+        
+    <string name="beta">[BETA-версия]</string>
+    <string name="version">Версия</string>
+
+        <!-- business_page -->
+        
+    <string name="about_business">О заведении</string>
+        
+    <string name="location">Местоположение</string>
+        
+    <string name="responses">Отзывы</string>
+    <string name="response">%1$d отзыв</string>
+    <string name="responses_2">%1$d отзыва</string>
+    <string name="responses_3">%1$d отзывов</string>
+        
+    <string name="look_over">Посмотреть</string>
+        
+    <string name="look_over_responses">Посмотреть отзывы</string>
+        
+    <string name="work_schedule">Режим работы</string>
+        
+    <string name="site">Сайт</string>
+        
+    <string name="staff">Персонал</string>
+        
+    <string name="map_position">Место на карте</string>
+        
+    <string name="add_to_favourite">Добавить в избранное</string>
+        
+    <string name="share">Распространить</string>
+        
+    <string name="not_working">не работает</string>
+        
+    <string name="today_not_working">Сегодня закрыто</string>
+        
+    <string name="until_">до</string>
+        
+    <string name="expand_about">Развернуть описание</string>
+        
+    <string name="collapse_about">Свернуть описание</string>
+        
+    <string name="show_all">Показать полностью</string>
+        
+    <string name="hide">Свернуть</string>
+        
+    <string name="write_response">Написать отзыв</string>
+        
+    <string name="added_to_favorite">Добавлено в любимые</string>
+        
+    <string name="deleted_from_favorite">Удалено из любимых</string>
+        
+    <string name="excellent">Отлично</string>
+        
+    <string name="good">Хорошо</string>
+        
+    <string name="average">Средне</string>
+        
+    <string name="badly">Плохо</string>
+        
+    <string name="service_quality">Качество обслуживания</string>
+        
+    <string name="establishment_purity">Чистота заведения</string>
+        
+    <string name="location_convenience">Удобство расположения</string>
+
+        
+    <string name="route_loading_failed">Не удалось загрузить маршрут</string>
+        
+    <string name="reject_permission">Никогда не показывать</string>
+        
+    <string name="route">Маршрут</string>
+
+    <string name="business_page_links_label">Ссылки:</string>
+
+
+    <!-- permission -->    
+    <string name="location_permission">Местоположение</string>
+    <string name="required_location_permission">Необходимо разрешить поиск вашего местонахождения</string>
+    <string name="permission_denied">Отказано в доступе</string>
+    <string name="storage_permission">Файловое хранилище</string>
+    <string name="required_storage_permission">Необходимо предоставить разрешение на доступ к файловому хранилищу</string>
+
+        <!-- business_comments -->
+        
+    <string name="delete_your_comment">Удалить ваш отзыв?</string>
+        
+    <string name="delete">Удалить</string>
+
+        <!-- add_comment -->
+        
+    <string name="estimate_quality">Качество обслуживания:</string>
+        
+    <string name="estimate_purity">Чистота заведения</string>
+        
+    <string name="estimate_convenience">Удобство расположения</string>
+        
+    <string name="write_short_comment">Напишите короткий отзыв</string>
+        
+    <string name="your_estimation_for">Ваша оценка:</string>
+        
+    <string name="access_error">Ошибка доступа</string>
+        
+    <string name="you_should_visit">Следует посетить заведение, чтобы иметь возможность написать
+        отзыв.
+    </string>
+        
+    <string name="clearly">Разумеется</string>
+
+    <!-- intro -->
+        
+    <string name="got_it">Ок</string>
+        
+    <string name="skip">Пропустить</string>
+
+        
+    <string name="quick_easy">Быстро и просто</string>
+        
+    <string name="quick_easy_message">Бронируй услуги и учреждения только в 3 прикосновения к
+        смартфону
+    </string>
+
+        
+    <string name="incredibly_convenient">Невероятно удобно</string>
+        
+    <string name="incredibly_convenient_message">Выбирай среди сотен лучших и оформляй запись без
+        звонков
+    </string>
+
+        
+    <string name="always_available">Доступно всегда</string>
+        
+    <string name="always_available_message">Мгновенные бронирования доступны 24/7 в любой удобный
+        момент
+    </string>
+
+        
+    <string name="all_previous">Назад</string>
+
+        <!-- bookings -->
+        
+    <string name="currents">Текущие</string>
+        
+    <string name="archive">Архив</string>
+        
+    <string name="change_reservation_time">Перенести бронирования</string>
+        
+    <string name="cancel_reservation">Отменить бронирование</string>
+        
+    <string name="cancel_reservation_question">Отменить бронирование?</string>
+        
+    <string name="keep_on">Оставить</string>
+        
+    <string name="watch_on_map">Посмотреть на карте</string>
+        
+    <string name="approved">Подтверждено</string>
+        
+    <string name="waiting_for_approve">Ожидается подтверждение</string>
+        
+    <string name="today_bookings">Сегодня</string>
+        
+    <string name="tomorrow_bookings">Завтра</string>
+        
+    <string name="next_days_bookings">Будущие</string>
+        
+    <string name="minutes">мин</string>
+        
+    <string name="your_comment">Ваш комментарий</string>
+
+    <string name="cancel_success">Бронирование отменено</string>
+
+        <!-- days -->
+    <string name="monday">понедельник</string>
+    <string name="tuesday">вторник</string>
+    <string name="wednesday">среда</string>
+    <string name="thursday">четверг</string>
+    <string name="friday">пятница</string>
+    <string name="saturday">суббота</string>
+    <string name="sunday">воскресенье</string>
+
+    <string name="monday_short">Пн</string>
+    <string name="tuesday_short">Вт</string>
+    <string name="wednesday_short">Ср</string>
+    <string name="thursday_short">Чт</string>
+    <string name="friday_short">Пт</string>
+    <string name="saturday_short">Сб</string>
+    <string name="sunday_short">Вс</string>
+
+        <!-- error -->
+        
+    <string name="error">Ошибка</string>
+        
+    <string name="error_no_internet">Отсутствует соединение</string>
+        
+    <string name="error_no_internet_detailed">Отсутствует соединение. Проверьте ваше подключение к
+        сети.
+    </string>
+        
+    <string name="timeout">Отсутствует соединение</string>
+        
+    <string name="error_unknown">Произошла ошибка</string>
+        
+    <string name="error_already_booked">Кто забронировал быстрее</string>
+        
+    <string name="error_invalid_response">Invalid response</string>
+        
+    <string name="error_account_exists">Аккаунт с таким адресом электронной почты уже существует.
+    </string>
+        
+    <string name="error_invalid_data">Ошибка введенных данных.</string>
+        
+    <string name="error_unauthorized">Нужна авторизация</string>
+
+    <!-- users_server_errors -->
+    <string name="unknown_error"> Случилась неприятность </string>
+
+    <string name="authorization_failed"> Невозможно авторизоваться </string>
+        
+    <string name="invalid_credentials"> Неправильный логин или пароль </string>
+        
+    <string name="invalid_model">Ошибка при соединении с сервером</string>
+        
+    <string name="registration_not_confirmed"> Регистрацию не было подтверждено </string>
+        
+    <string name="field_is_required"> Поле обязательно</string>
+
+        
+    <string name="email_not_confirmed"> Email не проверен </string>
+        
+    <string name="invalid_authorization"> Ошибка авторизации </string>
+        
+    <string name="email_already_taken"> Email уже используется </string>
+        
+    <string name="invalid_email"> Неправильный email </string>
+        
+    <string name="invalid_birthday"> Неправильная дата рождения </string>
+        
+    <string name="email_already_confirmed"> Этот email уже подтвержден </string>
+
+        
+    <string name="could_not_remove_establishment_from_favorite"> Невозможно удалить заведение с любимых </string>
+        
+    <string name="could_not_add_establishment_to_favorite"> Невозможно добавить заведение в любимые </string>
+        
+    <string name="user_does_not_exist"> Пользователя не найдено </string>
+        
+    <string name="could_not_create_user"> Невозможно создать пользователя </string>
+        
+    <string name="could_not_update_user"> Невозможно обновить пользователя </string>
+        
+    <string name="could_not_create_feedback"> Невозможно создать отзыв </string>
+        
+    <string name="could_not_update_feedback"> Невозможно обновить отзыв </string>
+        
+    <string name="table_by_beacon_does_not_exist"> Невозможно идентифицировать столик </string>
+
+        
+    <string name="guest"> Гость </string>
+        
+    <string name="invalid_old_password"> Текущий пароль не действителен </string>
+        
+    <string name="user_blocked"> Аккаунт пользователя заблокирован </string>
+        
+    <string name="phone_already_taken"> Этот телефон зарегистрирован </string>
+
+        
+    <string name="confirm_code_not_found"> ​​Невозможно найти код подтверждения </string>
+        
+    <string name="confirm_code_does_not_exist"> Кода подтверждения не существует </string>
+        
+    <string name="confirm_code_is_invalid"> Неправильный код подтверждения </string>
+        
+    <string name="confirm_code_is_expired"> Срок действия кода подтверждения истек </string>
+        
+    <string name="confirm_code_is_disabled"> Код подтверждения выключен </string>
+        
+    <string name="confirm_code_is_already_in_use"> Этот код подтверждения уже использован </string>
+
+        
+    <string name="could_not_save_photo_to_temp_folder"> Невозможно сохранить фотографию во временную папку </string>
+        
+    <string name="could_not_resize_photo_to_temp_folder"> Невозможно изменить размер фотографии во временной папке </string>
+        
+    <string name="could_not_upload_photo_to_s3_service"> Невозможно загрузить фотографию </string>
+        
+    <string name="could_not_save_photo"> Невозможно сохранить фотографию </string>
+        
+    <string name="base_photo_does_not_exist"> Базовой фотографии не существует </string>
+        
+    <string name="request_does_not_contains_files"> Запрос не содержит файлов </string>
+        
+    <string name="file_size_is_too_large"> Размер файла слишком большой </string>
+        
+    <string name="invalid_file_format"> Данный формат файлов не поддерживается </string>
+        
+    <string name="file_does_not_exist"> Файла не существует </string>
+        
+    <string name="file_not_found"> ​​Не удалось найти файл </string>
+        
+    <string name="duplicate_photo_path"> Фотография уже существует по указанному пути </string>
+        
+    <string name="could_not_save_file_to_temp_folder"> Невозможно сохранить файл во временную папку </string>
+        
+    <string name="could_not_delete_temp_files"> Невозможно удалить временные файлы </string>
+
+        
+    <string name="confirm_code_is_incorrect"> Кода подтверждения не существует </string>
+        
+    <string name="email_is_not_confirmed"> Email не проверен </string>
+        
+    <string name="account_is_unactive"> Ваш аккаунт не является активным </string>
+        
+    <string name="failed_changing_password"> Невозможно изменить пароль </string>
+        
+    <string name="invalid_confirm_code"> Неправильный код подтверждения </string>
+
+        <!-- form_validation_error -->
+        
+    <string name="error_password_matcher">
+        <![CDATA[Пароль может содержать только цифры, буквы и символы !@#$%^&*()_+=-]]></string>
+        
+    <string name="error_phone_matcher">Неверный формат номера</string>
+        
+    <string name="error_contains_symbols">Поле не может содержать некоторые из введенных символов
+    </string>
+        
+    <string name="error_contains_numbers">Поле не может содержать цифры</string>
+        
+    <string name="empty_field_error">Это поле нельзя оставлять пустым</string>
+
+    <string name="secure_code_is_not_valid">Код не валидный</string>
+        
+    <string name="contains_spaces_error">Это поле не может содержать пробелов</string>
+        
+    <string name="error_password_short">Пароль должен содержать %1$d-%2$d символов</string>
+        
+    <string name="error_password_long">Пароль должен содержать %1$d-%2$d символов</string>
+        
+    <string name="error_email_long">Электронная почта слишком длинная</string>
+        
+    <string name="error_email_short">Электронная почта слишком короткая</string>
+        
+    <string name="error_exceeding_symbols_amount">Превышен допустимое количество символов</string>
+        
+    <string name="error_feedback_short">Отзыв слишком короткий</string>
+        
+    <string name="error_password_not_confirmed">Пароли не совпадают</string>
+        
+    <string name="error_contains_enter">Поле не может содержать переноса строки</string>
+        
+    <string name="invalid_mail_error">Неверный формат почты</string>
+        
+    <string name="error_name_long">Имя слишком длинное</string>
+        
+    <string name="error_field_long">Поле слишком длинное</string>
+        
+    <string name="error_field_short">Поле слишком коротка</string>
+        
+    <string name="error_theme_long">Тема слишком длинная</string>
+        
+    <string name="error_theme_short">Тема слишком короткая</string>
+
+    <string name="error_business_name_short">Название слишком короткое</string>
+    <string name="error_business_name_long">Название слишком длинное</string>
+    <string name="error_business_address_short">Адрес слишком короткий</string>
+    <string name="error_business_address_long">Адрес слишком длинный</string>
+        
+    <string name="error_phone_max_length">Номер телефона не может содержать более %1$d символов
+    </string>
+        
+    <string name="error_phone_min_length">Номер телефона не может содержать меньше %1$d символов
+    </string>
+
+    <string name="error_confirm_code_length">Код подтверждения должен иметь 6 символов в длину</string>
+    <string name="error_confirm_code_matcher"><![CDATA[Код должен состоять из цифр, букв]]></string>
+
+    <!-- placeholder_messages -->
+        
+    <string name="no_search_results">Нет результатов поиска</string>
+
+        <!-- contacts -->
+        
+    <string name="write_to_us">Написать нам</string>
+        
+    <string name="eservia_address">ул. Мечникова, 2, Киев, Украина</string>
+        
+    <string name="eservia_contact_phone">+ 38 (050) 123 45 67 \ n + 38 (050) 123 45 67 \ n + 38
+        (050) 123 45 67
+    </string>
+        
+    <string name="eservia_email">support@eservia.com.ua</string>
+        
+    <string name="your_name">Ваше имя</string>
+        
+    <string name="your_email">Ваш электронный адрес</string>
+
+    <string name="your_email_not_required">Ваш email (не обязательно)</string>
+        
+    <string name="your_phone">Ваш номер телефона</string>
+        
+    <string name="your_message_theme">Тема Вашего сообщения</string>
+        
+    <string name="your_message">Ваше сообщение</string>
+        
+    <string name="btn_foorgot_password">Забыли пароль?</string>
+
+    <string name="contacts_title">Есть вопросы или замечания?</string>
+
+    <string name="contacts_title_message">Напишите нам и мы обработаем каждый оставленный отзыв</string>
+
+        <!-- Reservation Activity-->
+        
+    <string name="activity_reservation_title">Бронирование</string>
+
+        <!-- Beauty -->
+        
+    <string name="activity_reservation_beauty_address_is_not_selected">Выбрать адрес</string>
+        
+    <string name="activity_reservation_beauty_add_service">Добавить услугу</string>
+
+    <string name="activity_reservation_beauty_choose_service">Выбрать услугу</string>
+
+    <string name="activity_reservation_beauty_make_order">Забронировать</string>
+        
+    <string name="activity_reservation_beauty_service_item_field_master">Мастер</string>
+        
+    <string name="activity_reservation_beauty_service_item_field_date_and_time">Дата и время
+    </string>
+        
+    <string name="activity_reservation_beauty_service_item_field_service">Услуга</string>
+        
+    <string name="activity_reservation_beauty_service_item_add_comment">Добавить комментарий
+    </string>
+
+        <!-- Address -->
+        
+    <string name="activity_reservation_beauty_choose_address_title">Выбор адреса</string>
+        
+    <string name="activity_reservation_beauty_choose_address_loading_failed">Ошибка загрузки
+        адресов
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_address_not_found">​​Адрес не найдено.
+    </string>
+
+        <!-- Services -->
+        
+    <string name="activity_reservation_beauty_choose_service_title">Выбор услуги</string>
+        
+    <string name="activity_reservation_beauty_choose_service_search">Поиск услуг</string>
+
+        <!-- Masters -->
+        
+    <string name="activity_reservation_beauty_choose_master_title">Выбор мастера</string>
+        
+    <string name="activity_reservation_beauty_choose_master_skip">Пропустить</string>
+        
+    <string name="activity_reservation_beauty_choose_master_show_more">Показать больше&#8230;</string>
+
+        <!-- Choose date and time -->
+        
+    <string name="activity_reservation_beauty_choose_date_title">Выбор времени и даты</string>
+        
+    <string-array name="activity_reservation_beauty_choose_date">
+                
+        <item>ПН</item>
+                
+        <item>ВТ</item>
+                
+        <item>СР</item>
+                
+        <item>ЧТ</item>
+                
+        <item>ПТ</item>
+                
+        <item>СБ</item>
+                
+        <item>ВС</item>
+            
+    </string-array>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_january">Доступные часы
+        %1$d января:
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_february">Доступные часы
+        %1$d февраля:
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_march">Доступные часы %1$d
+        марта:
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_april">Доступные часы %1$d
+        апреля:
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_may">Доступные часы %1$d
+        мая:
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_june">Доступные часы %1$d
+        июня:
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_jule">Доступные часы %1$d
+        июля:
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_august">Доступные часы %1$d
+        августа:
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_september">Доступные часы
+        %1$d сентября:
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_october">Доступные часаы
+        %1$d октября:
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_november">Доступные часы
+        %1$d ноября:
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_december">Доступные часы
+        %1$d декабря:
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_master_is_not_available_in_date">В
+        выбранного мастера в этот день нет ни одного свободного места. Выберите другой день или
+        измените мастера.
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_available_time_morning">Утро:</string>
+        
+    <string name="activity_reservation_beauty_choose_date_available_time_noon">Обед:</string>
+        
+    <string name="activity_reservation_beauty_choose_date_available_time_evening">Вечер:</string>
+        
+    <string name="activity_reservation_beauty_choose_date_next">Далее</string>
+        
+    <string name="activity_reservation_beauty_choose_date_change_master_button">Изменить мастера
+    </string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_loading_error">Ошибка загрузки.
+    </string>
+
+    <!-- Undefined booking strategy -->
+        
+    <string name="activity_reservation_strategy_undefined_title">К сожалению доступно только
+        бронирования салонов красоты :( Ожидайте обновления.
+    </string>
+
+        
+    <string name="activity_reservation_success_title">Бронирование</string>
+
+        
+    <string name="all_skip">Пропустить</string>
+        
+    <string name="all_loading">Загружаем&#8230;</string>
+        
+    <string name="all_try_again">Попробовать еще раз</string>
+        
+    <string name="activity_reservation_beauty_master_not_selected">Любой</string>
+        
+    <string name="activity_reservation_comment_hint">Введите комментарий</string>
+        
+    <string name="activity_reservation_beauty_comment_title">Добавить комментарий</string>
+        
+    <string name="activity_reservation_beauty_cancel_all">Отменить все</string>
+        
+    <string name="activity_reservation_beauty_book_available">Забронировать доступные</string>
+        
+    <string name="terms_of_using">Условия использования</string>
+        
+    <string name="terms_of_confidence">Политика конфиденциальности</string>
+        
+    <string name="about_app">О приложении</string>
+        
+    <string name="privacy_policy">Политика конфиденциальности</string>
+        
+    <string name="logo_text">Онлайн у 3 клика</string>
+        
+    <string name="booking">Бронирование</string>
+        
+    <string name="registration_presets_title">Настройка</string>
+        
+    <string name="all_start_search_for_show_business">Выберите ваши любимые заведения</string>
+        
+    <string name="number_is_not_accepted">Номер не подтвержден</string>
+        
+    <string name="dialog_number_not_confirmed_title">Номер не проверен</string>
+        
+    <string name="dialog_number_not_confirmed_content">Нужно подтвердить номер телефона. Для
+        подтверждения зайдите в настройки профиля.
+    </string>
+        
+    <string name="activity_reservation_reservation_error_title">Ошибка бронирования</string>
+        
+    <string name="activity_reservation_reservation_error_content">Ошибка в процессе бронирования. Попробуйте еще раз.</string>
+        
+    <string name="placeholder_my_bookings_archive_is_empty">Бронирования в архиве не найдены.
+    </string>
+        
+    <string name="placeholder_my_bookings_current_is_empty">У вас нет ни одного бронирования.
+    </string>
+        
+    <string name="placeholder_bookings_not_found">​​Заведений не найдено.</string>
+        
+    <string name="placeholder_favorite_is_not_found">Список любимых заведений ещё пустой.</string>
+        
+    <string name="placeholder_comments_not_found">У этого заведения еще нет отзывов.</string>
+
+    <string name="placeholder_masters_not_found">Мастеров не найдено.</string>
+        
+    <string name="placeholder_business_info_not_found">​​Информация о бизнес не доступна. Попробуйте
+        позже.
+    </string>
+        
+    <string name="name_hint">Имя</string>
+        
+    <string name="all_send">Отправить</string>
+        
+    <string name="all_approve_code">Код подтверждения</string>
+     
+    <string name="activity_request_restore_code_message">Для восстановления доступа к профилю, напишите Ваш номер телефона.</string>
+
+    <string name="activity_register_phone_message">Введите номер телефона для завершения регистрации</string>
+
+    <string name="go_back">Назад</string>
+
+    <string name="loading">Загрузка</string>
+
+    <string name="activity_approve_message">Сообщение с кодом подтверждения было отправлено Вам на номер %s. Пожалуйста, введите его в текстовое поле ниже.</string>
+        
+    <string name="activity_reset_pass_message">Введите код подтверждения, который мы отправили на Ваш номер и введите новый пароль.</string>
+
+    <string name="activity_approve_send_code_again">Отправить код еще раз</string>
+        
+    <string name="activity_approve_change_info">Изменить номер</string>
+        
+    <string name="activity_registration_profile_send">Отправить</string>
+        
+    <string name="last_name_hint">Фамилия</string>
+        
+    <string name="first_name_hint">Имя</string>
+        
+    <string name="activity_registration_profile_update_error">Ошибка</string>
+        
+    <string name="your_all_favorite_institution">Ваше любимое заведение</string>
+        
+    <string name="all_input_name_of_favorite_institution">Введите название вашего любимого
+        заведения
+    </string>
+        
+    <string name="all_search">Поиск</string>
+        
+    <string name="all_your_favorite_institution">Ваше любимое заведение</string>
+        
+    <string name="activity_registration_presets_not_found_message">Простите, заведение %1$s не
+        найдено. Наша команда попытается сделать все возможное, чтобы заведение %1$s стал доступен
+        для Вашего бронирования:)
+    </string>
+        
+    <string name="all_no_address">Адрес не указан</string>
+        
+    <string name="all_upcoming">Ожидаемые</string>
+
+    <string name="under_review">На рассмотрении</string>
+        
+    <string name="all_add">Добавить</string>
+        
+    <string name="activity_business_suggestion_success_message">Наша команда сделает все возможное, чтобы %1$s стал доступным для Ваших бронирований :)</string>
+        
+    <string name="menu_done">Готово</string>
+        
+    <string name="title_business_suggestion">Добавить салон</string>
+        
+    <string name="title_business_suggestion_success">Добавлено</string>
+        
+    <string name="activity_business_suggestion_label">Предложите салон, который Вы хотели бы бронировать с помощью Eservia.</string>
+        
+    <string name="activity_business_suggestion_description_hint">Адрес</string>
+        
+    <string name="activity_business_suggestion_name_hint">Название бизнеса</string>
+        
+    <string name="activity_business_suggestion_error_name_to_short">Введенное название бизнеса
+        слишком короткое.
+    </string>
+        
+    <string name="activity_business_suggestion_error_name_to_large">Введенное название бизнеса
+        слишком длинное.
+    </string>
+        
+    <string name="activity_business_suggestion_error_description_too_short">Описание бизнеса слишком
+        короткое.
+    </string>
+        
+    <string name="activity_business_suggestion_error_description_too_large">Описание бизнеса слишком
+        длинное.
+    </string>
+
+    <string name="time_left">Осталось времени:</string>
+
+
+    <string name="master_">Мастер:</string>
+    <string name="activity_registration_password_confirmation">Подтвердите пароль</string>
+    <string name="item_reservation_beauty_master_show_more">Больше</string>
+    <string name="item_reservation_beauty_master_show_less">Меньше</string>
+    <string name="activity_reservation_beauty_choose_date_range_exceeded">Для бронирования доступно только 4 месяца.</string>
+    <string name="activity_reservation_success_message">Спасибо! Бронирование успешно оформлено!</string>
+    <string name="activity_reservation_beauty_choose_date_month_january">Январь</string>
+    <string name="activity_reservation_beauty_choose_date_month_february">Февраль</string>
+    <string name="activity_reservation_beauty_choose_date_month_march">Март</string>
+    <string name="activity_reservation_beauty_choose_date_month_april">Апрель</string>
+    <string name="activity_reservation_beauty_choose_date_month_may">Май</string>
+    <string name="activity_reservation_beauty_choose_date_month_june">Июнь</string>
+    <string name="activity_reservation_beauty_choose_date_month_july">Июль</string>
+    <string name="activity_reservation_beauty_choose_date_month_august">Август</string>
+    <string name="activity_reservation_beauty_choose_date_month_september">Сентябрь</string>
+    <string name="activity_reservation_beauty_choose_date_month_october">Октябрь</string>
+    <string name="activity_reservation_beauty_choose_date_month_november">Ноябрь</string>
+    <string name="activity_reservation_beauty_choose_date_month_december">Декабрь</string>
+    <string name="choose_category">Выберите категорию</string>
+    <string name="go_to_reservation">Перейти к бронированию</string>
+    <string name="services_groups">Категории услуг</string>
+    <string name="date_and_time">Дата и время</string>
+    <string name="in_priority">В приоритете</string>
+    <string name="choose_master_beauty_reservation">Выберите мастера</string>
+    <string name="choose_date_beauty_reservation">Выберите дату</string>
+    <string name="choose_time_beauty_reservation">Выберите время</string>
+    <string name="available_masters_has_been_not_found">Доступные мастера не найдены</string>
+    <string name="service_duration_explanation">- длительность услуги (мин)</string>
+    <string name="no_available_time_slots_for_day">В этот день нет свободного времени</string>
+    <string name="next_service">Следующая услуга</string>
+    <string name="basket">Корзина</string>
+    <string name="ready_to_book">Готовые к бронированию</string>
+    <string name="total">Всего</string>
+    <string name="un_filled_bookings">Незаполненные бронирования</string>
+    <string name="min_of_waiting">%1$d мин ожидания</string>
+    <string name="hour_of_waiting">%1$d ч ожидания</string>
+    <string name="hour_min_of_waiting">%1$d ч %2$d мин ожидания</string>
+    <string name="by_rating">По рейтингу</string>
+    <string name="by_feedback_count">По количеству отзывов</string>
+    <string name="by_establishment_name">По названию заведения</string>
+    <string name="information">Информация</string>
+    <string name="reviews">Отзывы</string>
+    <string name="photos_of_institution">Фото заведения</string>
+    <string name="our_masters">Наши мастера</string>
+    <string name="business_beauty_social_links_item_title">Мы в социальных сетях</string>
+    <string name="salon_addresses">Адреса заведения</string>
+    <string name="you_can_track_your_booking_here">Вы можете отслеживать свои бронирования здесь</string>
+    <string name="your_visit_booked">Ваш визит забронирован!</string>
+    <string name="thank_you">Спасибо!</string>
+    <string name="menu">Меню</string>
+    <string name="leave_feedback">Оставьте отзыв</string>
+    <string name="to_leave_feedback">Оставить отзыв</string>
+    <string name="rate_this_place">Оцените заведение</string>
+    <string name="your_estimation">Ваша оценка заведения</string>
+    <string name="leave_your_review_about_this_place">Оставьте свой отзыв о заведении</string>
+    <string name="your_feedback">Ваш отзыв&#8230;</string>
+    <string name="selected_masters">Выбранные мастера</string>
+    <string name="placeholder_message_not_found">По вашему запросу ничего не найдено</string>
+    <string name="placeholder_massage_bookings_not_found">У вас нет активных бронирований</string>
+    <string name="placeholder_message_not_found_favorites">Здесь будут отображаться любимые заведения \nНе нашли салон, который посещаете? \nДобавьте его!</string>
+    <string name="booking_decision_approved">Визит забронирован</string>
+    <string name="booking_decision_pending">В ожидании</string>
+    <string name="could_not_attach_account">Не удалось привязать профиль</string>
+    <string name="place_holder_empty_news">У вас нет новостей</string>
+    <string name="place_holder_basket_empty">Ваша корзина пуста</string>
+    <string name="place_holder_connection">Проверьте соединение с интернетом</string>
+    <string name="place_holder_comments">У данного заведения отсутствуют отзывы</string>
+    <string name="you_can_not_select_more_than_ten_services_at_a_time">Вы не можете выбрать более 10 услуг одновременно</string>
+    <string name="unfilled_services_booking_warning_title">Вы заполнили %1$d из %2$d выбранных услуг</string>
+    <string name="unfilled_services_booking_warning_message">При завершении процедуры бронирования незаполненные услуги проигноруються</string>
+    <string name="fill_up">Заполнить</string>
+    <string name="finish">Завершить</string>
+    <string name="title_home_news_fragment">Известия</string>
+    <string name="news_and_promotions">Новости и акции</string>
+    <string name="from">с</string>
+    <string name="from_price">от</string>
+    <string name="to">до</string>
+    <string name="every_monday">Каждый понедельник</string>
+    <string name="every_tuesday">Каждый вторник</string>
+    <string name="every_wednesday">Каждую среду</string>
+    <string name="every_thursday">Каждый четверг</string>
+    <string name="every_friday">Каждую пятницу</string>
+    <string name="every_saturday">Каждую субботу</string>
+    <string name="every_sunday">Каждое воскресенье</string>
+    <string name="schedule_of_holding">График проведения</string>
+    <string name="sale_mark">-%d%%</string>
+    <string name="mark_event_sign">!</string>
+    <string name="follow_us_on_social_networks">Следи за нами в соцсетях</string>
+    <string name="go_to_">Перейти к %1$s</string>
+    <string name="more">Больше</string>
+    <string name="selected_services">Выбранные услуги</string>
+    <string name="all_name">Название</string>
+    <string name="institution_name">Название заведения</string>
+    <string name="specify_the_city">Укажите город</string>
+    <string name="specify_the_street">Укажите улицу</string>
+    <string name="address_of_the_institution">Адрес заведения</string>
+    <string name="adding_salon">Добавление салона</string>
+    <string name="suggest_business_standard_description_title">Подключите ваш любимый салон к смартфону!</string>
+    <string name="suggest_business_standard_description">Хотите бронировать свой любимый салон через приложение?\n Расскажите нам о нем и мы добавим его на платформу!</string>
+    <string name="business_suggestion_request_theme">Запит на додавання салону ANDROID, %1$s, %2$s</string>
+    <string name="business_suggestion_request_message">Назва - %1$s, \nМісто - %2$s, \nАдреса - %3$s</string>
+    <string name="suggest_business_thank_you_description_title">Спасибо!\n Мы свяжемся с представителями салона!</string>
+    <string name="suggest_business_thank_you_description">Когда салон красоты станет доступным для бронирования мы сообщим вам</string>
+    <string name="connected_salons">Подключённые салоны</string>
+    <string name="placeholder_message_not_found_business">Не нашли салон, который посещаете? \nДобавьте его!</string>
+    <string name="remind_me_later">Напомнить позже</string>
+    <string name="suggest_business_modal_description">Расскажите нам салон красоты Вы хотели бронировать через приложение</string>
+    <string name="nearest_to_me">Ближайшие ко мне</string>
+    <string name="location_access_explanation_message">Пожалуйста, предоставьте доступ к расположению, чтобы видеть салоны красоты вблизи</string>
+    <string name="all_continue">Продолжить</string>
+    <string name="km_from_you">%.1f км от вас</string>
+    <string name="m_from_you">%d м от вас</string>
+    <string name="km_distance">%.1f км</string>
+    <string name="m_distance">%d м</string>
+    <string name="from_you">от вас</string>
+    <string name="assessment_of_the_institution">Оценка заведения</string>
+    <string name="intro_find_best_message">Находи лучшие салоны красоты и скидки рядом с тобой</string>
+    <string name="intro_find_all_about_message">Узнай все о мастерах, услугах, ценах и часах для записи</string>
+    <string name="intro_book_visit_message">Бронируй визит онлайн в удобное для тебя время</string>
+    <string name="go_to_bookings">Перейти к бронированиям</string>
+    <string name="sex">Пол</string>
+    <string name="male">Мужчина</string>
+    <string name="female">Женщина</string>
+    <string name="date_of_birth">Дата рождения</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="connected">Подключено</string>
+    <string name="not_connected">Не подключено</string>
+    <string name="fromCamera">Сделать фото</string>
+    <string name="fromGallery">Выбрать фото из галереи</string>
+    <string name="choosePhoto">Выберите источник загрузки</string>
+    <string name="error_crop_not_supported">Простите, к сожалению, устройство не поддерживает данную функцию</string>
+    <string name="photo_is_too_small">Фото слишком малого размера</string>
+    <string name="photo_does_not_exist">Фото не существует</string>
+    <string name="required_camera_permission">Приложения необходимо предоставить доступ к вашей камере</string>
+    <string name="required_write_to_storage_permission">Приложения необходимо предоставить доступ записи на диск</string>
+    <string name="leave_comment">Оставьте комментарий</string>
+    <string name="booking_comment_form_hint">Ваш комментарий&#8230;</string>
+    <string name="feedback_theme_hint">Тема&#8230;</string>
+    <string name="feedback_message_hint">Сообщение&#8230;</string>
+    <string name="current_password_hint">Текущий&#8230;</string>
+    <string name="new_password_hint">Новый&#8230;</string>
+    <string name="new_password_again_hint">Новый еще раз&#8230;</string>
+    <string name="not_yet_registered">Еще не зарегистрированы?</string>
+    <string name="already_registered">Уже зарегистрированы?</string>
+    <string name="confirmation">Подтверждение</string>
+    <string name="expand_calendar">Развернуть календарь</string>
+    <string name="collapse_calendar">Свернуть календарь</string>
+    <string name="choose_city_for_booking">Выберите город бронирования</string>
+    <string name="placeholder_massage_bookings_archive_not_found">У вас нет архивных бронирований</string>
+    <string name="kyiv">Киев</string>
+    <string name="ternopil">Тернополь</string>
+    <string name="vinnytsia">Винница</string>
+    <string name="lviv">Львов</string>
+    <string name="ivano_frankivsk">Ивано-Франковск</string>
+    <string name="uah">грн</string>
+    <string name="size">Размер</string>
+    <string name="number_of_portions">Количество порций</string>
+    <string name="ingredients_or_description">Состав / Описание</string>
+    <string name="cooking_time">Время приготовления</string>
+    <string name="total_weight">Общий вес</string>
+    <string name="add_to_cart">Добавить в корзину</string>
+    <string name="apartment">Apartment</string>
+    <string name="door_phone_code">Код домофона</string>
+    <string name="your_data">Ваши данные</string>
+    <string name="your_order">Ваш заказ</string>
+    <string name="added_to_cart">Добавлено в корзину</string>
+    <string name="book_a_table">Забронировать столик</string>
+    <string name="delivery">Доставка</string>
+    <string name="table_reservation_time">Время резервирования стола</string>
+    <string name="visit_duration">Продолжительность визита</string>
+    <string name="optional">Необязательно</string>
+    <string name="time_of_stay_in_the_institution">Время пребывания в заведении</string>
+    <string name="number_of_persons">Количество персон</string>
+    <string name="hours_short">ч</string>
+    <string name="error_exceeded_max_amount_of_portions">Вы не можете выбрать более %1$d порций блюда</string>
+    <string name="error_invalid_booking_time_resto">Бронирование невозможно провести на указанное время</string>
+    <string name="error_invalid_delivery_time_resto">Доставку невозможно провести на указанное время</string>
+    <string name="place_for_the_table">Размещение столика</string>
+    <string name="placement">Размещение</string>
+    <string name="book_in_the_city">Забронировать в городе</string>
+    <string name="city_town">Город, населенный пункт</string>
+    <string name="delivery_time">Время доставки</string>
+    <string name="make_order">Заказать</string>
+    <string name="minimal">Минимальное</string>
+    <string name="specify">Указать</string>
+    <string name="min_delivery_time_min">Минимальное время доставки: %1$d мин</string>
+    <string name="fill_in_the_fields_with_your_data">Заполните поля с вашими данными</string>
+    <string name="order_created">Заказ создан!</string>
+    <string name="details">Детали</string>
+    <string name="categories">Категории</string>
+    <string name="choose_city">Выберите город</string>
+    <string name="tables_reservation">Бронирование столиков</string>
+    <string name="delivery_status_in_progress">Доставляется курьером</string>
+    <string name="delivered">Доставлено</string>
+    <string name="canceled">Отменено</string>
+    <string name="visited_places">Посещенные заведения:</string>
+    <string name="placeholder_message_not_found_favorites_recommended">Ваш список любимых заведений пустой. Добавьте заведения в любимые из тех которые вы посещали ранее</string>
+    <string name="discounts">Скидки</string>
+    <string name="all_discounts">Все скидки</string>
+    <string name="wallet">Кошелек</string>
+    <string name="not_now">Не сейчас</string>
+    <string name="pay">Оплатить</string>
+    <string name="make_prepayment_title">Делайте предоплату бронирования из приложения Eservia</string>
+    <string name="make_prepayment_sub_title">Оплатите бронирование в нашем приложении и заработайте скидку для следующего визита</string>
+    <string name="eservia_points">Eservia баллы</string>
+    <string name="points">Баллы</string>
+    <string name="salons_points">Баллы салонов</string>
+    <string name="accruals_history">История начислений</string>
+    <string name="payment_phone_state_permission_message">Функция оплаты требует разрешения телефона</string>
+    <string name="enable_in_settings">Разрешить</string>
+    <string name="title_prepayment_pushnotification">Делайте предоплату бронирования из приложения Eservia</string>
+    <string name="subtitle_prepayment_pushnotification_without_card">Добавьте карточку, рассчитывайтесь через приложение и получайте скидки до следующей визита в заведение</string>
+    <string name="subtitle_prepayment_pushnotification_with_card">Оплатите бронирования в нашей приложении и заработайте скидку следующего визита в заведение</string>
+    <string name="show_promotions_in">Показать акции в:</string>
+    <string name="all_cities">Все города</string>
+    <string name="start">Начать</string>
+
+</resources>

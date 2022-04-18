@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlCardHolder"
+    style="@style/CommonCardHolderStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContainer"
+        style="@style/CommonCardStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivPhoto"
+            android:layout_width="138dp"
+            android:layout_height="81dp"
+            android:paddingEnd="-11dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_business_photo_placeholder_beauty"
+            tools:ignore="ContentDescription,RtlSymmetry,ImageContrastCheck" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

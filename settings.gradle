@@ -1,0 +1,32 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Eservia"
+include ':app'
+include ':paylibliqpay'
+include ':utils'
+include ':simplecalendar'
+include ':model'
+include ':common'
+include ':expantablelayout'
+include ':simpleratingbar'
+include ':numberpicker'
+include ':ahbottomnavigation'
+include ':expantabletextview'
+include ':biv'
+include ':butterknife'
+include ':glide'
+include ':overscroll'
+include ':subscaleview'
+include ':Picker'

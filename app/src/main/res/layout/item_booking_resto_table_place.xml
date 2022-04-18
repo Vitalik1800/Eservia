@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlHolder"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/background_common_button_resto_white_red_border"
+    android:minWidth="73dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/open_sans_regular"
+        android:maxLines="1"
+        android:textColor="#D32F2F"
+        android:textSize="@dimen/text_size_medium"
+        tools:text="Другий поверх" />
+
+</RelativeLayout>

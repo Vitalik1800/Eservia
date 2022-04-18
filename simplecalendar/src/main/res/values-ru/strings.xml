@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+
+    <string name="monday_short">Пн</string>
+    <string name="tuesday_short">Вт</string>
+    <string name="wednesday_short">Ср</string>
+    <string name="thursday_short">Чт</string>
+    <string name="friday_short">Пт</string>
+    <string name="saturday_short">Сб</string>
+    <string name="sunday_short">Вс</string>
+
+    <string name="activity_reservation_beauty_choose_date_month_january">Январь</string>
+    <string name="activity_reservation_beauty_choose_date_month_february">Февраль</string>
+    <string name="activity_reservation_beauty_choose_date_month_march">Март</string>
+    <string name="activity_reservation_beauty_choose_date_month_april">Апрель</string>
+    <string name="activity_reservation_beauty_choose_date_month_may">Май</string>
+    <string name="activity_reservation_beauty_choose_date_month_june">Июнь</string>
+    <string name="activity_reservation_beauty_choose_date_month_july">Июль</string>
+    <string name="activity_reservation_beauty_choose_date_month_august">Август</string>
+    <string name="activity_reservation_beauty_choose_date_month_september">Сентябрь</string>
+    <string name="activity_reservation_beauty_choose_date_month_october">Октябрь</string>
+    <string name="activity_reservation_beauty_choose_date_month_november">Ноябрь</string>
+    <string name="activity_reservation_beauty_choose_date_month_december">Декабрь</string>
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlCardHolderSocial"
+    style="@style/CommonCardHolderStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/window_left_right_margins"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="@dimen/window_left_right_margins"
+    android:layout_marginBottom="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvContainerSettingsSocial"
+        style="@style/CommonCardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rlFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tvFacebookLabel"
+                    style="@style/CommonInputLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/facebook"
+                    tools:ignore="RelativeOverlap" />
+
+                <EditText
+                    android:id="@+id/etFacebook"
+                    style="@style/CommonEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvFacebookLabel"
+                    android:autofillHints=""
+                    android:hint="@string/not_connected"
+                    android:text=""
+                    android:textColorHint="#757575"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                <ImageView
+                    android:id="@+id/ivFacebookAddRemove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:rotation="0"
+                    tools:ignore="ContentDescription,ImageContrastCheck"
+                    tools:src="@drawable/cross_bold_blue" />
+
+            </RelativeLayout>
+
+            <View
+                style="@style/CommonSeparatorStyle"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rlFacebook" />
+
+            <RelativeLayout
+                android:id="@+id/rlGoogle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rlFacebook"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/tvGoogleLabel"
+                    style="@style/CommonInputLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="3dp"
+                    android:text="@string/google"
+                    tools:ignore="RelativeOverlap" />
+
+                <EditText
+                    android:id="@+id/etGoogle"
+                    style="@style/CommonEditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvGoogleLabel"
+                    android:autofillHints=""
+                    android:hint="@string/not_connected"
+                    android:text=""
+                    android:textColorHint="#757575"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <ImageView
+                    android:id="@+id/ivGoogleAddRemove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:rotation="0"
+                    tools:ignore="ContentDescription,ImageContrastCheck"
+                    tools:src="@drawable/cross_bold_blue" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

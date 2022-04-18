@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:background="@drawable/background_service_prepared_un_checked"
+    android:minWidth="50dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp">
+
+    <View
+        android:id="@+id/point"
+        android:layout_width="6dp"
+        android:layout_height="6dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="7dp"
+        android:background="@drawable/background_service_prepared_un_checked">
+
+    </View>
+
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toEndOf="@+id/point"
+        android:ellipsize="end"
+        android:fontFamily="@font/open_sans_regular"
+        android:letterSpacing="-0.03"
+        android:maxLines="1"
+        android:textColor="#2E7D32"
+        android:textSize="@dimen/text_size_small"
+        tools:text="Барбершоп" />
+
+</RelativeLayout>

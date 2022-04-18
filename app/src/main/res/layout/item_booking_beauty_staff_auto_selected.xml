@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp">
+
+    <RelativeLayout
+        android:id="@+id/rlImageContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/background_beauty_staff_selected_stroke">
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:src="@drawable/user_man_big"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlStaffAndServiceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/rlImageContainer"
+        android:minHeight="48dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/rlPriceContainer"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvStaffName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:letterSpacing="-0.03"
+                android:maxLines="3"
+                android:paddingEnd="12dp"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#757575"
+                android:textSize="@dimen/text_size_small"
+                tools:ignore="RtlSymmetry"
+                tools:text="Сергей Давидко" />
+
+            <TextView
+                android:id="@+id/tvService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:letterSpacing="-0.03"
+                android:maxLines="5"
+                android:paddingEnd="12dp"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#757575"
+                android:textSize="@dimen/text_size_small"
+                tools:ignore="RtlSymmetry"
+                tools:text="2-ур Лечение проблемной кожи - акне и  постанке, 30 хв" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlPriceContainer"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:minHeight="32dp">
+
+            <!--            <ImageView
+                            android:id="@+id/ivEdit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="6dp"
+                            android:padding="4dp"
+                            android:rotation="25"
+                            android:src="@drawable/icon_edit" />-->
+
+            <TextView
+                android:id="@+id/tvCurrency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="6dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:letterSpacing="-0.03"
+                android:maxLines="1"
+                android:paddingEnd="4dp"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="#757575"
+                android:textSize="@dimen/text_size_large"
+                tools:ignore="RtlSymmetry"
+                tools:text="USD" />
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/tvCurrency"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:letterSpacing="-0.03"
+                android:maxLines="1"
+                android:paddingStart="12dp"
+                android:paddingEnd="4dp"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="#757575"
+                android:textSize="@dimen/text_size_large"
+                tools:text="350" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

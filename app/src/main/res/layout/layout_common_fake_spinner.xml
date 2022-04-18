@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llCommonFakeSpinner"
+    android:layout_width="wrap_content"
+    android:layout_height="34dp"
+    android:orientation="horizontal"
+    tools:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/tvCommonFakeSpinnerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="end"
+        android:fontFamily="@font/open_sans_regular"
+        android:maxWidth="160dp"
+        android:maxLines="1"
+        android:textColor="#5D4037"
+        android:textSize="@dimen/text_size_large"
+        tools:text="Тернопіль" />
+
+    <ImageView
+        android:id="@+id/ivCommonFakeSpinnerTriangle"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="8dp"
+        android:clickable="false"
+        android:src="@drawable/triangle"
+        app:tint="@color/white"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+</LinearLayout>

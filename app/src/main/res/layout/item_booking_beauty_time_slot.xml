@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="54dp"
+    android:layout_height="23dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginBottom="6dp">
+
+    <ImageView
+        android:id="@+id/ivTimeSlotSelected"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:src="@drawable/background_time_slot_checked"
+        android:visibility="gone"
+        tools:visibility="gone"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvTimeSlotTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:letterSpacing="-0.05"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textColor="#757575"
+        android:textSize="@dimen/text_size_medium"
+        tools:text="16:00" />
+
+    <ImageView
+        android:id="@+id/ivDiscount"
+        android:layout_width="9dp"
+        android:layout_height="9dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/background_sale"
+        android:visibility="gone"
+        tools:ignore="ContentDescription,ImageContrastCheck"
+        tools:visibility="visible" />
+
+</RelativeLayout>

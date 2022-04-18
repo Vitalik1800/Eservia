@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BusinessPageBeautyTheme" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/transparent</item>
+        <item name="actionMenuTextAppearance">@style/HomeActionMenuTextAppearance</item>
+        <item name="android:actionMenuTextAppearance">@style/HomeActionMenuTextAppearance</item>
+    </style>
+
+</resources>

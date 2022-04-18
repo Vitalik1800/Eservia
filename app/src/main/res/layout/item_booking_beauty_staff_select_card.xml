@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlCardHolderChooseStaff"
+    style="@style/CommonCardHolderStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/window_left_right_margins"
+    android:layout_marginTop="11dp"
+    android:layout_marginRight="@dimen/window_left_right_margins"
+    android:layout_marginBottom="11dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvChooseStaffContainer"
+        style="@style/CommonCardStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clHasStaffContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+            <TextView
+                android:id="@+id/tvChooseStaff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:maxLines="1"
+                android:text="@string/choose_master_beauty_reservation"
+                android:textAllCaps="true"
+                android:textColor="#363938"
+                android:textSize="@dimen/text_size_small"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Оберіть майстра" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvStaff"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_marginTop="6dp"
+                android:clipToPadding="false"
+                android:orientation="horizontal"
+                android:overScrollMode="never"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:scrollbars="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintTop_toBottomOf="@+id/tvChooseStaff"
+                tools:listitem="@layout/item_booking_beauty_staff_selected" />
+
+            <RelativeLayout
+                android:id="@+id/rlStaffDescription"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:visibility="gone"
+                app:layout_constraintTop_toBottomOf="@+id/rvStaff"
+                tools:visibility="visible">
+
+                <TextView
+                    android:id="@+id/tvServiceStaffCurrencyCrossed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="26dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:maxLines="1"
+                    android:textAllCaps="true"
+                    android:textColor="#757575"
+                    android:textSize="@dimen/text_size_small"
+                    tools:text="UAH" />
+
+                <TextView
+                    android:id="@+id/tvServiceStaffPriceCrossed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_toStartOf="@+id/tvServiceStaffCurrencyCrossed"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:maxLines="1"
+                    android:textAllCaps="true"
+                    android:textColor="#757575"
+                    android:textSize="@dimen/text_size_small"
+                    tools:text="30000" />
+
+                <TextView
+                    android:id="@+id/tvServiceStaffCurrency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="26dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:letterSpacing="-0.05"
+                    android:maxLines="2"
+                    android:textAllCaps="true"
+                    android:textColor="#00838F"
+                    android:textSize="@dimen/text_size_medium"
+                    tools:text="UAH" />
+
+                <TextView
+                    android:id="@+id/tvServiceStaffPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="4dp"
+                    android:layout_toStartOf="@+id/tvServiceStaffCurrency"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:letterSpacing="-0.05"
+                    android:maxLines="2"
+                    android:textAllCaps="true"
+                    android:textColor="#00838F"
+                    android:textSize="@dimen/text_size_medium"
+                    tools:text="30000" />
+
+                <include
+                    layout="@layout/item_event_mark_beauty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginBottom="-8dp" />
+
+                <View
+                    android:id="@+id/serviceStaffPriceSeparator"
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="12dp"
+                    android:layout_toStartOf="@+id/tvServiceStaffPrice"
+                    android:background="#ebebeb" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toStartOf="@+id/serviceStaffPriceSeparator">
+
+                    <TextView
+                        android:id="@+id/tvSelectedStaffName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="12dp"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/roboto_medium"
+                        android:letterSpacing="-0.01"
+                        android:maxLines="1"
+                        android:textAllCaps="false"
+                        android:textColor="#00838F"
+                        android:textSize="@dimen/text_size_small"
+                        tools:text="Сергій Крушельницький" />
+
+                    <TextView
+                        android:id="@+id/tvSelectedStaffPosition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvSelectedStaffName"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="12dp"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/roboto_medium"
+                        android:letterSpacing="-0.01"
+                        android:maxLines="1"
+                        android:textAllCaps="false"
+                        android:textColor="#00838F"
+                        android:textSize="@dimen/text_size_small"
+                        tools:text="Стилист, Визажист, Барбер" />
+
+                    <TextView
+                        android:id="@+id/tvSelectedStaffDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvSelectedStaffPosition"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="12dp"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/roboto_medium"
+                        android:letterSpacing="-0.01"
+                        android:maxLines="1"
+                        android:textAllCaps="false"
+                        android:textColor="#757575"
+                        android:textSize="@dimen/text_size_small_10"
+                        tools:text="Доступний з 20.02 10:45 Доступний з 20.02 10:45" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlHasNotAnyStaffPlaceHolder"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvHasNotAnyStaffPlaceHolderMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="34dp"
+                android:layout_marginRight="34dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:letterSpacing="-0.05"
+                android:maxLines="3"
+                android:text="@string/available_masters_has_been_not_found"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#66ccc0"
+                android:textSize="@dimen/text_size_small"
+                 />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlStaffLoadingErrorPlaceHolder"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/tvStaffLoadingErrorPlaceHolderMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="34dp"
+                    android:layout_marginRight="34dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/roboto_medium"
+                    android:letterSpacing="-0.05"
+                    android:maxLines="3"
+                    android:text="@string/unknown_error"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#66ccc0"
+                    android:textSize="@dimen/text_size_small"
+                     />
+
+                <Button
+                    android:id="@+id/btnStaffLoadingErrorPlaceHolderButton"
+                    style="@style/CommonActionButtonStyle"
+                    android:layout_width="@dimen/common_button_width"
+                    android:layout_height="@dimen/common_button_height"
+                    android:layout_below="@+id/tvStaffLoadingErrorPlaceHolderMessage"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/try_again" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlStaffLoadingPlaceHolder"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <ProgressBar
+                android:id="@+id/pbStaffLoadingPlaceHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:indeterminate="true"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlAutoSelectedStaffs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvAutoSelectedStaffsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_medium"
+                android:letterSpacing="-0.03"
+                android:maxLines="1"
+                android:text="@string/selected_masters"
+                android:textAllCaps="true"
+                android:textColor="#363938"
+                android:textSize="@dimen/text_size_small"
+                 />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvAutoSelectedStaffs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvAutoSelectedStaffsTitle"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="12dp"
+                android:clipToPadding="false"
+                android:nestedScrollingEnabled="false"
+                android:orientation="vertical"
+                android:overScrollMode="never"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:scrollbars="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/item_booking_beauty_staff_auto_selected" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

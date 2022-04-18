@@ -1,0 +1,988 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- general-->
+    <string name="app_name" translatable="false">Eservia</string>
+    <string name="facebook_app_id" translatable="false">2743688072604496</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb2743688072604496</string>
+    <string name="server_client_id" translatable="false">110434075990-5taio59snio30o1v55j87igqsu2hvlgc.apps.googleusercontent.com</string>
+    <string name="secret_id" translatable="false">KFK4r4SqSgQT-qOtonoWr5ip</string>
+    <string name="geo_api_key" translatable="false">AIzaSyBRsw-k_ieBHgO6515IxR5zyh9xIRWfpVM</string>
+
+    <string name="title_activity_login">Login</string>
+        
+    <string name="title_activity_registration">Registration</string>
+        
+    <string name="title_activity_account_setup">Account Setup</string>
+        
+    <string name="title_activity_reset_password">Restore Password</string>
+
+    <string name="title_activity_request_restore_code">Restore Password</string>
+
+    <string name="title_activity_register_phone">Registration</string>
+        
+    <string name="title_activity_account_setup_business">Account Setup</string>
+        
+    <string name="title_activity_profile_settings"> Profile </string>
+        
+    <string name="title_activity_change_user_info"> Profile </string>
+        
+    <string name="title_activity_change_password"> Password </string>
+        
+    <string name="title_activity_phone_approve"> Confirmation </string>
+        
+    <string name="title_activity_main"> Categories </string>
+        
+    <string name="title_activity_search"> Search </string>
+        
+    <string name="title_activity_places"> Establishments </string>
+        
+    <string name="title_activity_reservation"> Booking </string>
+        
+    <string name="title_activity_add_service"> Add service </string>
+        
+    <string name="title_activity_services"> Services </string>
+
+    <string name="title_activity_address_choose_address">Select department</string>
+        
+    <string name="title_activity_masters"> Master </string>
+        
+    <string name="title_activity_addresses"> Branch </string>
+        
+    <string name="title_activity_business_page"> Establishment </string>
+        
+    <string name="title_activity_my_bookings"> My bookings </string>
+        
+    <string name="title_activity_booking_detail"> Booking </string>
+        
+    <string name="title_activity_business_comments"> Reviews </string>
+        
+    <string name="title_activity_work_days"> Timetable </string>
+        
+    <string name="title_activity_image_viewer"> </string>
+        
+    <string name="title_activity_contacts"> Contacts </string>
+        
+    <string name="title_activity_eservia_feedback"> Write to us </string>
+        
+    <string name="title_activity_add_comment"> Write a review </string>
+        
+    <string name="title_activity_business_filter"> Filter </string>
+        
+    <string name="title_activity_map"> Map </string>
+
+    <!-- description-->
+    <string name="logo"> Logo </string>
+    <string name="account_picture"> Profile Avatar </string>
+    <string name="close"> Close </string>
+
+    <!-- auth-->
+    <string name="email_hint">Email</string>
+    <string name="phone_hint"> Phone number </string>
+    <string name="phone_or_email_hint">Email or cellphone</string>
+    <string name="password_hint"> Password </string>
+    <string name="confirm_pass"> Confirm password</string>
+    <string name="create_password_hint"> Create a password </string>
+    <string name="signIn_btn">Sign In</string>
+    <string name="registration_btn">Create account</string>
+    <string name="or_label"> or </string>
+    <string name="google_login_btn"> Sign in with Google </string>
+    <string name="facebook_login_btn"> Sign in with Facebook </string>
+    <string name="login_failed"> Sign in failed </string>
+    <string name="register_failed"> Failed to register </string>
+    <string name="check_out_name_password"> Verify your username and password. </string>
+    <string name="check_out_email_password"> Check your mail and password correctly. </string>
+    <string name="wrong_login_password">Incorrect login or password. Please, try again.</string>
+    <string name="try_again"> Try again </string>
+    <string name="do_another_attempt"> Retry </string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="recover_password">Recover password</string>
+    <string name="accept"> OK </string>
+    <string name="reset_pass_message">Enter your email address and we\'ll send you a new temporary password.</string>
+    <string name="recover_password_success">Password was recovered</string>
+    <string name="reset_pass"> Restore Password </string>
+    <string name="reset_pass_failed">Failed to send an email</string>
+    <string name="authenticating">Entering&#8230;</string>
+    <string name="creating_account">Creating a profile&#8230;</string>
+    <string name="accept_license">By registering, you agree with</string>
+    <string name="and">and</string>
+    <string name="termsOfUseLabel">Terms of use</string>
+    <string name="policyLabel">Privacy policy</string>
+
+    <!-- acc_edit-->
+    <string name="account"> Profile </string>
+    <string name="all_next"> Next </string>
+    <string name="complete"> Done </string>
+    <string name="add_photo"> ADD PHOTO </string>
+    <string name="change_photo"> Edit photo </string>
+    <string name="image_not_picked"> The file is not selected </string>
+    <string name="email"> Email </string>
+    <string name="name"> Name </string>
+    <string name="middle_name"> Middle name </string>
+    <string name="middle_name_not_required"> Middle name (not necessary) </string>
+    <string name="email_not_required">Email (not necessary)</string>
+    <string name="surname"> Last Name </string>
+    <string name="phone"> Phone number </string>
+    <string name="phone_"> Phone number</string>
+    <string name="preferred_language"> Language </string>
+    <string name="verification"> Confirmation </string>
+    <string name="verification_code"> Verification code </string>
+    <string name="verification_message"> Enter code.</string>
+    <string name="send_again"> SEND AGAIN </string>
+    <string name="confirm">Confirm</string>
+    <string name="sms_was_sent">"SMS code sent"</string>
+    <string name="edit_profile"> Edit profile </string>
+    <string name="change_password"> Change password </string>
+    <string name="not_selected"> Not selected </string>
+    <string name="add_photo_business"> ADD TO LOGO BUSINESS </string>
+    <string name="business_category"> Business Category </string>
+    <string name="name_business"> Business Name </string>
+    <string name="description_business"> Business Description </string>
+    <string name="city"> City </string>
+    <string name="address"> Address </string>
+    <string name="street"> Street </string>
+    <string name="house"> House </string>
+    <string name="err_big_image">The picture is too large</string>
+    <string name="err_small_image">The picture is too small</string>
+    <string name="change_account">Change account</string>
+    <string name="attach_google">Attach Google account</string>
+    <string name="detach_google">Detach Google account</string>
+    <string name="attach_facebook">Attach Facebook account</string>
+    <string name="detach_facebook">Detach Facebook account</string>
+    <string name="approve_email">Confirm email</string>
+    <string name="save_email">Save new email</string>
+    <string name="email_approved">Email confirmed</string>
+    <string name="sent_email_confirm_message">A confirmation link has been sent to your email</string>
+    <string name="profile_updated">Profile was updated</string>
+    <string name="profile_register_provider_success">Account was successfully attached</string>
+    <string name="profile_remove_provider_success">Account was successfully detached</string>
+    <string name="password_updated">Password was updated</string>
+
+    <!-- password_edit-->
+    <string name="password"> Password </string>
+    <string name="change"> Edit </string>
+    <string name="current"> Current </string>
+    <string name="current_password"> Current password </string>
+    <string name="new_"> New </string>
+    <string name="new_password"> New password </string>
+    <string name="approve"> Confirm </string>
+    <string name="approve_phone"> Confirm number </string>
+    <string name="new_password_again"> New password again </string>
+
+    <!-- navigation-->
+    <string name="name_surname"> Name and Surname </string>
+        
+    <string name="my_reservations"> My Bookings </string>
+        
+    <string name="profile_settings"> Profile Settings </string>
+        
+    <string name="profile"> Profile </string>
+        
+    <string name="app_settings"> Settings </string>
+        
+    <string name="contacts">Contacts</string>
+        
+    <string name="logout">Logout</string>
+
+        <!-- main_activity -->
+        
+    <string name="all">All</string>
+
+    <string name="all_establishments">All establishments</string>
+        
+    <string name="favorite">Favorites</string>
+
+    <string name="new_ones">New</string>
+        
+    <string name="vip"> VIP </string>
+        
+    <string name="most_popular">Most Popular</string>
+
+    <string name="popular_establishments">Popular establishments</string>
+        
+    <string name="beauty"> Beauty </string>
+        
+    <string name="medicine"> Medicine </string>
+
+    <string name="health">Health</string>
+        
+    <string name="sport"> Sport </string>
+        
+    <string name="restaurants"> Restaurants </string>
+        
+    <string name="entertainment"> Entertainment </string>
+        
+    <string name="shopping"> Shopping </string>
+        
+    <string name="auto_business"> Auto Business </string>
+        
+    <string name="real_estate"> Real estate </string>
+        
+    <string name="other"> Other </string>
+
+    <string name="success_send_eservia_feedback">Thanks for your feedback</string>
+
+    <string name="success_send_business_feedback">Thanks for your feedback</string>
+
+    <string name="success_delete_business_feedback">Feedback was removed</string>
+
+    <string name="reload">Reload</string>
+
+    <string name="updates_dialog_title">Updates time!</string>
+    <string name="updates_dialog_message">You\'re using an outdated %1$s version that is no longer supported. Please update the application to make bookings even more conveniently!</string>
+    <string name="updates_dialog_btn_update">Update %1$s</string>
+
+    <string name="rate_us_dialog_title">Rate %1$s</string>
+    <string name="rate_us_dialog_message">If you enjoy using %1$s, please take a moment to rate it. Thanks for your support!</string>
+    <string name="rate_us_dialog_btn_positive">Rate</string>
+    <string name="rate_us_dialog_btn_negative">No, thanks</string>
+    <string name="rate_us_dialog_btn_neutral">Later</string>
+
+        <!-- places_activity -->
+        
+    <string name="sort_type"> Sort </string>
+        
+    <string name="filter">Filter</string>
+
+    <string name="map">Map</string>
+        
+    <string name="has_several_departments"> Several departments </string>
+        
+    <string name="has_not_any_departments"> Haven`t any departments </string>
+        
+    <string name="departments_">%1$d departments</string>
+        
+    <string name="by_name_asc"> By Name (ASC) </string>
+        
+    <string name="by_name_desc"> By Name (DESC) </string>
+        
+    <string name="by_rating_asc"> By rating (from lower) </string>
+        
+    <string name="by_rating_desc"> By rating (from the highest) </string>
+
+    <!-- reservation_activity-->
+    <string name="reservation_date_time"> Date and time of reservation </string>
+    <string name="reservation_time"> Reservation time </string>
+    <string name="reservation_date"> Reservation Date </string>
+    <string name="reservation_day"> Reservation Day </string>
+    <string name="service"> Service </string>
+    <string name="services"> Services </string>
+    <string name="add_service"> Add service </string>
+    <string name="master">Master</string>
+    <string name="master_"> Master: </string>
+    <string name="department">Department</string>
+    <string name="departments">Departments</string>
+    <string name="reserve"> Book </string>
+    <string name="reserve_"> Book </string>
+    <string name="find_service"> Search for services </string>
+    <string name="find_master"> Search for masters</string>
+    <string name="find_address"> Search for address </string>
+    <string name="choose_automatically">Select automatically</string>
+    <string name="save"> Save </string>
+    <string name="send">Send</string>
+    <string name="apply"> Apply </string>
+    <string name="clear"> Clear </string>
+    <string name="cancel"> Cancel </string>
+    <string name="search">Search&#8230;</string>
+    <string name="search_">Search</string>
+    <string name="search_business_address_service">Name, address, service</string>
+    <string name="search_business_name">Institution name</string>
+    <string name="ok"> OK </string>
+    <string name="add"> Add </string>
+    <string name="thanks"> Thanks! </string>
+    <string name="your_reservation_added"> Your reservation has been added. </string>
+    <string name="already_booked"> Someone booked a place faster than you </string>
+    <string name="do_another_selection">Please choose another booking time or other master.</string>
+    <string name="time_expired_title">Oh! Time expired</string>
+    <string name="time_expired_message">Please choose the date and time of your booking again.</string>
+
+    <!-- about-->
+    <string name="beta">[BETA-version]</string>
+    <string name="version">Version</string>
+
+    <!-- business_page-->
+    <string name="about_business">About</string>
+        
+    <string name="location"> Location </string>
+        
+    <string name="responses">Reviews</string>
+    <string name="response">%1$d review</string>
+    <string name="responses_2">%1$d reviews</string>
+    <string name="responses_3">%1$d reviews</string>
+        
+    <string name="look_over"> View </string>
+        
+    <string name="look_over_responses"> View reviews </string>
+        
+    <string name="work_schedule"> Timetable </string>
+        
+    <string name="site"> Site </string>
+        
+    <string name="staff"> Staff </string>
+        
+    <string name="map_position"> Place on the map </string>
+        
+    <string name="add_to_favourite"> Add to favorites </string>
+        
+    <string name="share"> Share </string>
+        
+    <string name="not_working"> Does not work </string>
+        
+    <string name="today_not_working"> Today is closed </string>
+        
+    <string name="until_">until</string>
+        
+    <string name="expand_about"> Expand description </string>
+        
+    <string name="collapse_about"> Collapse Description </string>
+        
+    <string name="show_all"> Show full </string>
+        
+    <string name="hide"> Collapse </string>
+        
+    <string name="write_response"> Write a review </string>
+        
+    <string name="added_to_favorite"> Added to your favorites </string>
+        
+    <string name="deleted_from_favorite"> Deleted from your favorites </string>
+        
+    <string name="excellent">Excellent</string>
+        
+    <string name="good">Good</string>
+        
+    <string name="average">Medium</string>
+        
+    <string name="badly">Bad</string>
+        
+    <string name="service_quality"> Quality of Service </string>
+        
+    <string name="establishment_purity"> Cleanliness of the institution </string>
+        
+    <string name="location_convenience"> Location Convenience </string>
+
+    <string name="route_loading_failed">Could not load route</string>
+    <string name="reject_permission"> Never to show </string>
+    <string name="route"> Route </string>
+
+    <string name="business_page_links_label">Links:</string>
+
+    <!-- permission -->
+    <string name="location_permission">Location</string>
+    <string name="required_location_permission">Be sure to grant permission to search your location</string>
+    <string name="permission_denied">Access denied</string>
+    <string name="storage_permission">File storage</string>
+    <string name="required_storage_permission">Be sure to grant permission to get access to your file storage</string>
+
+    <!-- business_comments -->
+    <string name="delete_your_comment"> Delete your review? </string>
+    <string name="delete"> Delete </string>
+
+    <!-- add_comment -->
+        
+    <string name="estimate_quality"> Quality of service: </string>
+        
+    <string name="estimate_purity"> Cleanliness of the institution: </string>
+        
+    <string name="estimate_convenience"> Location convenience: </string>
+        
+    <string name="write_short_comment"> Write a short review </string>
+        
+    <string name="your_estimation_for"> Your rating: </string>
+        
+    <string name="access_error"> Access Error </string>
+        
+    <string name="you_should_visit"> You should visit the institution to be able to write a review. </string>
+        
+    <string name="clearly"> Clearly </string>
+
+    <!-- intro -->
+    <string name="got_it">Got it</string>
+    <string name="skip">Skip</string>
+
+    <string name="quick_easy">Quick and easy</string>
+    <string name="quick_easy_message">Book your services and establishments only in 3 touches to your smartphone</string>
+
+    <string name="incredibly_convenient">Incredibly convenient</string>
+    <string name="incredibly_convenient_message">Choose among hundreds of best and make an entry without making calls</string>
+
+    <string name="always_available">Always available</string>
+    <string name="always_available_message">Instant bookings are available 24/7 at any convenient time</string>
+
+        <!-- bookings -->
+        
+    <string name="currents"> Current </string>
+        
+    <string name="archive"> Archive </string>
+        
+    <string name="change_reservation_time">Move booking</string>
+        
+    <string name="cancel_reservation">Cancel booking</string>
+        
+    <string name="cancel_reservation_question">Cancel booking?</string>
+        
+    <string name="keep_on">Keep on</string>
+        
+    <string name="watch_on_map"> View on map </string>
+        
+    <string name="approved"> Verified </string>
+        
+    <string name="waiting_for_approve"> Pending verification </string>
+        
+    <string name="today_bookings"> Today </string>
+        
+    <string name="tomorrow_bookings"> Tomorrow </string>
+        
+    <string name="next_days_bookings"> Subsequent </string>
+        
+    <string name="minutes">min</string>
+        
+    <string name="your_comment"> Your comment </string>
+
+    <string name="cancel_success">Reservation was cancelled</string>
+
+    <!-- days-->
+    <string name="monday"> Monday </string>
+    <string name="tuesday"> Tuesday </string>
+    <string name="wednesday"> Wednesday </string>
+    <string name="thursday"> Thursday </string>
+    <string name="friday"> Friday </string>
+    <string name="saturday"> Saturday </string>
+    <string name="sunday"> Sunday </string>
+
+    <string name="monday_short">Mon</string>
+    <string name="tuesday_short">Tue</string>
+    <string name="wednesday_short">Wed</string>
+    <string name="thursday_short">Thu</string>
+    <string name="friday_short">Fri</string>
+    <string name="saturday_short">Sat</string>
+    <string name="sunday_short">Sun</string>
+
+    <!-- error -->
+    <string name="error"> Error </string>
+        
+    <string name="error_no_internet">Missing connection</string>
+        
+    <string name="error_no_internet_detailed"> Missing connection. Check your network connection. </string>
+        
+    <string name="timeout">Missing connection</string>
+        
+    <string name="error_unknown"> An error occurred </string>
+        
+    <string name="error_already_booked"> Someone booked faster </string>
+        
+    <string name="error_invalid_response"> Invalid response </string>
+        
+    <string name="error_account_exists"> An account with this email address already exists. </string>
+        
+    <string name="error_invalid_data"> Invalid entered data. </string>
+        
+    <string name="error_unauthorized">Authorization Required</string>
+
+    <!-- users_server_errors -->
+    <string name="unknown_error">Trouble occurred</string>
+    <string name="invalid_credentials">Invalid login or password</string>
+    <string name="invalid_model">Trouble connecting to server</string>
+    <string name="registration_not_confirmed">Registration was not confirmed</string>
+    <string name="field_is_required">Field is required</string>
+
+    <string name="email_not_confirmed">Email not confirmed</string>
+    <string name="invalid_authorization">Authorization failed</string>
+    <string name="email_already_taken">Email already taken</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="invalid_birthday">Invalid birthday</string>
+    <string name="email_already_confirmed">This email has already been confirmed</string>
+
+    <string name="could_not_remove_establishment_from_favorite">Couldn\'t remove establishment from favorite</string>
+    <string name="could_not_add_establishment_to_favorite">Could not add establishment to favorite</string>
+    <string name="user_does_not_exist">User doesn\'t exist</string>
+    <string name="could_not_create_user">Couldn\'t create user</string>
+    <string name="could_not_update_user">Could not update user</string>
+    <string name="could_not_create_feedback">Couldn\'t create feedback</string>
+    <string name="could_not_update_feedback">Couldn\'t update feedback</string>
+    <string name="table_by_beacon_does_not_exist">Unable to identify table</string>
+    <string name="user_blocked">User account is  blocked</string>
+
+    <string name="guest">Guest</string>
+    <string name="invalid_old_password">Invalid current password</string>
+    <string name="authorization_failed">Authorization error</string>
+    <string name="phone_already_taken">Phone already taken</string>
+
+    <string name="confirm_code_not_found">Could not find confirm code</string>
+    <string name="confirm_code_does_not_exist">Confirm code does not exist</string>
+    <string name="confirm_code_is_invalid">Confirm code is invalid</string>
+    <string name="confirm_code_is_expired">Confirm code is expired</string>
+    <string name="confirm_code_is_disabled">Confirm code is disabled</string>
+    <string name="confirm_code_is_already_in_use">Confirm code has been already used</string>
+
+    <string name="could_not_save_photo_to_temp_folder">Could not save photo to temp folder</string>
+    <string name="could_not_resize_photo_to_temp_folder">Could not resize photo to temp folder</string>
+    <string name="could_not_upload_photo_to_s3_service">Could not upload photo</string>
+    <string name="could_not_save_photo">Could not save photo</string>
+    <string name="base_photo_does_not_exist">Base photo does not exist</string>
+    <string name="request_does_not_contains_files">Request does not contain files</string>
+    <string name="file_size_is_too_large">File size is too large</string>
+    <string name="invalid_file_format">This file format does not supported</string>
+    <string name="file_does_not_exist">File does not exist</string>
+    <string name="file_not_found">Could not find file</string>
+    <string name="duplicate_photo_path">Photo already exists by this path</string>
+    <string name="could_not_save_file_to_temp_folder">Could not save file to temp folder</string>
+    <string name="could_not_delete_temp_files">Could not delete temp files</string>
+
+    <string name="confirm_code_is_incorrect">Confirm code does not exist</string>
+    <string name="email_is_not_confirmed">Email is not confirmed</string>
+    <string name="account_is_unactive">Your account is not active</string>
+    <string name="failed_changing_password">Failed to change password</string>
+    <string name="invalid_confirm_code">Confirm code is invalid</string>
+
+    <!-- form_validation_error-->
+    <string name="error_password_matcher"><![CDATA[Password could contain only digits, letters and symbols !@#$%^&*()_+=-]]></string>
+    <string name="error_phone_matcher"> Invalid number format </string>
+    <string name="error_contains_symbols"> The field can not contain some of the entered characters </string>
+    <string name="error_contains_numbers"> The field can not contain digits </string>
+    <string name="empty_field_error"> This field can not be left empty </string>
+    <string name="secure_code_is_not_valid">Code is not valid</string>
+    <string name="contains_spaces_error"> This field can not contain spaces </string>
+    <string name="error_password_short">Password must contain %1$d-%2$d characters</string>
+    <string name="error_password_long">Password must contain %1$d-%2$d characters</string>
+    <string name="error_email_long"> Email is too long </string>
+    <string name="error_email_short"> Email is too short </string>
+    <string name="error_exceeding_symbols_amount"> Exceeded the number of characters </string>
+    <string name="error_feedback_short"> Review is too short </string>
+    <string name="error_password_not_confirmed"> Passwords does not match </string>
+    <string name="error_contains_enter"> The field can not contain a string transfer </string>
+    <string name="invalid_mail_error"> Invalid mail format </string>
+    <string name="error_name_long"> The name is too long </string>
+    <string name="error_field_long"> The field is too long </string>
+    <string name="error_field_short"> The field is too short </string>
+    <string name="error_theme_long"> The theme is too long </string>
+    <string name="error_theme_short"> The theme is too short </string>
+    <string name="error_business_name_short">The name is too short</string>
+    <string name="error_business_name_long">The name is too long</string>
+    <string name="error_business_address_short">The address is too short</string>
+    <string name="error_business_address_long">The address is too long</string>
+    <string name="error_phone_max_length">The phone number can not contain more than %1$d symbols</string>
+    <string name="error_phone_min_length">The phone number can not contain less than %1$d symbols</string>
+    <string name="error_confirm_code_length">Confirmation code should contain 6 characters</string>
+    <string name="error_confirm_code_matcher"><![CDATA[The code should contain only numbers and  letters]]></string>
+
+    <!-- placeholder_messages-->
+    <string name="no_search_results">No search results</string>
+
+    <!-- contacts-->
+    <string name="write_to_us">Write to us</string>
+    <string name="eservia_address">Mechnykova street, 2, Kyiv, Ukraine</string>
+    <string name="eservia_contact_phone">+38 (050) 123 45 67\n+38 (050) 123 45 67\n+38 (050) 123 45 67</string>
+    <string name="eservia_email">support@eservia.com.ua</string>
+    <string name="your_name"> your name </string>
+    <string name="your_email"> Your email address </string>
+    <string name="your_email_not_required"> Your email address (not necessary)</string>
+    <string name="your_phone"> Your phone number </string>
+    <string name="your_message_theme"> The theme of your message </string>
+    <string name="your_message"> Your message </string>
+    <string name="btn_foorgot_password"> Forgot your password? </string>
+    <string name="contacts_title">Have questions or comments?</string>
+    <string name="contacts_title_message">Write us and we will process each remaining feedback</string>
+
+    <!-- Reservation  Activity-->
+    <string name="activity_reservation_title">Booking</string>
+
+    <!-- Beauty -->
+    <string name="activity_reservation_beauty_address_is_not_selected"> Select an address </string>
+        
+    <string name="activity_reservation_beauty_add_service">Add service</string>
+
+    <string name="activity_reservation_beauty_choose_service">Choose service</string>
+        
+    <string name="activity_reservation_beauty_make_order"> Reserve </string>
+        
+    <string name="activity_reservation_beauty_service_item_field_master"> Master </string>
+        
+    <string name="activity_reservation_beauty_service_item_field_date_and_time"> Date and time </string>
+        
+    <string name="activity_reservation_beauty_service_item_field_service"> Service </string>
+        
+    <string name="activity_reservation_beauty_service_item_add_comment"> Add comment </string>
+
+    <!-- Address -->
+    <string name="activity_reservation_beauty_choose_address_title"> Select an address </string>
+        
+    <string name="activity_reservation_beauty_choose_address_loading_failed"> Error loading addresses </string>
+        
+    <string name="activity_reservation_beauty_choose_address_not_found"> The address was not found. </string>
+
+        <!-- Services -->
+        
+    <string name="activity_reservation_beauty_choose_service_title"> Select service </string>
+        
+    <string name="activity_reservation_beauty_choose_service_search"> Search for services </string>
+
+        <!-- Masters -->
+        
+    <string name="activity_reservation_beauty_choose_master_title"> Master Selection </string>
+        
+    <string name="activity_reservation_beauty_choose_master_skip">Select automatically</string>
+        
+    <string name="activity_reservation_beauty_choose_master_show_more">Show more&#8230;</string>
+
+    <!-- Choose date and time -->
+    <string name="activity_reservation_beauty_choose_date_title">Date and time</string>
+    <string-array name="activity_reservation_beauty_choose_date">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+    <string name="activity_reservation_beauty_choose_date_day_info_title_january"> Available Hours %1$d of January :</string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_february"> Available hours %1$d of February :</string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_march"> Available hours %1$d of March :</string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_april"> Available hours %1$d of April:</string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_may"> Available Hours %1$d of May:</string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_june"> Available Hours %1$d of June:</string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_jule"> Available hours %1$d of July:</string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_august"> Available Hours %1$d of August:</string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_september"> Available Hours %1$d of September:</string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_october"> Available Hours %1$d of October:</string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_november"> Available hours %1$d of November:</string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_info_title_december"> Available hours %1$d of December:</string>
+        
+    <string name="activity_reservation_beauty_choose_date_master_is_not_available_in_date"> The selected Master does not have any free space this day. Choose another day or change the Master. </string>
+        
+    <string name="activity_reservation_beauty_choose_date_available_time_morning"> Morning: </string>
+        
+    <string name="activity_reservation_beauty_choose_date_available_time_noon"> Lunch: </string>
+        
+    <string name="activity_reservation_beauty_choose_date_available_time_evening"> Evening: </string>
+        
+    <string name="activity_reservation_beauty_choose_date_next"> Next </string>
+        
+    <string name="activity_reservation_beauty_choose_date_change_master_button"> Change Master </string>
+        
+    <string name="activity_reservation_beauty_choose_date_day_loading_error"> Download Error. </string>
+
+    <!-- Undefined booking strategy -->
+    <string name="activity_reservation_strategy_undefined_title"> Unfortunately, only beauty salon booking is available :( Expect an update. </string>
+
+    <string name="activity_reservation_success_title"> Booking </string>
+
+    <string name="activity_business_suggestion_success_message">Our team will do our best to make %1$s available for your bookings soon :)</string>
+
+    <string name="all_skip"> Skip </string>
+    <string name="all_loading">Loading&#8230;</string>
+    <string name="all_try_again"> Try again </string>
+    <string name="activity_reservation_beauty_master_not_selected"> Any </string>
+    <string name="activity_reservation_comment_hint"> Enter a comment </string>
+    <string name="activity_reservation_beauty_comment_title"> Add a comment </string>
+    <string name="activity_reservation_beauty_cancel_all"> Cancel all </string>
+    <string name="activity_reservation_beauty_book_available"> Book available </string>
+    <string name="terms_of_using"> Terms of Use </string>
+    <string name="terms_of_confidence"> Privacy Policy </string>
+    <string name="about_app"> About the application </string>
+    <string name="privacy_policy"> Privacy Policy </string>
+    <string name="logo_text">Online in 3 clicks</string>
+    <string name="booking">Booking</string>
+    <string name="registration_presets_title"> Settings </string>
+    <string name="all_start_search_for_show_business"> Select your favorite establishments </string>
+    <string name="number_is_not_accepted"> Number not verified </string>
+    <string name="dialog_number_not_confirmed_title"> Number not verified </string>
+    <string name="dialog_number_not_confirmed_content"> You need to verify your phone number. To confirm, go to your profile settings. </string>
+    <string name="activity_reservation_reservation_error_title">Booking error</string>
+    <string name="activity_reservation_reservation_error_content">An error occurred while booking. Try again.</string>
+    <string name="placeholder_my_bookings_archive_is_empty">Archive is empty.</string>
+    <string name="placeholder_my_bookings_current_is_empty">You haven\'t bookings</string>
+    <string name="placeholder_bookings_not_found">No one business was found.</string>
+    <string name="placeholder_favorite_is_not_found">Your list of favorites establishments is still empty.</string>
+    <string name="placeholder_comments_not_found">There are no reviews for this company.</string>
+    <string name="placeholder_masters_not_found">No one master was found.</string>
+    <string name="placeholder_business_info_not_found">Information is not available.</string>
+    <string name="name_hint">Name</string>
+    <string name="all_send">Send</string>
+    <string name="all_approve_code">Approve code</string>
+    <string name="activity_request_restore_code_message">To restore access to the account, write your phone number.</string>
+    <string name="activity_reset_pass_message">Enter the verification code we sent to your number and enter your new password.</string>
+    <string name="activity_register_phone_message">Enter your phone number to complete registration</string>
+    <string name="go_back">Go back</string>
+    <string name="loading">Loading</string>
+    <string name="activity_approve_message">SMS with a confirmation code was sent you to %s. Please, enter the code in the text field below.</string>
+    <string name="activity_approve_send_code_again">Send code again</string>
+    <string name="activity_approve_change_info">Change number</string>
+    <string name="activity_registration_profile_send">Send</string>
+    <string name="last_name_hint">Last name</string>
+    <string name="first_name_hint">First name</string>
+    <string name="activity_registration_profile_update_error">Update error.</string>
+    <string name="your_all_favorite_institution">Your favorite institution</string>
+    <string name="all_input_name_of_favorite_institution">Inpute name of your favorite institution</string>
+    <string name="all_search">Search</string>
+    <string name="all_your_favorite_institution">Your favorite institution</string>
+    <string name="activity_registration_presets_not_found_message">Sorry, %1$s has not been found.  Our team will try to do everything possible to make the %1$s institution available for your booking :)</string>
+    <string name="all_ok" translatable="false">Ok</string>
+    <string name="all_previous">Previous</string>
+    <string name="all_no_address">Address not specified</string>
+    <string name="all_upcoming">Upcoming</string>
+    <string name="under_review">Under review</string>
+    <string name="all_add">Add</string>
+    <string name="menu_done">Done</string>
+    <string name="title_business_suggestion">Suggestion</string>
+    <string name="title_business_suggestion_success">Success</string>
+    <string name="activity_business_suggestion_label">Suggest a beauty salon you’d like to start booking with Eservia.</string>
+    <string name="activity_business_suggestion_description_hint">Address</string>
+    <string name="activity_business_suggestion_name_hint">Business name</string>
+    <string name="activity_business_suggestion_error_name_to_short">Name too short</string>
+    <string name="activity_business_suggestion_error_name_to_large">Name is too large</string>
+    <string name="activity_business_suggestion_error_description_too_short">Description too short</string>
+    <string name="activity_business_suggestion_error_description_too_large">Description too large</string>
+    <string name="activity_registration_password_confirmation">Confirm password</string>
+    <string name="item_reservation_beauty_master_show_more">Show more</string>
+    <string name="item_reservation_beauty_master_show_less">Show less</string>
+    <string name="activity_reservation_beauty_choose_date_range_exceeded">Available only 4 month range too book.</string>
+    <string name="activity_reservation_success_message">Thank you! Reservation has been successfully completed!</string>
+    <string name="time_left">Time left:</string>
+
+    <string-array name="activity_reservation_beauty_choose_date_month">
+        <item>@string/activity_reservation_beauty_choose_date_month_january</item>
+        <item>@string/activity_reservation_beauty_choose_date_month_february</item>
+        <item>@string/activity_reservation_beauty_choose_date_month_march</item>
+        <item>@string/activity_reservation_beauty_choose_date_month_april</item>
+        <item>@string/activity_reservation_beauty_choose_date_month_may</item>
+        <item>@string/activity_reservation_beauty_choose_date_month_june</item>
+        <item>@string/activity_reservation_beauty_choose_date_month_july</item>
+        <item>@string/activity_reservation_beauty_choose_date_month_august</item>
+        <item>@string/activity_reservation_beauty_choose_date_month_september</item>
+        <item>@string/activity_reservation_beauty_choose_date_month_october</item>
+        <item>@string/activity_reservation_beauty_choose_date_month_november</item>
+        <item>@string/activity_reservation_beauty_choose_date_month_december</item>
+    </string-array>
+
+    <string name="activity_reservation_beauty_choose_date_month_january">January</string>
+    <string name="activity_reservation_beauty_choose_date_month_february">February</string>
+    <string name="activity_reservation_beauty_choose_date_month_march">March</string>
+    <string name="activity_reservation_beauty_choose_date_month_april">April</string>
+    <string name="activity_reservation_beauty_choose_date_month_may">May</string>
+    <string name="activity_reservation_beauty_choose_date_month_june">June</string>
+    <string name="activity_reservation_beauty_choose_date_month_july">July</string>
+    <string name="activity_reservation_beauty_choose_date_month_august">August</string>
+    <string name="activity_reservation_beauty_choose_date_month_september">September</string>
+    <string name="activity_reservation_beauty_choose_date_month_october">October</string>
+    <string name="activity_reservation_beauty_choose_date_month_november">November</string>
+    <string name="activity_reservation_beauty_choose_date_month_december">December</string>
+
+    <plurals name="all_addresses_found" tools:ignore="MissingTranslation">
+        <item quantity="few">%s addresses found</item>
+        <item quantity="many">%s addresses found</item>
+        <item quantity="one">%s address found</item>
+        <item quantity="other">%s addresses found</item>
+        <item quantity="two">%s addresses found</item>
+        <item quantity="zero">No addresses available</item>
+    </plurals>
+    <string name="choose_category">Choose category</string>
+    <string name="go_to_reservation">Go to booking</string>
+    <string name="services_groups">Service categories</string>
+    <string name="date_and_time">Date and time</string>
+    <string name="in_priority">In priority</string>
+    <string name="choose_master_beauty_reservation">Choose master</string>
+    <string name="choose_date_beauty_reservation">Choose date</string>
+    <string name="choose_time_beauty_reservation">Choose time</string>
+    <string name="available_masters_has_been_not_found">Available masters has been not found</string>
+    <string name="service_duration_explanation">- service duration (min)</string>
+    <string name="no_available_time_slots_for_day">There are no available time slots for this day</string>
+    <string name="next_service">Next service</string>
+    <string name="basket">Basket</string>
+    <string name="ready_to_book">Ready to book</string>
+    <string name="total">Total</string>
+    <string name="un_filled_bookings">Unfilled bookings</string>
+    <string name="min_of_waiting">%1$d min of waiting</string>
+    <string name="hour_of_waiting">%1$d h of waiting</string>
+    <string name="hour_min_of_waiting">%1$d h %2$d min of waiting</string>
+    <string name="by_rating">By rating</string>
+    <string name="by_feedback_count">By feedback count</string>
+    <string name="by_establishment_name">By establishment name</string>
+    <string name="information">Information</string>
+    <string name="reviews">Reviews</string>
+    <string name="photos_of_institution">Photos</string>
+    <string name="our_masters">Our masters</string>
+    <string name="business_beauty_social_links_item_title">We in social networks</string>
+    <string name="salon_addresses">Salon addresses</string>
+    <string name="you_can_track_your_booking_here">You can track your booking here</string>
+    <string name="your_visit_booked">Your visit is booked!</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="menu">Menu</string>
+    <string name="leave_feedback">Leave feedback</string>
+    <string name="to_leave_feedback">Leave feedback</string>
+    <string name="rate_this_place">Rate this place</string>
+    <string name="your_estimation">Your estimation</string>
+    <string name="leave_your_review_about_this_place">Leave your feedback about this place</string>
+    <string name="your_feedback">Your feedback&#8230;</string>
+    <string name="selected_masters">Selected masters</string>
+    <string name="placeholder_message_not_found">There was nothing found on your request</string>
+    <string name="placeholder_massage_bookings_not_found">You do not have active bookings</string>
+    <string name="placeholder_message_not_found_favorites">Here you will see your favorite places \nDid not find the salon you are visiting? \nAdd it!</string>
+    <string name="booking_decision_approved">Booking approved</string>
+    <string name="booking_decision_pending">Pending</string>
+    <string name="could_not_attach_account">Could not attach account</string>
+    <string name="place_holder_empty_news">You have no news</string>
+    <string name="place_holder_basket_empty">Your cart is empty</string>
+    <string name="place_holder_connection">Check your internet connection</string>
+    <string name="place_holder_comments">This institution has no reviews</string>
+    <string name="you_can_not_select_more_than_ten_services_at_a_time">You can not select more than 10 services at a time</string>
+    <string name="unfilled_services_booking_warning_title">You completed %1$d out of %2$d selected services</string>
+    <string name="unfilled_services_booking_warning_message">When the booking is completed, the services that are not filled out will be ignored</string>
+    <string name="fill_up">Fill up</string>
+    <string name="finish">Finish</string>
+    <string name="title_home_news_fragment">News</string>
+    <string name="news_and_promotions">News and promotions</string>
+    <string name="from">from</string>
+    <string name="from_price">from</string>
+    <string name="to">to</string>
+    <string name="every_monday">Every Monday</string>
+    <string name="every_tuesday">Every Tuesday</string>
+    <string name="every_wednesday">Every Wednesday</string>
+    <string name="every_thursday">Every Thursday</string>
+    <string name="every_friday">Every Friday</string>
+    <string name="every_saturday">Every Saturday</string>
+    <string name="every_sunday">Every Sunday</string>
+    <string name="schedule_of_holding">Schedule of holding</string>
+    <string name="sale_mark">-%d%%</string>
+    <string name="mark_event_sign">!</string>
+    <string name="follow_us_on_social_networks">Follow us on social networks</string>
+    <string name="go_to_">Go to %1$s</string>
+    <string name="more">More</string>
+    <string name="selected_services">Selected services</string>
+    <string name="all_name">Name</string>
+    <string name="institution_name">Institution name</string>
+    <string name="specify_the_city">Specify the city</string>
+    <string name="specify_the_street">Specify the street</string>
+    <string name="address_of_the_institution">Address of the institution</string>
+    <string name="adding_salon">Adding salon</string>
+    <string name="suggest_business_standard_description_title">Connect your favorite salon to your smartphone!</string>
+    <string name="suggest_business_standard_description">Want to book your favorite salon through the app?\n Tell us about it and we will add it to the platform!</string>
+    <string name="business_suggestion_request_theme">Запит на додавання салону ANDROID, %1$s, %2$s</string>
+    <string name="business_suggestion_request_message">Назва - %1$s, \nМісто - %2$s, \nАдреса - %3$s</string>
+    <string name="suggest_business_thank_you_description_title">Thank you!\n We will contact the salon representatives!</string>
+    <string name="suggest_business_thank_you_description">We will notify you, when the salon becomes available for booking</string>
+    <string name="connected_salons">Connected salons</string>
+    <string name="placeholder_message_not_found_business">Did not find the salon you are visiting? \nAdd it!</string>
+    <string name="remind_me_later">Remind me later</string>
+    <string name="suggest_business_modal_description">Tell us which beauty salon you would like to book through the app</string>
+    <string name="nearest_to_me">Nearest to me</string>
+    <string name="location_access_explanation_message">Please, provide location access to see beauty salons nearby</string>
+    <string name="all_continue">Continue</string>
+    <string name="km_from_you">%.1f km from you</string>
+    <string name="m_from_you">%d m from you</string>
+    <string name="km_distance">%.1f km</string>
+    <string name="m_distance">%d m</string>
+    <string name="from_you">from you</string>
+    <string name="assessment_of_the_institution">Estimation of the place</string>
+    <string name="intro_find_best_message">Find the best beauty salons and discounts near you</string>
+    <string name="intro_find_all_about_message">Find out all about masters, services, prices and booking times</string>
+    <string name="intro_book_visit_message">Book a visit online at a convenient time for you</string>
+    <string name="go_to_bookings">Go to bookings</string>
+    <string name="sex">Sex</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="connected">Connected</string>
+    <string name="not_connected">Not connected</string>
+    <string name="fromCamera">Take a photo</string>
+    <string name="fromGallery">Choose a photo from the gallery</string>
+    <string name="choosePhoto">Please, choose the download source</string>
+    <string name="error_crop_not_supported">Unfortunately, your device does not support this function</string>
+    <string name="photo_is_too_small">The image size is too small</string>
+    <string name="photo_does_not_exist">Image does not exist</string>
+    <string name="required_camera_permission">Application  needs permission to access your camera</string>
+    <string name="required_write_to_storage_permission">Application needs permission to write at disk</string>
+    <string name="leave_comment">Leave a comment</string>
+    <string name="booking_comment_form_hint">Your comment&#8230;</string>
+    <string name="feedback_theme_hint">Theme&#8230;</string>
+    <string name="feedback_message_hint">Message&#8230;</string>
+    <string name="current_password_hint">Current&#8230;</string>
+    <string name="new_password_hint">New&#8230;</string>
+    <string name="new_password_again_hint">New again&#8230;</string>
+    <string name="not_yet_registered">Not yet registered?</string>
+    <string name="already_registered">Already registered?</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="expand_calendar">Expand calendar</string>
+    <string name="collapse_calendar">Collapse calendar</string>
+    <string name="choose_city_for_booking">Choose booking city</string>
+    <string name="placeholder_massage_bookings_archive_not_found">You do not have archive bookings</string>
+    <string name="kyiv">Kyiv</string>
+    <string name="ternopil">Ternopil</string>
+    <string name="vinnytsia">Vinnytsia</string>
+    <string name="lviv">Lviv</string>
+    <string name="ivano_frankivsk">Ivano-Frankivsk</string>
+    <string name="uah">uah</string>
+    <string name="size">Size</string>
+    <string name="number_of_portions">Number of portions</string>
+    <string name="ingredients_or_description">Ingredients / Description</string>
+    <string name="cooking_time">Cooking time</string>
+    <string name="total_weight">Total weight</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="apartment">Apartment</string>
+    <string name="door_phone_code">Door phone code</string>
+    <string name="your_data">Your data</string>
+    <string name="your_order">Your order</string>
+    <string name="added_to_cart">Added to cart</string>
+    <string name="book_a_table">Book a table</string>
+    <string name="delivery">Delivery</string>
+    <string name="table_reservation_time">Table reservation time</string>
+    <string name="visit_duration">Visit duration</string>
+    <string name="optional">Optional</string>
+    <string name="time_of_stay_in_the_institution">Time of stay in the institution</string>
+    <string name="number_of_persons">Number of persons</string>
+    <string name="hours_short">h</string>
+    <string name="error_exceeded_max_amount_of_portions">You can not select more than %1$d portions of dish</string>
+    <string name="error_invalid_booking_time_resto">Booking is not possible at the specified time</string>
+    <string name="error_invalid_delivery_time_resto">Delivery is not possible at the specified time</string>
+    <string name="place_for_the_table">Place for the table</string>
+    <string name="placement">Placement</string>
+    <string name="book_in_the_city">Book in the city</string>
+    <string name="city_town">City, town</string>
+    <string name="delivery_time">Delivery time</string>
+    <string name="make_order">Make order</string>
+    <string name="minimal">Minimal</string>
+    <string name="specify">Specify</string>
+    <string name="min_delivery_time_min">Minimum delivery time: %1$d min</string>
+    <string name="fill_in_the_fields_with_your_data">Fill in the fields with your data</string>
+    <string name="order_created">Order created!</string>
+    <string name="details">Details</string>
+    <string name="categories">Categories</string>
+    <string name="choose_city">Choose city</string>
+    <string name="tables_reservation">Table reservation</string>
+    <string name="delivery_status_in_progress">Delivering by courier</string>
+    <string name="delivered">Delivered</string>
+    <string name="canceled">Canceled</string>
+    <string name="visited_places">Visited places:</string>
+    <string name="placeholder_message_not_found_favorites_recommended">Your list of favorite institutions is empty. Add places to your favorite ones</string>
+    <string name="discounts">Discounts</string>
+    <string name="all_discounts">All discounts</string>
+    <string name="wallet">Wallet</string>
+    <string name="not_now">Not now</string>
+    <string name="pay">Pay</string>
+    <string name="make_prepayment_title">Make a prepayment from the Eservia app</string>
+    <string name="make_prepayment_sub_title">Pay for the reservation in our application and earn a discount for the next visit</string>
+    <string name="eservia_points">Eservia points</string>
+    <string name="points">Points</string>
+    <string name="salons_points">All points</string>
+    <string name="accruals_history">Accruals history</string>
+    <string name="payment_phone_state_permission_message">Payment feature needs phone permission to be enabled</string>
+    <string name="enable_in_settings">Enable in settings</string>
+    <string name="title_prepayment_pushnotification">Make a prepayment from the Eservia app</string>
+    <string name="subtitle_prepayment_pushnotification_without_card">Add a card, pay by using app and get discounts until your next visit</string>
+    <string name="subtitle_prepayment_pushnotification_with_card">Pay for reservations from our app and get discounts on your next visit to the facility</string>
+    <string name="show_promotions_in">Show promotions in:</string>
+    <string name="all_cities">All cities</string>
+    <string name="start">Start</string>
+
+</resources>

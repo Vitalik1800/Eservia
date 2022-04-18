@@ -1,0 +1,149 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/windowBackgroundDefault"
+        android:fitsSystemWindows="true"
+        app:elevation="0dp"
+        tools:background="@color/windowBackgroundDefault">
+
+        <RelativeLayout
+            android:id="@+id/rlToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fitsSystemWindows="true"
+                android:paddingEnd="8dp"
+                app:navigationIcon="@drawable/icon_nav_back_dark"
+                app:title=""
+                tools:ignore="RtlSymmetry">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical"
+                        tools:ignore="UselessParent">
+
+                        <TextView
+                            android:id="@+id/tvToolbarTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_medium"
+                            android:letterSpacing="-0.05"
+                            android:maxLines="1"
+                            android:text="@string/leave_feedback"
+                            android:textAllCaps="true"
+                            android:textColor="#363938"
+                            android:textSize="@dimen/text_size_medium"
+                             />
+
+                        <TextView
+                            android:id="@+id/tvToolbarSubTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:ellipsize="end"
+                            android:fontFamily="@font/roboto_medium"
+                            android:letterSpacing="-0.05"
+                            android:maxLines="1"
+                            android:text=""
+                            android:textAllCaps="false"
+                            android:textColor="#bdbdbd"
+                            android:textSize="@dimen/text_size_small_10"
+                            android:visibility="gone"
+                            tools:text="ул. Пушкинская 9б, 10:00-21:00"
+                            tools:visibility="gone" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackgroundDefault"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <include
+            android:id="@+id/layout_accept"
+            layout="@layout/layout_accept"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/bottom_accept_layout_height"
+            android:layout_alignParentBottom="true"
+            android:visibility="visible" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nsvContentHolder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/layout_accept"
+            android:background="@color/windowBackgroundDefault"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp">
+
+            <LinearLayout
+                android:id="@+id/llContentPage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:orientation="vertical"
+                >
+
+                <include layout="@layout/item_business_feedback_beauty_rating_selector" />
+
+                <include layout="@layout/item_business_feedback_beauty_comment_editor" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/pbProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
