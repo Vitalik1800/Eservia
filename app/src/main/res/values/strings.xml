@@ -3,8 +3,8 @@
     <string name="app_name" translatable="false">Eservia</string>
     <string name="facebook_app_id" translatable="false">2743688072604496</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb2743688072604496</string>
-    <string name="server_client_id" translatable="false">110434075990-5taio59snio30o1v55j87igqsu2hvlgc.apps.googleusercontent.com</string>
-    <string name="secret_id" translatable="false">KFK4r4SqSgQT-qOtonoWr5ip</string>
+   <string name="server_client_id" translatable="false">508904733580-k8r3schu6se4fjsj3boid3h5lm8e5glc.apps.googleusercontent.com</string>
+    <string name="secret_id" translatable="false">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</string>
     <string name="geo_api_key" translatable="false">AIzaSyBRsw-k_ieBHgO6515IxR5zyh9xIRWfpVM</string>
 
     <string name="title_activity_login">Login</string>
